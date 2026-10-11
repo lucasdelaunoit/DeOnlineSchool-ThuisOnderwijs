@@ -39,7 +39,7 @@ Tailwind's default colours and text sizes are switched off; only these exist.
 | `ink`, `ink-soft`, `ink-quote`, `ink-nav`, `muted` | headings, running text, quotes, nav/captions, meta |
 | `line`, `line-soft`, `line-strong` | hairlines, list rules, form fields |
 | `green`, `green-dark`, `green-pale` | links and accents, hover, text on green |
-| `clay`, `marigold`, `night`, `night-fg` | logo dot, focus ring/stamp, footer |
+| `error`, `marigold`, `night`, `night-fg` | form errors, focus ring/stamp, footer |
 | `text-caption` / `meta` / `small` / `body` / `prose` / `lead` / `h3` / `h2-small` / `h2` / `h1` | type scale (12 → 38px) |
 | `font-serif`, `font-sans` | Fraunces, Inter |
 

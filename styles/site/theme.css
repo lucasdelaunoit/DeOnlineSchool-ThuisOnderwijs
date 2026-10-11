@@ -22,7 +22,7 @@
   --color-paper: #f9f7f3; /* page background */
   --color-sheet: #fffdfa; /* reading surface for long text */
   --color-sand: #f3efe9; /* asides, soft panels */
-  --color-mint: #e9f2ee; /* short answer band */
+  --color-mint: #e7efeb; /* short answer band, tint of green */
   --color-mist: #edf0f5; /* experiences band */
   --color-linen: #f7f3ec; /* related questions band */
   --color-line: #e7e2d9; /* hairlines */
@@ -36,11 +36,11 @@
   --color-ink-nav: #4a5060; /* nav links, captions */
   --color-muted: #6b7080; /* meta, captions */
 
-  /* Brand */
-  --color-green: #1f6f5c; /* links, accents, the stamp */
-  --color-green-dark: #174f42; /* link hover */
-  --color-green-pale: #cfe6de; /* text on green */
-  --color-clay: #b4583a; /* the dot in the logo */
+  /* Brand. Green is the primary/accent colour of the site. */
+  --color-green: #497464; /* links, accents, buttons on green, the stamp */
+  --color-green-dark: #375a4d; /* link hover */
+  --color-green-pale: #e8f1ed; /* text on green (4.5:1) */
+  --color-error: #b4583a; /* form error messages */
   --color-marigold: #f2a417; /* focus ring, stamp icon */
   --color-night: #19213d; /* footer */
   --color-night-fg: #c6cbd8;

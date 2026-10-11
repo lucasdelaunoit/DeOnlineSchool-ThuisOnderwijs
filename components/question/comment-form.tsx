@@ -68,7 +68,7 @@ export function CommentForm({ slug }: { slug: string }) {
       </label>
 
       {state?.error && (
-        <p role="alert" className="text-small text-clay">
+        <p role="alert" className="text-small text-error">
           {ERRORS[state.error]}
         </p>
       )}
