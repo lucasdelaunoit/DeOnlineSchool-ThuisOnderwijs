@@ -1,6 +1,6 @@
 /*
  * Reusable component classes. One-off layout lives as utilities in the markup;
- * utilities always win over these, so `btn btn-dark mt-4` just works.
+ * utilities always win over these, so `btn btn-primary mt-4` just works.
  */
 
 @layer components {
@@ -154,12 +154,12 @@
     }
   }
 
-  .btn-dark {
-    background-color: var(--color-ink);
+  .btn-primary {
+    background-color: var(--color-green);
     color: var(--color-white);
 
     &:hover {
-      background-color: #2c3350;
+      background-color: var(--color-green-dark);
       color: var(--color-white);
     }
   }
@@ -204,7 +204,7 @@
     transition: border-color 0.15s ease;
 
     &:hover {
-      border-color: #bfb7a8;
+      border-color: var(--color-ink-soft);
     }
 
     &:focus-visible {
@@ -217,7 +217,7 @@
   select.input {
     appearance: none;
     padding-right: 40px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%236b7080' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23646c68' stroke-width='1.6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 14px center;
   }

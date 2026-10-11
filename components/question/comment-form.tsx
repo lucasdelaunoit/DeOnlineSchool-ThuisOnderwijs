@@ -73,7 +73,7 @@ export function CommentForm({ slug }: { slug: string }) {
         </p>
       )}
 
-      <button type="submit" className="btn btn-dark self-start px-6" disabled={pending}>
+      <button type="submit" className="btn btn-primary self-start px-6" disabled={pending}>
         {pending ? "Bezig met versturen…" : "Reactie plaatsen"}
       </button>
     </form>

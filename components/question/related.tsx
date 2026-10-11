@@ -6,14 +6,14 @@ export function Related({ q }: { q: Question }) {
   const related = getRelated(q);
   if (!related.length) return null;
   return (
-    <section aria-labelledby="related" className="section bg-linen">
+    <section aria-labelledby="related" className="section bg-paper">
       <div className="container-text">
         <h2 id="related" className="section-title">
           Andere gerelateerde vragen
         </h2>
-        <ul className="mt-5 border-t border-line-soft">
+        <ul className="mt-5 border-t border-line">
           {related.map((other) => (
-            <li key={other.slug} className="border-b border-line-soft">
+            <li key={other.slug} className="border-b border-line">
               <Link
                 href={`/questions/${other.slug}`}
                 className="group flex justify-between gap-4 py-3.75 text-ink no-underline hover:text-green-dark"

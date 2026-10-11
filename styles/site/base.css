@@ -39,8 +39,9 @@
     }
   }
 
+  /* Keyboard focus. Sections on green set --focus-ring to white. */
   :focus-visible {
-    outline: 3px solid var(--color-marigold);
+    outline: 3px solid var(--focus-ring, var(--color-green));
     outline-offset: 3px;
   }
 

@@ -25,7 +25,7 @@ export function SiteHeader() {
           <a href={LOGIN_URL} className="hidden font-medium text-ink no-underline hover:text-green md:inline">
             Inloggen
           </a>
-          <a href={SIGNUP_URL} className="btn btn-dark min-h-9 px-4 md:min-h-10 md:px-5">
+          <a href={SIGNUP_URL} className="btn btn-primary min-h-9 px-4 md:min-h-10 md:px-5">
             Gratis proberen
           </a>
         </div>

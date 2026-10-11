@@ -9,7 +9,7 @@ export function NotFoundContent() {
         Misschien is de link verouderd of zit er een tikfout in het adres. Je antwoord staat vast tussen de
         veelgestelde vragen.
       </p>
-      <Link href="/questions" className="btn btn-dark mt-8">
+      <Link href="/questions" className="btn btn-primary mt-8">
         Naar de veelgestelde vragen
       </Link>
     </main>

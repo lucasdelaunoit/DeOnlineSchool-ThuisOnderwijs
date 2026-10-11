@@ -28,10 +28,10 @@ export function Stamp({ href }: { href: string }) {
               </textPath>
             </text>
           </g>
-          <g className="fill-marigold" transform="translate(60 62)">
+          <g className="fill-green-pale" transform="translate(60 62)">
             <path d="M-18 -4 L0 -13 L18 -4 L0 5 Z" />
             <path d="M-10 0 v8 c0 4 20 4 20 0 v-8 L0 5 Z" />
-            <path className="fill-none stroke-marigold stroke-[1.6]" d="M15 -2.5 v11" />
+            <path className="fill-none stroke-green-pale stroke-[1.6]" d="M15 -2.5 v11" />
             <circle cx="15" cy="9.5" r="2" />
           </g>
         </svg>

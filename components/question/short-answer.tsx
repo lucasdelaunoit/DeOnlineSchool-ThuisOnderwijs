@@ -23,7 +23,7 @@ export function ShortAnswer({ q }: { q: Question }) {
           >
             T
           </span>
-          <span className="text-meta text-ink-nav">De redactie van {SITE_NAME}</span>
+          <span className="text-meta text-ink-soft">De redactie van {SITE_NAME}</span>
         </div>
       </div>
     </section>

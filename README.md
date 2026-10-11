@@ -35,17 +35,17 @@ Tailwind's default colours and text sizes are switched off; only these exist.
 
 | Token | Use |
 | --- | --- |
-| `paper`, `sheet`, `sand`, `mint`, `mist`, `linen` | page, explanation/comments, sources and asides, short answer, experiences, related questions |
-| `ink`, `ink-soft`, `ink-quote`, `ink-nav`, `muted` | headings, running text, quotes, nav/captions, meta |
-| `line`, `line-soft`, `line-strong` | hairlines, list rules, form fields |
+| `sheet`, `paper`, `sand`, `mint` | explanation and comment form, page, sources and asides, short answer |
+| `ink`, `ink-soft`, `muted`, `ink-fg` | headings and footer background, running text, meta, text on ink |
+| `line`, `line-strong` | hairlines, form field borders |
 | `green`, `green-dark`, `green-pale` | links and accents, hover, text on green |
-| `error`, `marigold`, `night`, `night-fg` | form errors, focus ring/stamp, footer |
+| `error` | form errors |
 | `text-caption` / `meta` / `small` / `body` / `prose` / `lead` / `h3` / `h2-small` / `h2` / `h1` | type scale (12 → 38px) |
 | `font-serif`, `font-sans` | Fraunces, Inter |
 
 Component classes (`styles/site/components.css`): `container-wide` (1040px),
 `container-text` (760px), `section`, `eyebrow`, `section-title`, `section-intro`,
-`prose`, `cite`, `btn` + `btn-dark` / `btn-light`, `field`, `input`.
+`prose`, `cite`, `btn` + `btn-primary` / `btn-light`, `field`, `input`.
 
 # De Thuisschool Podcast (`/podcast`)
 

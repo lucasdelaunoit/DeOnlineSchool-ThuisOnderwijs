@@ -3,7 +3,7 @@ import { SITE_NAME } from "@/lib/site";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-night text-night-fg">
+    <footer className="bg-ink text-ink-fg">
       <div className="container-wide flex flex-wrap justify-between gap-x-8 gap-y-2 py-6 text-meta">
         <span>
           © <CurrentYear /> {SITE_NAME}

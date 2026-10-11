@@ -3,7 +3,7 @@ import type { Question } from "@/lib/questions";
 export function Experiences({ q }: { q: Question }) {
   if (!q.experiences?.length) return null;
   return (
-    <section aria-labelledby="experiences" className="section bg-mist">
+    <section aria-labelledby="experiences" className="section bg-paper">
       <div className="container-text">
         <h2 id="experiences" className="section-title">
           Ervaringen
@@ -18,8 +18,8 @@ export function Experiences({ q }: { q: Question }) {
               <span aria-hidden="true" className="font-serif text-[42px] leading-[0.9] text-green">
                 “
               </span>
-              <blockquote className="text-[15px] leading-relaxed text-ink-quote">{e.quote}</blockquote>
-              <figcaption className="col-start-2 text-meta text-ink-nav">
+              <blockquote className="text-[15px] leading-relaxed text-ink-soft">{e.quote}</blockquote>
+              <figcaption className="col-start-2 text-meta text-muted">
                 <strong className="font-semibold text-ink">{e.name}</strong>, {e.role}
                 {e.context && ` · ${e.context}`}
               </figcaption>
