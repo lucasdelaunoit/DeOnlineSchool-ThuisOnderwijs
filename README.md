@@ -7,7 +7,7 @@ only the visible text is Dutch. The site has two looks, each with its own root l
 
 | Route | Look | Code |
 | --- | --- | --- |
-| `/`, `/questions`, `/questions/[slug]` | the site: Fraunces + Inter on warm paper | `app/(site)/`, `styles/site/`, `components/site/`, `components/question/` |
+| `/`, `/questions`, `/questions/[slug]` | the site: Commissioner on warm paper | `app/(site)/`, `styles/site/`, `components/site/`, `components/question/` |
 | `/podcast` | De Thuisschool Podcast: Bricolage + Nunito, dark studio | `app/(podcast)/`, `styles/podcast/`, `components/podcast/` |
 
 Each Tailwind entry only scans its own folders (`@import "tailwindcss" source(none)` +
@@ -41,7 +41,7 @@ Tailwind's default colours and text sizes are switched off; only these exist.
 | `green`, `green-dark`, `green-pale` | links and accents, hover, text on green |
 | `error` | form errors |
 | `text-caption` / `meta` / `small` / `body` / `prose` / `lead` / `h3` / `h2-small` / `h2` / `h1` | type scale (12 → 38px) |
-| `font-serif`, `font-sans` | Fraunces, Inter |
+| `font-display`, `font-sans` | both Commissioner; `font-display` (and h1–h3) adds the flare axis |
 
 Component classes (`styles/site/components.css`): `container-wide` (1040px),
 `container-text` (760px), `section`, `eyebrow`, `section-title`, `section-intro`,

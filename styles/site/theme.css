@@ -45,10 +45,11 @@
 
   --color-error: #a5432f; /* form error messages */
 
-  /* Type. Font files are self-hosted by next/font in app/(site)/layout.tsx. */
+  /* Type. Font files are self-hosted by next/font in lib/site-fonts.ts. */
   --font-*: initial;
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  /* Same family twice: font-display adds the flare (see styles/site/base.css). */
+  --font-display: "Commissioner", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-sans: "Commissioner", "Segoe UI", system-ui, -apple-system, sans-serif;
 
   --text-*: initial;
   --text-caption: 12px; /* eyebrows, fact labels */
@@ -61,17 +62,18 @@
   --text-body--line-height: 1.65;
   --text-prose: 16px; /* article text */
   --text-prose--line-height: 1.65;
-  --text-lead: clamp(18px, 2.6vw, 20px); /* short answer */
+  --text-lead: clamp(18px, 2.4vw, 19px); /* short answer */
   --text-lead--line-height: 1.55;
-  --text-h2-small: 22px; /* sources, call to action */
+  --text-h2-small: 21px; /* sources, call to action */
   --text-h2-small--line-height: 1.3;
-  --text-h3: 20px;
+  --text-h3: 19px;
   --text-h3--line-height: 1.3;
-  --text-h2: 28px;
+  --text-h2: 26px;
   --text-h2--line-height: 1.25;
-  --text-h1: clamp(30px, 5vw, 38px);
+  --text-h2--letter-spacing: -0.01em;
+  --text-h1: clamp(28px, 4.8vw, 36px);
   --text-h1--line-height: 1.15;
-  --text-h1--letter-spacing: -0.01em;
+  --text-h1--letter-spacing: -0.02em;
 
   --radius-field: 10px; /* inputs */
   --radius-card: 12px; /* asides */

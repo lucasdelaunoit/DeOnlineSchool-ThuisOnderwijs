@@ -11,7 +11,7 @@ export function ShortAnswer({ q }: { q: Question }) {
           Kort antwoord
         </h2>
         <div className="relative rounded-panel bg-white px-6 py-6 shadow-card md:px-7.5 md:py-6.5">
-          <p className="font-serif text-lead text-ink">
+          <p className="font-display text-lead font-medium text-ink">
             <RichText text={q.shortAnswer} />
           </p>
           <div aria-hidden="true" className="absolute -bottom-2.5 left-10 size-5 rotate-45 bg-white" />
@@ -19,7 +19,7 @@ export function ShortAnswer({ q }: { q: Question }) {
         <div className="mt-5.5 ml-6.5 flex items-center gap-2.5">
           <span
             aria-hidden="true"
-            className="flex size-8 items-center justify-center rounded-full bg-green font-serif text-[15px] text-white"
+            className="flex size-8 items-center justify-center rounded-full bg-green font-display text-[15px] font-semibold text-white"
           >
             T
           </span>

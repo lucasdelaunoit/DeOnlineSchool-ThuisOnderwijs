@@ -15,7 +15,7 @@ export function Experiences({ q }: { q: Question }) {
               key={e.name + e.quote}
               className="grid grid-cols-[32px_minmax(0,1fr)] gap-x-3.5 gap-y-1.5 rounded-quote bg-white px-5 py-5 shadow-card md:px-6.5 md:py-5.5"
             >
-              <span aria-hidden="true" className="font-serif text-[42px] leading-[0.9] text-green">
+              <span aria-hidden="true" className="font-display text-[42px] leading-[0.9] font-semibold text-green">
                 “
               </span>
               <blockquote className="text-[15px] leading-relaxed text-ink-soft">{e.quote}</blockquote>

@@ -17,9 +17,17 @@
   h1,
   h2,
   h3 {
-    font-family: var(--font-serif);
-    font-weight: 400;
+    font-family: var(--font-display);
+    font-weight: 600;
     text-wrap: balance;
+  }
+
+  /* Commissioner's flared stroke ends, for headings and other display text. */
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-variation-settings: "FLAR" 100;
   }
 
   p,
