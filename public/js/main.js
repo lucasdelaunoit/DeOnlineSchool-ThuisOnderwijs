@@ -45,7 +45,7 @@
       onderwerpen:topics.join(', '),verhaal:v('verhaal'),ouder:v('ouder'),gsm:v('gsm'),email:em,
       ok1:document.getElementById('ok1').checked,ok2:document.getElementById('ok2').checked,ok3:document.getElementById('ok3').checked,website:''};
     var ctrl=('AbortController' in window)?new AbortController():null, to=setTimeout(function(){ if(ctrl) ctrl.abort(); },15000);
-    fetch('send.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
+    fetch('/api/inschrijven',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
       .then(function(r){ return r.json().catch(function(){return {ok:false};}); })
       .then(function(d){
         clearTimeout(to);
