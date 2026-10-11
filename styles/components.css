@@ -1,0 +1,233 @@
+/*
+ * Reusable component classes: patterns that repeat across the page.
+ * One-off layout lives as utilities in the markup. Utilities always win over
+ * these classes, so `btn btn-main mt-4` or `lead mt-9` just work.
+ */
+
+@layer components {
+  /* ---------- layout ---------- */
+
+  /* Centered 1040px column with gutters. Narrow it with `max-w-180` (720px). */
+  .wrap {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+
+  /* Vertical rhythm for every page section. */
+  .section {
+    padding-block: 52px;
+
+    @variant md {
+      padding-block: 72px;
+    }
+  }
+
+  /* Alternate section background: white band with hairlines. */
+  .band {
+    background-color: var(--color-surface);
+    border-block: 1px solid var(--color-line);
+  }
+
+  /* ---------- type ---------- */
+
+  /* Small green caps above a section title. */
+  .eyebrow {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-leaf);
+  }
+
+  .section-title {
+    font-size: var(--text-title);
+    font-weight: 800;
+    margin-top: 8px;
+  }
+
+  /* Intro paragraph under a section title. */
+  .lead {
+    color: var(--color-muted);
+    font-size: 1.1rem;
+    max-width: 62ch;
+    margin-top: 14px;
+  }
+
+  /* Small print. */
+  .note {
+    color: var(--color-muted);
+    font-size: 0.92rem;
+  }
+
+  /* ---------- buttons ---------- */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    border: 0;
+    border-radius: 999px;
+    padding: 14px 26px;
+    cursor: pointer;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &:focus-visible {
+      outline: 3px solid var(--color-leaf);
+      outline-offset: 3px;
+    }
+  }
+
+  /* Primary call to action: marigold, slightly "pressable". */
+  .btn-main {
+    background: var(--color-accent);
+    color: var(--color-accent-ink);
+    box-shadow: var(--shadow-press);
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  /* Secondary: outline in the current text colour. */
+  .btn-ghost {
+    background: transparent;
+    color: inherit;
+    border: 2px solid currentColor;
+  }
+
+  .btn-wa {
+    background: var(--color-leaf);
+    color: #fff;
+  }
+
+  .btn-mail {
+    background: var(--color-ink);
+    color: var(--color-canvas);
+  }
+
+  /* ---------- forms ---------- */
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .label {
+    font-weight: 700;
+    font-size: 0.95rem;
+
+    & small {
+      font-size: smaller;
+      font-weight: 400;
+      color: var(--color-muted);
+    }
+  }
+
+  /* Text inputs, selects and textareas. */
+  .input {
+    font: inherit;
+    font-size: 1rem;
+    color: var(--color-ink);
+    background: var(--color-field);
+    border: 1.5px solid var(--color-line);
+    border-radius: var(--radius-field);
+    padding: 11px 13px;
+    width: 100%;
+
+    &::placeholder {
+      color: #757575;
+    }
+
+    &:focus {
+      outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
+      border-color: var(--color-accent);
+    }
+  }
+
+  /* <label class="check"><input type="checkbox">Text</label> */
+  .check {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-weight: 600;
+    font-size: 0.98rem;
+
+    & > input {
+      width: 20px;
+      height: 20px;
+      margin: 3px 3px 3px 4px;
+      accent-color: var(--color-leaf);
+      flex: none;
+
+      &:focus {
+        outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
+        border-color: var(--color-accent);
+      }
+    }
+  }
+
+  /* ---------- disclosure (FAQ, terms) ---------- */
+
+  .disclosure {
+    border-bottom: 1px solid var(--color-line);
+    padding-block: 16px;
+
+    & > summary {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.15rem;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+
+      &::after {
+        content: "+";
+        color: var(--color-leaf);
+        font-size: 1.4rem;
+        line-height: 1;
+      }
+    }
+
+    &[open] > summary::after {
+      content: "–";
+    }
+  }
+
+  /* Scrollable legal text. */
+  .terms-body {
+    max-height: 340px;
+    overflow: auto;
+    padding: 4px 18px 18px;
+    font-size: 0.93rem;
+    color: var(--color-muted);
+
+    & h4 {
+      font-family: var(--font-display);
+      color: var(--color-ink);
+      font-size: 1rem;
+      margin: 16px 0 4px;
+    }
+
+    & p,
+    & ul {
+      margin: 0 0 6px;
+    }
+
+    & ul {
+      padding-left: 20px;
+      list-style: disc;
+    }
+  }
+}

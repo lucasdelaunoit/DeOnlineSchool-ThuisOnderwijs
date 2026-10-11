@@ -1,0 +1,43 @@
+/*
+ * Element defaults on top of Tailwind's preflight.
+ * Keep this short: anything that is not true for *every* element of a kind
+ * belongs in components.css or in utilities.
+ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  /* Preflight strips heading weights; this design wants them bold. */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}

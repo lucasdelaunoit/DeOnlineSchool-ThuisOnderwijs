@@ -1,0 +1,157 @@
+/*
+ * Design tokens.
+ *
+ * Every variable in @theme becomes Tailwind utilities, e.g.
+ *   --color-accent   → bg-accent, text-accent, border-accent, fill-accent …
+ *   --radius-card    → rounded-card
+ *   --shadow-press   → shadow-press
+ *
+ * Colours are semantic. Light values live in @theme; the dark theme overrides
+ * the same variables further down, so utilities switch automatically and
+ * almost nothing needs a `dark:` variant.
+ *
+ * Theme switching (unchanged from the original site):
+ *   - follows the OS setting by default,
+ *   - <html data-theme="light"> or <html data-theme="dark"> forces a theme.
+ */
+
+@theme {
+  /* Breakpoints (mobile-first). The design has exactly three. */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 481px; /* single-column feature lists become two columns */
+  --breakpoint-md: 601px; /* phones → tablets: two-column grids, roomier sections */
+  --breakpoint-lg: 861px; /* tablets → desktop: side-by-side hero, map, video */
+
+  /* Page */
+  --color-canvas: #f5f7fb; /* page background */
+  --color-surface: #ffffff; /* cards, bands, form */
+  --color-ink: #16213a; /* body text */
+  --color-muted: #55607a; /* secondary text */
+  --color-line: #dce2ee; /* borders and dividers */
+  --color-field: #ffffff; /* form control background */
+
+  /* Brand */
+  --color-accent: #f2a417; /* marigold: the studio lamp */
+  --color-accent-ink: #16213a; /* text on accent */
+  --color-leaf: #1f8a70; /* green: "you're not alone" */
+  --color-onair: #e0443c; /* the red ON AIR light */
+  --color-navy: #16213a; /* fixed navy, same in both themes (photo captions) */
+  --color-leaf-tint: color-mix(in srgb, var(--color-leaf) 12%, var(--color-surface)); /* soft green panel */
+
+  /* Dark "studio" panels: hero, footer, video card */
+  --color-studio: #16213a;
+  --color-studio-fg: #f5f7fb;
+  --color-studio-muted: #aeb8d0;
+
+  /* De Online School block and stamp */
+  --color-os: #1f6f5c;
+  --color-os-fg: #ffffff;
+  --color-os-muted: #cfe6de;
+
+  /* Drawn map */
+  --color-map-bg: #e6eef6;
+  --color-map-hill: #bfd9c6;
+  --color-map-river: #7fb2e0;
+  --color-map-dot: #16213a;
+
+  /* Type. Font files are self-hosted by next/font in app/layout.tsx. */
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --text-display: clamp(2.5rem, 7vw, 4.6rem); /* hero title */
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.02em;
+  --text-title: clamp(1.9rem, 4.5vw, 2.8rem); /* section titles */
+  --text-title--line-height: 1.1;
+
+  /* Radii (pills use rounded-full) */
+  --radius-field: 10px; /* inputs, topic chips */
+  --radius-card: 14px; /* host cards, photos, video card */
+  --radius-panel: 20px; /* form card, result panels */
+  --radius-feature: 22px; /* De Online School block */
+
+  /* Shadows */
+  --shadow-press: 0 6px 0 rgba(0, 0, 0, 0.18); /* the "pressable" main button */
+  --shadow-photo: 0 18px 40px rgba(0, 0, 0, 0.45); /* polaroids in the hero */
+  --shadow-float: 0 8px 24px rgba(0, 0, 0, 0.4); /* play button */
+  --drop-shadow-stamp: 0 6px 14px rgba(0, 0, 0, 0.25);
+
+  /* Motion */
+  --animate-blink: blink 1.6s infinite;
+  --animate-stamp-spin: stamp-spin 28s linear infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0.25;
+    }
+  }
+  @keyframes stamp-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+/* Dark theme: OS preference unless forced light, or forced dark. */
+@layer theme {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --color-canvas: #0f1526;
+      --color-surface: #18203a;
+      --color-ink: #eef1f8;
+      --color-muted: #a3adc6;
+      --color-line: #2b3556;
+      --color-field: #111933;
+      --color-accent: #f5b23a;
+      --color-accent-ink: #16213a;
+      --color-leaf: #3dbb98;
+      --color-onair: #ff6159;
+      --color-studio: #0a0f1e;
+      --color-studio-fg: #f5f7fb;
+      --color-studio-muted: #9aa5c2;
+      --color-os: #174f43;
+      --color-os-fg: #ffffff;
+      --color-os-muted: #b9d8cd;
+      --color-map-bg: #18203a;
+      --color-map-hill: #24493f;
+      --color-map-river: #3c6e9e;
+      --color-map-dot: #eef1f8;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --color-canvas: #0f1526;
+    --color-surface: #18203a;
+    --color-ink: #eef1f8;
+    --color-muted: #a3adc6;
+    --color-line: #2b3556;
+    --color-field: #111933;
+    --color-accent: #f5b23a;
+    --color-accent-ink: #16213a;
+    --color-leaf: #3dbb98;
+    --color-onair: #ff6159;
+    --color-studio: #0a0f1e;
+    --color-studio-fg: #f5f7fb;
+    --color-studio-muted: #9aa5c2;
+    --color-os: #174f43;
+    --color-os-fg: #ffffff;
+    --color-os-muted: #b9d8cd;
+    --color-map-bg: #18203a;
+    --color-map-hill: #24493f;
+    --color-map-river: #3c6e9e;
+    --color-map-dot: #eef1f8;
+    color-scheme: dark;
+  }
+}
+
+/* `dark:` follows the same rules as the tokens above, for the rare one-off. */
+@custom-variant dark {
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme="light"]), :root:not([data-theme="light"]) *) {
+      @slot;
+    }
+  }
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+}
