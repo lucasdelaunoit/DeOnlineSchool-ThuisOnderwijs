@@ -7,25 +7,25 @@
   form.addEventListener('submit',function(e){
     e.preventDefault();
     var missing=[];
-    [['voornaam','je voornaam'],['leeftijd','je leeftijd'],['woonplaats','je woonplaats'],['sinds','sinds wanneer je thuisonderwijs volgt'],['ouder','de naam van je ouder'],['gsm','een gsm-nummer'],['email','een e-mailadres']].forEach(function(f){if(!v(f[0]))missing.push(f[1]);});
+    [['first-name','je voornaam'],['age','je leeftijd'],['town','je woonplaats'],['since','sinds wanneer je thuisonderwijs volgt'],['parent','de naam van je ouder'],['phone','een gsm-nummer'],['email','een e-mailadres']].forEach(function(f){if(!v(f[0]))missing.push(f[1]);});
     var em=v('email'); if(em && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) missing.push('een geldig e-mailadres');
-    if(!document.getElementById('ok1').checked||!document.getElementById('ok2').checked) missing.push('de twee toestemmingen van je ouder');
-    if(!document.getElementById('ok3').checked) missing.push('het akkoord met de algemene voorwaarden');
+    if(!document.getElementById('consent-1').checked||!document.getElementById('consent-2').checked) missing.push('de twee toestemmingen van je ouder');
+    if(!document.getElementById('consent-3').checked) missing.push('het akkoord met de algemene voorwaarden');
     if(missing.length){err.textContent='Vul nog in: '+missing.join(', ')+'.';err.hidden=false;return;}
     err.hidden=true;
 
-    var topics=[].slice.call(document.querySelectorAll('#onderwerpen input:checked')).map(function(c){return c.value;});
+    var topics=[].slice.call(document.querySelectorAll('#topics input:checked')).map(function(c){return c.value;});
     var lines=[
       'INSCHRIJVING DE THUISSCHOOL PODCAST','',
-      'Voornaam: '+v('voornaam'),
-      'Leeftijd: '+v('leeftijd'),
-      'Woonplaats: '+v('woonplaats'),
-      'Thuisonderwijs sinds: '+v('sinds'),
-      'Komt: '+v('gasten')+(v('tweede')?' ('+v('tweede')+')':''),
+      'Voornaam: '+v('first-name'),
+      'Leeftijd: '+v('age'),
+      'Woonplaats: '+v('town'),
+      'Thuisonderwijs sinds: '+v('since'),
+      'Komt: '+v('guests')+(v('second-guest')?' ('+v('second-guest')+')':''),
       'Wil praten over: '+(topics.length?topics.join(', '):'-'),
-      'Over mezelf: '+(v('verhaal')||'-'),'',
-      'Ouder: '+v('ouder'),
-      'Gsm: '+v('gsm'),
+      'Over mezelf: '+(v('story')||'-'),'',
+      'Ouder: '+v('parent'),
+      'Gsm: '+v('phone'),
       'E-mail: '+em,'',
       'Toestemming deelname: ja',
       'Toestemming publicatie geluid, beeld en foto\'s op alle kanalen: ja',
@@ -34,29 +34,29 @@
     ];
     var text=lines.join('\n');
     document.getElementById('summary').textContent=text;
-    document.getElementById('rname').textContent=v('voornaam');
-    document.getElementById('mailbtn').href='mailto:'+MAIL+'?subject='+encodeURIComponent('Inschrijving De Thuisschool Podcast - '+v('voornaam'))+'&body='+encodeURIComponent(text);
+    document.getElementById('rname').textContent=v('first-name');
+    document.getElementById('mailbtn').href='mailto:'+MAIL+'?subject='+encodeURIComponent('Inschrijving De Thuisschool Podcast - '+v('first-name'))+'&body='+encodeURIComponent(text);
     document.getElementById('wabtn').href='https://wa.me/'+WA+'?text='+encodeURIComponent(text);
     var btn=document.getElementById('submitbtn'), st=document.getElementById('sending');
     function fallback(){ st.textContent=''; btn.disabled=false; form.hidden=true; res.hidden=false; res.scrollIntoView({behavior:'smooth',block:'start'}); }
     if(document.getElementById('website').value){ return; }
     btn.disabled=true; st.textContent='Bezig met versturen…';
-    var payload={voornaam:v('voornaam'),leeftijd:v('leeftijd'),woonplaats:v('woonplaats'),sinds:v('sinds'),gasten:v('gasten'),tweede:v('tweede'),
-      onderwerpen:topics.join(', '),verhaal:v('verhaal'),ouder:v('ouder'),gsm:v('gsm'),email:em,
-      ok1:document.getElementById('ok1').checked,ok2:document.getElementById('ok2').checked,ok3:document.getElementById('ok3').checked,website:''};
+    var payload={firstName:v('first-name'),age:v('age'),town:v('town'),since:v('since'),guests:v('guests'),secondGuest:v('second-guest'),
+      topics:topics.join(', '),story:v('story'),parent:v('parent'),phone:v('phone'),email:em,
+      consent1:document.getElementById('consent-1').checked,consent2:document.getElementById('consent-2').checked,consent3:document.getElementById('consent-3').checked,website:''};
     var ctrl=('AbortController' in window)?new AbortController():null, to=setTimeout(function(){ if(ctrl) ctrl.abort(); },15000);
-    fetch('/api/inschrijven',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
+    fetch('/api/podcast-signup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
       .then(function(r){ return r.json().catch(function(){return {ok:false};}); })
       .then(function(d){
         clearTimeout(to);
-        if(d&&d.ok){ var s=document.getElementById('sent'); document.getElementById('sname').textContent=v('voornaam'); st.textContent=''; form.hidden=true; s.hidden=false; s.scrollIntoView({behavior:'smooth',block:'start'}); s.focus({preventScroll:true}); }
+        if(d&&d.ok){ var s=document.getElementById('sent'); document.getElementById('sname').textContent=v('first-name'); st.textContent=''; form.hidden=true; s.hidden=false; s.scrollIntoView({behavior:'smooth',block:'start'}); s.focus({preventScroll:true}); }
         else fallback();
       })
       .catch(function(){ clearTimeout(to); fallback(); });
   });
 
 
-  // stempel: start op de grens tussen de eerste twee blokken, schuift bij scrollen naar zijn vaste plek onderaan
+  // stamp: starts on the edge between the first two blocks, slides into its fixed spot at the bottom while scrolling
   (function(){
     var w=document.getElementById('stampWrap'), hero=document.querySelector('header.hero');
     if(!w||!hero) return;
@@ -84,7 +84,7 @@
     window.addEventListener('load',req);
     place();
   })();
-  document.getElementById('vlinkfoot').addEventListener('click',function(){document.getElementById('voorwaarden').open=true;});
+  document.getElementById('terms-link').addEventListener('click',function(){document.getElementById('terms').open=true;});
   document.getElementById('edit').addEventListener('click',function(){res.hidden=true;form.hidden=false;form.scrollIntoView({behavior:'smooth',block:'start'});});
 
   document.getElementById('copy').addEventListener('click',function(){

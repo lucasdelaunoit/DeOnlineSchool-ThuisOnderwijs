@@ -1,0 +1,66 @@
+/* Element defaults on top of Tailwind's preflight. */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    text-wrap: balance;
+  }
+
+  p,
+  li,
+  blockquote {
+    text-wrap: pretty;
+  }
+
+  a {
+    color: var(--color-green);
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--color-green-dark);
+    }
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-marigold);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background-color: var(--color-green-pale);
+    color: var(--color-ink);
+  }
+
+  /* Anchored targets (sources, categories) don't stick to the window edge. */
+  [id] {
+    scroll-margin-top: 24px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}

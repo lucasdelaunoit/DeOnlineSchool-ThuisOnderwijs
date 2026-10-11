@@ -1,0 +1,224 @@
+/*
+ * Reusable component classes. One-off layout lives as utilities in the markup;
+ * utilities always win over these, so `btn btn-dark mt-4` just works.
+ */
+
+@layer components {
+  /* ---------- layout ---------- */
+
+  /* Header and footer width. */
+  .container-wide {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+    @variant md {
+      padding-inline: 24px;
+    }
+  }
+
+  /* Reading column used by every page section. */
+  .container-text {
+    max-width: 760px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+    @variant md {
+      padding-inline: 24px;
+    }
+  }
+
+  /* Vertical rhythm for a page section. */
+  .section {
+    padding-block: 48px 52px;
+
+    @variant md {
+      padding-block: 56px 60px;
+    }
+  }
+
+  /* ---------- type ---------- */
+
+  /* Small green caps above a block. */
+  .eyebrow {
+    font-size: var(--text-caption);
+    line-height: var(--text-caption--line-height);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-green);
+  }
+
+  .section-title {
+    font-size: var(--text-h2);
+    line-height: var(--text-h2--line-height);
+    color: var(--color-ink);
+  }
+
+  /* One muted line under a section title. */
+  .section-intro {
+    margin-top: 6px;
+    font-size: var(--text-meta);
+    line-height: var(--text-meta--line-height);
+    color: var(--color-muted);
+  }
+
+  /* Article text: subheadings, paragraphs, lists, asides. */
+  .prose {
+    font-size: var(--text-prose);
+    line-height: var(--text-prose--line-height);
+    color: var(--color-ink-soft);
+
+    & h3 {
+      margin-top: 36px;
+      font-size: var(--text-h3);
+      line-height: var(--text-h3--line-height);
+      font-weight: 500;
+      color: var(--color-ink);
+    }
+
+    & > div:first-child h3 {
+      margin-top: 40px;
+    }
+
+    & p,
+    & ul {
+      margin-top: 12px;
+    }
+
+    & aside {
+      margin-top: 20px;
+    }
+
+    & h3 + * {
+      margin-top: 10px;
+    }
+
+    & ul {
+      padding-left: 22px;
+      list-style: disc;
+
+      & li::marker {
+        color: var(--color-green);
+      }
+    }
+
+    & strong {
+      font-weight: 600;
+      color: var(--color-ink);
+    }
+  }
+
+  /* Footnote marker linking to a source: [1] */
+  .cite {
+    margin-left: 2px;
+    font-size: 0.68em;
+    line-height: 0;
+    vertical-align: super;
+
+    & a {
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* ---------- buttons ---------- */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 999px;
+    font: inherit;
+    font-size: var(--text-small);
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
+
+    &:disabled {
+      cursor: progress;
+      opacity: 0.7;
+    }
+  }
+
+  .btn-dark {
+    background-color: var(--color-ink);
+    color: var(--color-white);
+
+    &:hover {
+      background-color: #2c3350;
+      color: var(--color-white);
+    }
+  }
+
+  .btn-light {
+    background-color: var(--color-white);
+    color: var(--color-ink);
+    font-weight: 600;
+
+    &:hover {
+      background-color: var(--color-mint);
+      color: var(--color-ink);
+    }
+  }
+
+  /* ---------- forms ---------- */
+
+  /* <label class="field">Label <input class="input"></label> */
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+    font-size: var(--text-meta);
+    line-height: var(--text-meta--line-height);
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+
+  /* Inputs, selects and textareas. */
+  .input {
+    width: 100%;
+    font: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--color-ink);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-line-strong);
+    border-radius: var(--radius-field);
+    padding: 11px 14px;
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-color: #bfb7a8;
+    }
+
+    &:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--color-green) 25%, transparent);
+      outline-offset: 0;
+      border-color: var(--color-green);
+    }
+  }
+
+  select.input {
+    appearance: none;
+    padding-right: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%236b7080' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+  }
+}

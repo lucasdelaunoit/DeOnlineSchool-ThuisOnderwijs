@@ -1,0 +1,12 @@
+/* Only scan the site's own files, so the podcast's classes don't end up here. */
+@import "tailwindcss" source(none);
+@source "./";
+@source "../../components/site";
+@source "../../components/question";
+
+/* Design tokens (colours, fonts, type scale, radii) → Tailwind theme */
+@import "../../styles/site/theme.css";
+/* Element defaults on top of preflight */
+@import "../../styles/site/base.css";
+/* Reusable component classes (.section, .eyebrow, .prose, .btn, .input, …) */
+@import "../../styles/site/components.css";

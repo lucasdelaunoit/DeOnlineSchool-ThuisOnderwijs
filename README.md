@@ -1,28 +1,72 @@
-# De Thuisschool Podcast
+# Thuis Onderwijs.be
 
-The sign-up page for De Thuisschool Podcast, built with Next.js and Tailwind CSS v4.
+Next.js + Tailwind CSS v4. Thuis Onderwijs.be is its own project; it links to De Online
+School (a separate platform) but is not it. All code, paths and file names are in English;
+only the visible text is Dutch. The site has two looks, each with its own root layout
+(a route group), its own Tailwind entry and its own tokens:
+
+| Route | Look | Code |
+| --- | --- | --- |
+| `/`, `/questions`, `/questions/[slug]` | the site: Fraunces + Inter on warm paper | `app/(site)/`, `styles/site/`, `components/site/`, `components/question/` |
+| `/podcast` | De Thuisschool Podcast: Bricolage + Nunito, dark studio | `app/(podcast)/`, `styles/podcast/`, `components/podcast/` |
+
+Each Tailwind entry only scans its own folders (`@import "tailwindcss" source(none)` +
+`@source`), so the two themes never leak into each other. Navigating between them is a
+full page load. URLs that match nothing get `app/global-not-found.tsx` (site look).
+
+```bash
+npm run dev     # http://localhost:3000
+npm run build
+```
+
+## Question pages (`/questions/[slug]`)
+
+One JSON file per question in `content/questions/<slug>.json`; the type with every field
+is `Question` in `lib/questions.ts`. Adding a file adds a page (prerendered at build) and
+lists it on `/questions`, grouped by `category`. A broken file fails the build with its
+name. Text fields support `*italic*` and `[1]` (footnote to the first source).
+
+Comments from the form are not stored: `lib/server/comments.ts` (a server action) mails
+them to `MAIL_TO` for moderation. Approved ones go into the file's `experiences`.
+
+### Site tokens (`styles/site/theme.css`)
+
+Tailwind's default colours and text sizes are switched off; only these exist.
+
+| Token | Use |
+| --- | --- |
+| `paper`, `sheet`, `sand`, `mint`, `mist`, `linen` | page, explanation/comments, sources and asides, short answer, experiences, related questions |
+| `ink`, `ink-soft`, `ink-quote`, `ink-nav`, `muted` | headings, running text, quotes, nav/captions, meta |
+| `line`, `line-soft`, `line-strong` | hairlines, list rules, form fields |
+| `green`, `green-dark`, `green-pale` | links and accents, hover, text on green |
+| `clay`, `marigold`, `night`, `night-fg` | logo dot, focus ring/stamp, footer |
+| `text-caption` / `meta` / `small` / `body` / `prose` / `lead` / `h3` / `h2-small` / `h2` / `h1` | type scale (12 → 38px) |
+| `font-serif`, `font-sans` | Fraunces, Inter |
+
+Component classes (`styles/site/components.css`): `container-wide` (1040px),
+`container-text` (760px), `section`, `eyebrow`, `section-title`, `section-intro`,
+`prose`, `cite`, `btn` + `btn-dark` / `btn-light`, `field`, `input`.
+
+# De Thuisschool Podcast (`/podcast`)
+
+The sign-up page for De Thuisschool Podcast.
 It is a port of the original static site (`index.html` + `css/style.css`). Checked in
 Chromium at 7 widths (375–1280px), light/dark/forced themes, with and without the form
 result panels: every element has the same position and size as on the original. The only
 pixel differences are text anti-aliasing, because the fonts are now self-hosted with
 `next/font` instead of loaded from Google Fonts.
 
-```bash
-npm run dev     # http://localhost:3000/podcast
-npm run build
-```
-
 ## Styling
 
 ```
-app/globals.css        entry: Tailwind + the three files below
-styles/theme.css       design tokens (@theme) and the dark theme
-styles/base.css        element defaults on top of Tailwind's preflight
-styles/components.css  reusable component classes
-components/sections/   one file per page section, utilities for one-off layout
+app/(podcast)/podcast.css      entry: Tailwind + the three files below
+styles/podcast/theme.css       design tokens (@theme) and the dark theme
+styles/podcast/base.css        element defaults on top of Tailwind's preflight
+styles/podcast/components.css  reusable component classes
+components/podcast/            one file per page section, utilities for one-off layout
 ```
 
-### Tokens (`styles/theme.css`)
+### Tokens (`styles/podcast/theme.css`)
 
 Every token is a Tailwind utility. Use these instead of raw values.
 
@@ -48,7 +92,7 @@ Breakpoints are replaced by the three the design uses (mobile-first):
 `<html data-theme="light">` or `data-theme="dark"` forces one. For a real one-off, a
 `dark:` variant with the same rules is available.
 
-### Component classes (`styles/components.css`)
+### Component classes (`styles/podcast/components.css`)
 
 | Class | What |
 | --- | --- |
@@ -88,6 +132,6 @@ Things that differ between Tailwind and the plain CSS the site started from:
 
 `public/js/main.js` is the original script, loaded unchanged with `next/script`. It
 handles form validation and sending, the result panels and the floating stamp, and
-relies on the element ids in `components/sections/sign-up.tsx` and `stamp.tsx`.
-It posts to `send.php`, which does not exist in this app yet, so a sign-up always ends
-on the "send via e-mail / WhatsApp" fallback until that is ported to a route handler.
+relies on the element ids in `components/podcast/sign-up.tsx` and `stamp.tsx`.
+It posts to `app/api/podcast-signup/route.ts`, which mails the sign-up via Resend (shared
+helpers in `lib/server/mail.ts`; settings in `.env.example`).

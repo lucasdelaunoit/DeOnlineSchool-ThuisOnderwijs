@@ -1,0 +1,91 @@
+/*
+ * Design tokens for the site (everything except /podcast, which has its own in
+ * styles/podcast/). Every variable becomes Tailwind utilities:
+ *   --color-green → bg-green, text-green, border-green …
+ *   --text-meta   → text-meta (size + line height)
+ *
+ * Tailwind's default palette and type scale are switched off on purpose: only
+ * these values exist, so every page stays consistent.
+ */
+
+@theme {
+  /* Mobile-first. `md` is where the header and grids open up. */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 1040px;
+
+  --color-*: initial;
+  --color-white: #ffffff;
+
+  /* Paper */
+  --color-paper: #f9f7f3; /* page background */
+  --color-sheet: #fffdfa; /* reading surface for long text */
+  --color-sand: #f3efe9; /* asides, soft panels */
+  --color-mint: #e9f2ee; /* short answer band */
+  --color-mist: #edf0f5; /* experiences band */
+  --color-linen: #f7f3ec; /* related questions band */
+  --color-line: #e7e2d9; /* hairlines */
+  --color-line-soft: #e0dbd0; /* list rules on linen */
+  --color-line-strong: #d8d2c6; /* form fields */
+
+  /* Ink */
+  --color-ink: #1c2133; /* headings, strong text */
+  --color-ink-soft: #3d4354; /* running text */
+  --color-ink-quote: #2a3140; /* quotes */
+  --color-ink-nav: #4a5060; /* nav links, captions */
+  --color-muted: #6b7080; /* meta, captions */
+
+  /* Brand */
+  --color-green: #1f6f5c; /* links, accents, the stamp */
+  --color-green-dark: #174f42; /* link hover */
+  --color-green-pale: #cfe6de; /* text on green */
+  --color-clay: #b4583a; /* the dot in the logo */
+  --color-marigold: #f2a417; /* focus ring, stamp icon */
+  --color-night: #19213d; /* footer */
+  --color-night-fg: #c6cbd8;
+
+  /* Type. Font files are self-hosted by next/font in app/(site)/layout.tsx. */
+  --font-*: initial;
+  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --text-*: initial;
+  --text-caption: 12px; /* eyebrows, fact labels */
+  --text-caption--line-height: 1.4;
+  --text-meta: 13px; /* breadcrumbs, dates, captions */
+  --text-meta--line-height: 1.5;
+  --text-small: 14px; /* nav, sources, buttons */
+  --text-small--line-height: 1.55;
+  --text-body: 16px;
+  --text-body--line-height: 1.65;
+  --text-prose: 16px; /* article text */
+  --text-prose--line-height: 1.65;
+  --text-lead: clamp(18px, 2.6vw, 20px); /* short answer */
+  --text-lead--line-height: 1.55;
+  --text-h2-small: 22px; /* sources, call to action */
+  --text-h2-small--line-height: 1.3;
+  --text-h3: 20px;
+  --text-h3--line-height: 1.3;
+  --text-h2: 28px;
+  --text-h2--line-height: 1.25;
+  --text-h1: clamp(30px, 5vw, 38px);
+  --text-h1--line-height: 1.15;
+  --text-h1--letter-spacing: -0.01em;
+
+  --radius-field: 10px; /* inputs */
+  --radius-card: 12px; /* asides */
+  --radius-quote: 16px; /* experience cards */
+  --radius-panel: 20px; /* short answer bubble */
+
+  --shadow-card: 0 1px 2px rgba(25, 35, 55, 0.06);
+  --drop-shadow-stamp: 0 6px 14px rgba(0, 0, 0, 0.22);
+
+  --animate-stamp-spin: stamp-spin 28s linear infinite;
+
+  @keyframes stamp-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
