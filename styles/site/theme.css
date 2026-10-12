@@ -74,6 +74,9 @@
   --text-h1: clamp(28px, 4.8vw, 36px);
   --text-h1--line-height: 1.15;
   --text-h1--letter-spacing: -0.02em;
+  --text-display: clamp(32px, 5.4vw, 46px); /* home page title */
+  --text-display--line-height: 1.08;
+  --text-display--letter-spacing: -0.025em;
 
   --radius-field: 10px; /* inputs */
   --radius-card: 12px; /* asides */
@@ -81,6 +84,8 @@
   --radius-panel: 20px; /* short answer bubble */
 
   --shadow-card: 0 1px 2px rgba(28, 36, 32, 0.07);
+  --shadow-field: 0 1px 2px rgba(28, 36, 32, 0.06), 0 8px 24px -12px rgba(28, 36, 32, 0.18); /* home search box */
+  --shadow-popover: 0 2px 4px rgba(28, 36, 32, 0.06), 0 18px 40px -16px rgba(28, 36, 32, 0.28); /* search results */
   --drop-shadow-stamp: 0 6px 14px rgba(0, 0, 0, 0.22);
 
   --animate-stamp-spin: stamp-spin 28s linear infinite;

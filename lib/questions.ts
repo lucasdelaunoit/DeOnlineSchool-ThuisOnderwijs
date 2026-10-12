@@ -8,6 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { normalize, type SearchEntry } from "./search";
 
 export type Block =
   | { type: "paragraph"; text: string }
@@ -63,6 +64,26 @@ export function getRelated(q: Question, max = 5) {
   const listed = (q.related ?? []).flatMap((slug) => all.filter((other) => other.slug === slug));
   const related = listed.length ? listed : all.filter((other) => other.category === q.category && other.slug !== q.slug);
   return related.slice(0, max);
+}
+
+/** What the home page search needs of each question; sent to the browser, so kept small. */
+export function searchIndex(): SearchEntry[] {
+  return getQuestions().map((q) => ({
+    slug: q.slug,
+    question: q.question,
+    category: q.category,
+    answer: plainText(q.shortAnswer),
+    head: normalize(`${q.question} ${q.title ?? ""}`),
+    body: normalize(
+      [
+        q.category,
+        q.description,
+        plainText(q.shortAnswer),
+        ...q.sections.map((s) => s.title),
+        ...(q.facts ?? []).map((f) => `${f.label} ${f.value}`),
+      ].join(" "),
+    ),
+  }));
 }
 
 export function categoryId(category: string) {

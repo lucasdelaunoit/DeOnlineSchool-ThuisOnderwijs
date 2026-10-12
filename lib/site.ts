@@ -24,6 +24,3 @@ export function onlineSchoolUrl(
   if (content) query.set("utm_content", content);
   return `${ONLINE_SCHOOL}${path}?${query}`;
 }
-
-export const LOGIN_URL = onlineSchoolUrl("/login/index.php", { content: "header" });
-export const SIGNUP_URL = onlineSchoolUrl("/login/signup.php", { content: "header" });
