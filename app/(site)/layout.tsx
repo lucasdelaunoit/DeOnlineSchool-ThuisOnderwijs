@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { SiteFooter } from "@/components/site/footer";
 import { SiteHeader } from "@/components/site/header";
 import { PodcastBanner } from "@/components/site/podcast-banner";
+import { Stamp } from "@/components/site/stamp";
 import { siteFonts } from "@/lib/site-fonts";
 import { SITE_NAME } from "@/lib/site";
 import "./site.css";
@@ -28,6 +29,7 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
         <SiteHeader />
         <div className="flex-1">{children}</div>
         <SiteFooter />
+        <Stamp />
       </body>
     </html>
   );

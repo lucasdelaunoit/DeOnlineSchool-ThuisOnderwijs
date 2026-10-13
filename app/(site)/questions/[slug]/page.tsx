@@ -8,7 +8,6 @@ import { PlatformCta } from "@/components/question/platform-cta";
 import { Related } from "@/components/question/related";
 import { ShortAnswer } from "@/components/question/short-answer";
 import { Sources } from "@/components/question/sources";
-import { Stamp } from "@/components/site/stamp";
 import { getQuestion, getQuestions, plainText } from "@/lib/questions";
 import { onlineSchoolUrl } from "@/lib/site";
 
@@ -60,7 +59,6 @@ export default async function QuestionPage({ params }: PageProps<"/questions/[sl
         <Related q={q} />
       </main>
       <PlatformCta href={onlineSchoolUrl("/", utm)} />
-      <Stamp href={onlineSchoolUrl("/", { ...utm, content: "stempel" })} />
     </>
   );
 }

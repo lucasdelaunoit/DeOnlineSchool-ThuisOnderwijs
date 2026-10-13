@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { SiteFooter } from "@/components/site/footer";
 import { SiteHeader } from "@/components/site/header";
 import { NotFoundContent } from "@/components/site/not-found-content";
+import { PodcastBanner } from "@/components/site/podcast-banner";
+import { Stamp } from "@/components/site/stamp";
 import { SITE_NAME } from "@/lib/site";
 import { siteFonts } from "@/lib/site-fonts";
 import "./(site)/site.css";
@@ -16,11 +18,13 @@ export default function GlobalNotFound() {
   return (
     <html lang="nl-BE" className={siteFonts}>
       <body className="flex min-h-dvh flex-col">
+        <PodcastBanner />
         <SiteHeader />
         <div className="flex-1">
           <NotFoundContent />
         </div>
         <SiteFooter />
+        <Stamp campaign="404" />
       </body>
     </html>
   );

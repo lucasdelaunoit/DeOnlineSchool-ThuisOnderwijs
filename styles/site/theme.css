@@ -42,8 +42,14 @@
   --color-green: #497464; /* links, buttons, accents, the stamp */
   --color-green-dark: #375a4d; /* hover */
   --color-green-pale: #e8f1ed; /* text on green */
+  --color-forest: #1f3a31; /* home page hero */
+  --color-green-light: #9fcab6; /* accents on forest */
 
   --color-error: #a5432f; /* form error messages */
+
+  /* Only for the De Online School stamp, same as on /podcast. */
+  --color-stamp: #174f43;
+  --color-stamp-cap: #f5b23a;
 
   /* Type. Font files are self-hosted by next/font in lib/site-fonts.ts. */
   --font-*: initial;
@@ -74,9 +80,9 @@
   --text-h1: clamp(28px, 4.8vw, 36px);
   --text-h1--line-height: 1.15;
   --text-h1--letter-spacing: -0.02em;
-  --text-display: clamp(32px, 5.4vw, 46px); /* home page title */
-  --text-display--line-height: 1.08;
-  --text-display--letter-spacing: -0.025em;
+  --text-display: clamp(36px, 6.4vw, 64px); /* home page title */
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.03em;
 
   --radius-field: 10px; /* inputs */
   --radius-card: 12px; /* asides */
@@ -84,7 +90,8 @@
   --radius-panel: 20px; /* short answer bubble */
 
   --shadow-card: 0 1px 2px rgba(28, 36, 32, 0.07);
-  --shadow-field: 0 1px 2px rgba(28, 36, 32, 0.06), 0 8px 24px -12px rgba(28, 36, 32, 0.18); /* home search box */
+  --shadow-hero: 0 2px 6px rgba(0, 0, 0, 0.12), 0 24px 48px -16px rgba(0, 0, 0, 0.45); /* search box on forest */
+  --shadow-tile: 0 1px 2px rgba(28, 36, 32, 0.06), 0 12px 32px -18px rgba(28, 36, 32, 0.35); /* home tiles, hovered */
   --shadow-popover: 0 2px 4px rgba(28, 36, 32, 0.06), 0 18px 40px -16px rgba(28, 36, 32, 0.28); /* search results */
   --drop-shadow-stamp: 0 6px 14px rgba(0, 0, 0, 0.22);
 

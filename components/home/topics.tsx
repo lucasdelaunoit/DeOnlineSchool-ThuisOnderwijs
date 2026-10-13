@@ -1,68 +1,80 @@
 import Link from "next/link";
-import { categoryMeta, type CategoryIcon } from "@/lib/categories";
+import { topicsWithQuestions, type CategoryIcon } from "@/lib/categories";
 import { categoryId, type Question } from "@/lib/questions";
 
-const SHOWN = 3;
-
-/** A tile per category with its first questions. */
+/**
+ * Topic tiles. Pulled up over the bottom of the hero: the heading sits on the dark
+ * green, the tiles straddle the edge (the hero leaves room with its bottom padding).
+ */
 export function Topics({ questions }: { questions: Question[] }) {
-  const byCategory = Map.groupBy(questions, (q) => q.category) as Map<string, Question[]>;
+  const topics = topicsWithQuestions(questions);
 
   return (
-    <section aria-labelledby="topics" className="pt-12 md:pt-14">
+    <section aria-labelledby="topics" className="relative z-10 -mt-24">
       <div className="container-wide">
-        <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
-          <h2 id="topics" className="section-title">
-            Onderwerpen
-          </h2>
-          <Link href="/questions" className="text-small font-semibold">
-            Alle vragen <span aria-hidden="true">→</span>
-          </Link>
-        </div>
+        <h2 id="topics" className="flex items-center gap-4 text-caption font-semibold tracking-[0.14em] text-green-light uppercase">
+          <span aria-hidden="true" className="h-px flex-1 bg-white/15" />
+          Of blader per onderwerp
+          <span aria-hidden="true" className="h-px flex-1 bg-white/15" />
+        </h2>
 
-        <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[...byCategory].map(([category, items]) => {
-            const { icon, intro } = categoryMeta(category);
-            const href = `/questions#${categoryId(category)}`;
-            return (
-              <li
-                key={category}
-                className="flex flex-col rounded-card border border-line bg-white p-5 shadow-card transition-colors hover:border-line-strong/50 md:p-6"
-              >
-                <span className="flex size-11 items-center justify-center rounded-full bg-mint text-green">
-                  <Icon name={icon} />
-                </span>
-                <h3 className="mt-4 text-h3 text-ink">
-                  <Link href={href} className="text-ink no-underline hover:text-green-dark">
-                    {category}
-                  </Link>
-                </h3>
-                {intro && <p className="mt-1 text-small text-muted">{intro}</p>}
-                <ul className="mt-4 flex-1 border-t border-line">
-                  {items.slice(0, SHOWN).map((q) => (
-                    <li key={q.slug} className="border-b border-line">
-                      <Link
-                        href={`/questions/${q.slug}`}
-                        className="group flex justify-between gap-3 py-2.5 text-small text-ink-soft no-underline hover:text-green-dark"
-                      >
-                        {q.title ?? q.question}
-                        <span aria-hidden="true" className="text-green transition-transform group-hover:translate-x-0.5">
-                          →
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-                <Link href={href} className="mt-4 text-meta font-semibold">
-                  {items.length === 1 ? "1 vraag" : `Alle ${items.length} vragen`} <span aria-hidden="true">→</span>
+        <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:grid-cols-3">
+          {topics.map((topic) => (
+            <li key={topic.name}>
+              {topic.questions.length ? (
+                <Link
+                  href={`/questions#${categoryId(topic.name)}`}
+                  className="group flex h-full flex-col rounded-card border border-line bg-white p-4 text-ink sm:rounded-panel sm:p-6 no-underline shadow-card transition-[translate,box-shadow,border-color] duration-200 hover:-translate-y-1 hover:border-green/40 hover:text-ink hover:shadow-tile"
+                >
+                  <span className="flex items-start justify-between gap-3">
+                    <span className="flex size-10 items-center justify-center rounded-[12px] bg-mint text-green transition-colors group-hover:bg-green group-hover:text-white sm:size-12 sm:rounded-[14px]">
+                      <Icon name={topic.icon} />
+                    </span>
+                    <span className="hidden rounded-full bg-paper px-2.5 py-0.5 text-meta font-medium text-ink-soft sm:inline">
+                      {count(topic.questions.length)}
+                    </span>
+                  </span>
+                  <h3 className="mt-3.5 text-body leading-snug font-semibold text-ink sm:mt-5 sm:text-h3">{topic.name}</h3>
+                  {topic.intro && <p className="mt-1.5 hidden text-small text-muted sm:block">{topic.intro}</p>}
+                  <span className="mt-auto flex items-center gap-1.5 pt-3 text-meta font-semibold text-green sm:pt-5 sm:text-small">
+                    <span className="sm:hidden">{count(topic.questions.length)}</span>
+                    <span className="hidden sm:inline">Bekijk de vragen</span>
+                    <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">
+                      →
+                    </span>
+                  </span>
                 </Link>
-              </li>
-            );
-          })}
+              ) : (
+                <div className="flex h-full flex-col rounded-card border border-dashed border-line-strong/40 bg-sheet p-4 sm:rounded-panel sm:p-6">
+                  <span className="flex items-start justify-between gap-3">
+                    <span className="flex size-10 items-center justify-center rounded-[12px] bg-sand text-muted sm:size-12 sm:rounded-[14px]">
+                      <Icon name={topic.icon} />
+                    </span>
+                    <span className="hidden rounded-full border border-line px-2.5 py-0.5 text-meta text-muted sm:inline">
+                      Binnenkort
+                    </span>
+                  </span>
+                  <h3 className="mt-3.5 text-body leading-snug font-semibold text-ink-soft sm:mt-5 sm:text-h3">{topic.name}</h3>
+                  {topic.intro && <p className="mt-1.5 hidden text-small text-muted sm:block">{topic.intro}</p>}
+                  <span className="mt-auto pt-3 text-meta text-muted sm:hidden">Binnenkort</span>
+                </div>
+              )}
+            </li>
+          ))}
         </ul>
+
+        <p className="mt-8 text-center">
+          <Link href="/questions" className="text-small font-semibold">
+            Alle veelgestelde vragen <span aria-hidden="true">→</span>
+          </Link>
+        </p>
       </div>
     </section>
   );
+}
+
+function count(n: number) {
+  return n === 1 ? "1 vraag" : `${n} vragen`;
 }
 
 const PATHS: Record<CategoryIcon, string> = {
@@ -77,11 +89,11 @@ const PATHS: Record<CategoryIcon, string> = {
 function Icon({ name }: { name: CategoryIcon }) {
   return (
     <svg
-      className="size-5.5"
+      className="size-6"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="1.8"
+      strokeWidth="1.7"
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"

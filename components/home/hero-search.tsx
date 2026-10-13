@@ -10,14 +10,28 @@ import { normalize, search, searchTerms, type SearchEntry } from "@/lib/search";
  * the box while typing, each with the start of its short answer; arrow keys pick,
  * Enter opens. "/" focuses the box from anywhere on the page. Without JavaScript
  * the form falls back to the full list on /questions.
+ *
+ * While the box is empty and unfocused, the placeholder types out `prompts` one by
+ * one (questions that are on the site), to show you can ask in your own words.
  */
-export function HeroSearch({ entries, examples }: { entries: SearchEntry[]; examples: string[] }) {
+export function HeroSearch({
+  entries,
+  examples,
+  prompts,
+}: {
+  entries: SearchEntry[];
+  /** Chips under the box that fill it in. */
+  examples: string[];
+  prompts: string[];
+}) {
   const router = useRouter();
   const id = useId();
   const input = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
+  const [focused, setFocused] = useState(false);
+  const typed = useTypedText(prompts, focused || query !== "");
 
   const results = search(entries, query);
   const terms = searchTerms(query);
@@ -87,14 +101,18 @@ export function HeroSearch({ entries, examples }: { entries: SearchEntry[]; exam
             autoComplete="off"
             enterKeyHint="search"
             spellCheck={false}
-            placeholder="Typ je vraag of een trefwoord"
+            placeholder={typed && !focused && !query ? `${typed}|` : "Typ je vraag of een trefwoord"}
             value={query}
             onChange={(event) => update(event.target.value)}
-            onFocus={() => setOpen(true)}
+            onFocus={() => {
+              setOpen(true);
+              setFocused(true);
+            }}
+            onBlur={() => setFocused(false)}
             onKeyDown={onKeyDown}
-            className="input min-h-15 rounded-full border-line-strong/60 pr-14 pl-13 text-body shadow-field placeholder:text-muted md:min-h-16 md:pr-36 md:pl-15 md:text-[17px]"
+            className="input min-h-15 rounded-full border-white pr-14 pl-13 text-body shadow-hero placeholder:text-muted hover:border-white focus-visible:border-green md:min-h-18 md:pr-38 md:pl-15 md:text-[18px]"
           />
-          <button type="submit" className="btn btn-primary absolute top-1/2 right-2 min-h-11 -translate-y-1/2 px-3.5 md:px-6">
+          <button type="submit" className="btn btn-primary absolute top-1/2 right-2 min-h-11 -translate-y-1/2 px-3.5 md:right-2.5 md:min-h-13 md:px-7 md:text-body">
             <span className="sr-only md:not-sr-only">Zoeken</span>
             <span aria-hidden="true" className="md:hidden">
               →
@@ -172,8 +190,8 @@ export function HeroSearch({ entries, examples }: { entries: SearchEntry[]; exam
       </p>
 
       {examples.length > 0 && (
-        <div className="mt-5 flex flex-wrap items-center justify-center gap-2 text-small">
-          <span className="mr-1 text-muted">Bijvoorbeeld:</span>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-small">
+          <span className="mr-1 text-green-light">Populair:</span>
           {examples.map((example) => (
             <button
               key={example}
@@ -182,7 +200,7 @@ export function HeroSearch({ entries, examples }: { entries: SearchEntry[]; exam
                 update(example);
                 input.current?.focus();
               }}
-              className="cursor-pointer rounded-full border border-line bg-white/70 px-3.5 py-1.5 text-ink-soft transition-colors hover:border-green hover:bg-white hover:text-green-dark"
+              className="cursor-pointer rounded-full border border-white/20 bg-white/8 px-4 py-1.5 text-white transition-colors hover:border-white hover:bg-white hover:text-ink"
             >
               {example}
             </button>
@@ -191,6 +209,37 @@ export function HeroSearch({ entries, examples }: { entries: SearchEntry[]; exam
       )}
     </div>
   );
+}
+
+/** Types out each text, pauses, erases it, then the next. Stops while `paused`. */
+function useTypedText(texts: string[], paused: boolean) {
+  const [text, setText] = useState("");
+  useEffect(() => {
+    if (paused || !texts.length || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let i = 0;
+    let n = 0;
+    let erasing = false;
+    let timer: number;
+    function tick() {
+      const full = texts[i % texts.length];
+      n += erasing ? -1 : 1;
+      setText(full.slice(0, n));
+      if (!erasing && n >= full.length) {
+        if (texts.length === 1) return;
+        erasing = true;
+        timer = window.setTimeout(tick, 2400);
+      } else if (erasing && n <= 0) {
+        erasing = false;
+        i++;
+        timer = window.setTimeout(tick, 400);
+      } else {
+        timer = window.setTimeout(tick, erasing ? 22 : 55);
+      }
+    }
+    timer = window.setTimeout(tick, 700);
+    return () => window.clearTimeout(timer);
+  }, [texts, paused]);
+  return text;
 }
 
 /** Bold for the words that match the query. */
