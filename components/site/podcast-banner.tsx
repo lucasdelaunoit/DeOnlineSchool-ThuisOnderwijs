@@ -3,11 +3,11 @@ import Link from "next/link";
 /**
  * Thin bar above the header on every page, pointing to /podcast. Styled like the
  * De Online School stamp (components/site/stamp.tsx): the green, pale spaced caps
- * in one weight, dotted lines.
+ * in one weight, dotted underline on the link.
  */
 export function PodcastBanner() {
   return (
-    <div className="border-b border-dashed border-green-pale/40 bg-green text-green-pale [--focus-ring:var(--color-white)]">
+    <div className="bg-green text-green-pale [--focus-ring:var(--color-white)]">
       <p className="container-wide flex items-center justify-center gap-3 py-2.5 text-center font-display text-caption font-semibold tracking-[0.1em] uppercase">
         <svg
           className="size-3.5 shrink-0"
@@ -23,7 +23,7 @@ export function PodcastBanner() {
         </svg>
         <span>
           De Thuisschool Podcast
-          <span className="hidden sm:inline">
+          <span className="hidden md:inline">
             <span aria-hidden="true" className="mx-2.5 opacity-60">
               •
             </span>

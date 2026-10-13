@@ -11,7 +11,7 @@ export function Topics({ questions }: { questions: Question[] }) {
   const topics = topicsWithQuestions(questions);
 
   return (
-    <section aria-labelledby="topics" className="pt-16 pb-4 md:pt-24">
+    <section aria-labelledby="topics" className="pt-16 pb-14 md:pt-24 md:pb-16">
       <div className="container-wide">
         <div className="rise flex items-end justify-between gap-6 [--i:3]">
           <h2 id="topics" className="text-h2 text-ink">

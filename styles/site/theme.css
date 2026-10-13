@@ -30,6 +30,7 @@
 
   /* Lines */
   --color-line: #e3e1da; /* hairlines, dividers */
+  --color-rule: #d3d1c8; /* framed strips that need a firmer line (key facts) */
   --color-line-strong: #8a908b; /* form field borders */
 
   /* Text */
@@ -66,8 +67,8 @@
   --text-small--line-height: 1.55;
   --text-body: 16px;
   --text-body--line-height: 1.65;
-  --text-prose: 16px; /* article text */
-  --text-prose--line-height: 1.65;
+  --text-prose: 17px; /* article text */
+  --text-prose--line-height: 1.7;
   --text-lead: clamp(18px, 2.4vw, 19px); /* short answer */
   --text-lead--line-height: 1.55;
   --text-h2-small: 21px; /* sources, call to action */
@@ -77,9 +78,9 @@
   --text-h2: 26px;
   --text-h2--line-height: 1.25;
   --text-h2--letter-spacing: -0.01em;
-  --text-h1: clamp(28px, 4.8vw, 36px);
-  --text-h1--line-height: 1.15;
-  --text-h1--letter-spacing: -0.02em;
+  --text-h1: clamp(30px, 5vw, 44px);
+  --text-h1--line-height: 1.12;
+  --text-h1--letter-spacing: -0.025em;
   --text-display: clamp(36px, 6.4vw, 64px); /* home page title */
   --text-display--line-height: 1.05;
   --text-display--letter-spacing: -0.03em;

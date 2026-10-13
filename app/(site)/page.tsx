@@ -40,7 +40,7 @@ export default function HomePage() {
 
         <Topics questions={questions} />
       </main>
-      <PlatformCta href={onlineSchoolUrl("/", { campaign: "home" })} container="container-wide" />
+      <PlatformCta href={onlineSchoolUrl("/", { campaign: "home" })} />
     </>
   );
 }

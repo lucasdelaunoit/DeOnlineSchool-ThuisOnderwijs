@@ -58,9 +58,19 @@
   /* One muted line under a section title. */
   .section-intro {
     margin-top: 6px;
-    font-size: var(--text-meta);
-    line-height: var(--text-meta--line-height);
+    font-size: var(--text-small);
+    line-height: var(--text-small--line-height);
     color: var(--color-muted);
+  }
+
+  /* A hairline above a section of the reading column, instead of a coloured band. */
+  .section-rule {
+    border-top: 1px solid var(--color-line);
+    padding-top: 64px;
+
+    @variant md {
+      padding-top: 96px;
+    }
   }
 
   /* Article text: subheadings, paragraphs, lists, asides. */
@@ -158,6 +168,15 @@
     from {
       opacity: 0;
       translate: 0 14px;
+    }
+  }
+
+  /* Same rise, played as the block scrolls into view. Static where unsupported. */
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
     }
   }
 

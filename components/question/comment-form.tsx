@@ -15,7 +15,7 @@ export function CommentForm({ slug }: { slug: string }) {
 
   if (state?.ok) {
     return (
-      <p role="status" className="mt-6 rounded-card bg-mint px-5 py-4 text-ink">
+      <p role="status" className="rounded-card bg-mint px-5 py-4 text-ink">
         <strong className="font-semibold">Bedankt voor je reactie.</strong> We bekijken ze en plaatsen ze als ze
         anderen verder helpt.
       </p>
@@ -24,7 +24,7 @@ export function CommentForm({ slug }: { slug: string }) {
 
   const values = state?.values;
   return (
-    <form action={action} className="mt-6 flex flex-col gap-4">
+    <form action={action} className="flex flex-col gap-4">
       <input type="hidden" name="slug" value={slug} />
       {/* Honeypot: hidden from people, bots fill it in. */}
       <div aria-hidden="true" className="absolute -left-[9999px]">
