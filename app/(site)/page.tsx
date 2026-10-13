@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { HeroSearch } from "@/components/home/hero-search";
 import { Topics } from "@/components/home/topics";
 import { PlatformCta } from "@/components/question/platform-cta";
-import { getQuestions, searchIndex } from "@/lib/questions";
+import { getQuestions } from "@/lib/questions";
 import { onlineSchoolUrl, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -33,7 +33,7 @@ export default function HomePage() {
               erbij.
             </p>
             <div className="rise mt-10 w-full max-w-[680px] text-left [--i:2] md:mt-12">
-              <HeroSearch entries={searchIndex()} prompts={prompts} />
+              <HeroSearch prompts={prompts} />
             </div>
           </div>
         </section>

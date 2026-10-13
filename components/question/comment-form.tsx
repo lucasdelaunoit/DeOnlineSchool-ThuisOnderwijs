@@ -6,7 +6,7 @@ import { postComment } from "@/lib/server/comments";
 const ERRORS = {
   missing: "Vul je voornaam, wie je bent en je reactie in.",
   rate: "Je hebt net al enkele reacties geplaatst. Probeer het over een paar minuten opnieuw.",
-  mail: "Je reactie kon niet verstuurd worden. Probeer het later opnieuw.",
+  save: "Je reactie kon niet verstuurd worden. Probeer het later opnieuw.",
 };
 
 /** Works without JavaScript too: the form posts to the server action. */

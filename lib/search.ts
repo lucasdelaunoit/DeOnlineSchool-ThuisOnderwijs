@@ -1,18 +1,15 @@
 /**
- * Question search on the home page. Runs in the browser over a small index built
- * on the server (searchIndex() in lib/questions.ts), so it must not import Node APIs.
+ * Shared by the home page search box (in the browser) and the search index on the
+ * server (lib/server/search.ts), so it must not import Node APIs.
  */
 
-export type SearchEntry = {
+/** One search result, as /api/search returns it. */
+export type SearchResult = {
   slug: string;
   question: string;
   category: string;
   /** The short answer as plain text, shown under the result. */
   answer: string;
-  /** Normalized question and title: a match here ranks higher. */
-  head: string;
-  /** Normalized description, short answer, section titles and facts. */
-  body: string;
 };
 
 // Words that say nothing about the subject, so "wat is een inzage" searches for "inzage".
@@ -37,28 +34,4 @@ export function searchTerms(query: string) {
   const words = normalize(query).split(" ").filter(Boolean);
   const terms = words.filter((w) => !STOPWORDS.has(w));
   return terms.length ? terms : words;
-}
-
-/**
- * Entries matching the most words of the query, best first. A word matches the
- * start of a word in the entry, so "examen" finds "examencommissie".
- */
-export function search(entries: SearchEntry[], query: string, max = 6) {
-  const terms = searchTerms(query);
-  if (!terms.length) return [];
-
-  return entries
-    .map((entry) => {
-      let score = 0;
-      for (const term of terms) {
-        const re = new RegExp(`(^| )${term}`);
-        if (re.test(entry.head)) score += 3;
-        else if (re.test(entry.body)) score += 1;
-      }
-      return { entry, score };
-    })
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score || a.entry.question.localeCompare(b.entry.question, "nl"))
-    .slice(0, max)
-    .map(({ entry }) => entry);
 }

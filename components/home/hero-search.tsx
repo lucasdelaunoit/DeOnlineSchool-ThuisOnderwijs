@@ -4,18 +4,18 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
 import { ArrowIcon } from "@/components/site/arrow-icon";
-import { normalize, search, searchTerms, type SearchEntry } from "@/lib/search";
+import { normalize, searchTerms, type SearchResult } from "@/lib/search";
 
 /**
  * The search box at the top of the home page (ARIA combobox). Results open under
  * the box while typing, each with the start of its short answer; arrow keys pick,
- * Enter opens. "/" focuses the box from anywhere on the page. Without JavaScript
+ * Enter opens. Results come from /api/search (full-text search in the database). "/" focuses the box from anywhere on the page. Without JavaScript
  * the form falls back to the full list on /questions.
  *
  * While the box is empty and unfocused, the placeholder types out `prompts` one by
  * one (questions that are on the site), to show you can ask in your own words.
  */
-export function HeroSearch({ entries, prompts }: { entries: SearchEntry[]; prompts: string[] }) {
+export function HeroSearch({ prompts }: { prompts: string[] }) {
   const router = useRouter();
   const id = useId();
   const input = useRef<HTMLInputElement>(null);
@@ -25,10 +25,14 @@ export function HeroSearch({ entries, prompts }: { entries: SearchEntry[]; promp
   const [focused, setFocused] = useState(false);
   const typed = useTypedText(prompts, focused || query !== "");
 
-  const results = search(entries, query);
+  const found = useSearch(query);
+  const results = found?.results ?? [];
   const terms = searchTerms(query);
   const searching = query.trim() !== "";
-  const expanded = open && searching;
+  // Until the answer for this query arrives, the previous results stay up, but
+  // "no answer" only shows for the current query, so it doesn't flash while typing.
+  const answered = found?.query === query;
+  const expanded = open && searching && (results.length > 0 || answered);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -157,6 +161,7 @@ export function HeroSearch({ entries, prompts }: { entries: SearchEntry[]; promp
 
       <p id={`${id}-status`} aria-live="polite" className="sr-only">
         {searching &&
+          answered &&
           (results.length === 0 ? "Geen vragen gevonden"
           : results.length === 1 ? "1 vraag gevonden"
           : `${results.length} vragen gevonden`)}
@@ -164,6 +169,28 @@ export function HeroSearch({ entries, prompts }: { entries: SearchEntry[]; promp
 
     </div>
   );
+}
+
+/** Results for `query` from /api/search, a moment after typing stops. */
+function useSearch(query: string) {
+  const [found, setFound] = useState<{ query: string; results: SearchResult[] } | null>(null);
+  useEffect(() => {
+    if (!query.trim()) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      try {
+        const response = await fetch(`/api/search?${new URLSearchParams({ q: query })}`, { signal: controller.signal });
+        if (response.ok) setFound({ query, results: await response.json() });
+      } catch {
+        // Aborted by the next keystroke, or offline: keep what is shown.
+      }
+    }, 120);
+    return () => {
+      window.clearTimeout(timer);
+      controller.abort();
+    };
+  }, [query]);
+  return found;
 }
 
 /** Types out each text, pauses, erases it, then the next. Stops while `paused`. */

@@ -26,8 +26,27 @@ is `Question` in `lib/questions.ts`. Adding a file adds a page (prerendered at b
 lists it on `/questions`, grouped by `category`. A broken file fails the build with its
 name. Text fields support `*italic*` and `[1]` (footnote to the first source).
 
-Comments from the form are not stored: `lib/server/comments.ts` (a server action) mails
-them to `MAIL_TO` for moderation. Approved ones go into the file's `experiences`.
+Comments from the form (`lib/server/comments.ts`, a server action) are saved unapproved
+in the database and mailed to `MAIL_TO` with a moderation link: `/moderation/<id>?token=…`
+(HMAC of the id with `MODERATION_SECRET`) has the buttons to approve or delete. Approved
+ones show under "Reageren", read per request. The file's `experiences` stay curated by hand.
+
+## Database (`lib/server/db.ts`)
+
+SQLite via Node's built-in `node:sqlite` (Node 22.13+; it logs an ExperimentalWarning at
+start). No database server: one file, `data/site.db` or `DATABASE_PATH`, created on
+first use. It must be on a disk that survives deploys (VPS, Docker volume), so this
+does not work on serverless hosting. `data/` is gitignored: it holds visitors' names and
+messages. Back it up with `sqlite3 data/site.db "VACUUM INTO 'backup.db'"` (safe while
+the site runs).
+
+| Table | What |
+| --- | --- |
+| `reactions` | comments; `approved` 0/1. Deleting a row removes it for good (GDPR requests). |
+| `question_search` | FTS5 index of the question files, rebuilt from `content/questions/` at the first search after a start. `GET /api/search?q=` (home page box) ranks with bm25: question > summary > full text. |
+
+Schema changes: add a step to `MIGRATIONS` in `lib/server/db.ts`; never edit a shipped
+one. Always pass values as `?` parameters.
 
 ### Site tokens (`styles/site/theme.css`)
 
