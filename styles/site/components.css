@@ -126,6 +126,41 @@
     }
   }
 
+  /* Header link: an underline grows from the left on hover and on its own section. */
+  .nav-link {
+    padding-block: 2px;
+    text-decoration: none;
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 0 1px;
+    transition:
+      color 0.15s ease,
+      background-size 0.3s var(--ease-out);
+
+    &:hover,
+    &[aria-current="page"] {
+      background-size: 100% 1px;
+    }
+  }
+
+  /* ---------- motion ---------- */
+
+  /*
+   * Entrance: fades in while rising a few pixels. Set --i on siblings to stagger
+   * them (0, 1, 2 …). Pure CSS, so nothing waits for JavaScript. `backwards`, not
+   * `both`: once done it leaves no transform behind, so no stacking context traps
+   * the search results.
+   */
+  .rise {
+    animation: rise 0.8s var(--ease-out) backwards;
+    animation-delay: calc(var(--i, 0) * 70ms + 40ms);
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      translate: 0 14px;
+    }
+  }
+
   /* ---------- buttons ---------- */
 
   .btn {
@@ -146,7 +181,12 @@
     cursor: pointer;
     transition:
       background-color 0.15s ease,
-      color 0.15s ease;
+      color 0.15s ease,
+      scale 0.15s var(--ease-out);
+
+    &:active:not(:disabled) {
+      scale: 0.97;
+    }
 
     &:disabled {
       cursor: progress;

@@ -42,14 +42,14 @@
   --color-green: #497464; /* links, buttons, accents, the stamp */
   --color-green-dark: #375a4d; /* hover */
   --color-green-pale: #e8f1ed; /* text on green */
-  --color-forest: #1f3a31; /* home page hero */
-  --color-green-light: #9fcab6; /* accents on forest */
+  /* Home page hero: the green at night. Text and lines on it come from here, not white/opacity. */
+  --color-forest: #1f3a31; /* background */
+  --color-forest-line: #3a554b; /* hairlines on forest */
+  --color-forest-fg: #b8ccc2; /* running text on forest */
+  --color-green-light: #9fcab6; /* accent on forest */
 
   --color-error: #a5432f; /* form error messages */
 
-  /* Only for the De Online School stamp, same as on /podcast. */
-  --color-stamp: #174f43;
-  --color-stamp-cap: #f5b23a;
 
   /* Type. Font files are self-hosted by next/font in lib/site-fonts.ts. */
   --font-*: initial;
@@ -90,10 +90,13 @@
   --radius-panel: 20px; /* short answer bubble */
 
   --shadow-card: 0 1px 2px rgba(28, 36, 32, 0.07);
-  --shadow-hero: 0 2px 6px rgba(0, 0, 0, 0.12), 0 24px 48px -16px rgba(0, 0, 0, 0.45); /* search box on forest */
-  --shadow-tile: 0 1px 2px rgba(28, 36, 32, 0.06), 0 12px 32px -18px rgba(28, 36, 32, 0.35); /* home tiles, hovered */
+  --shadow-hero: 0 1px 2px rgba(0, 0, 0, 0.1), 0 20px 40px -20px rgba(0, 0, 0, 0.5); /* search box on forest */
+  --shadow-tile: 0 1px 2px rgba(28, 36, 32, 0.05), 0 16px 32px -20px rgba(28, 36, 32, 0.3); /* home topic tile, hovered */
   --shadow-popover: 0 2px 4px rgba(28, 36, 32, 0.06), 0 18px 40px -16px rgba(28, 36, 32, 0.28); /* search results */
-  --drop-shadow-stamp: 0 6px 14px rgba(0, 0, 0, 0.22);
+  --drop-shadow-stamp: 0 4px 12px rgba(28, 36, 32, 0.2);
+
+  /* One curve for everything that moves: quick start, long soft landing. */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 
   --animate-stamp-spin: stamp-spin 28s linear infinite;
 
@@ -103,3 +106,9 @@
     }
   }
 }
+
+/*
+ * `on-forest:` styles the header while the page has a forest hero (the home page),
+ * so the header and hero read as one dark field instead of three stripes.
+ */
+@custom-variant on-forest (:root:has([data-tone="forest"]) &);

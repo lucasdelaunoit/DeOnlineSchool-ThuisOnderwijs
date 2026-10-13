@@ -1,16 +1,20 @@
 import Link from "next/link";
 
-/** Thin bar above the header on every page, pointing to /podcast. */
+/**
+ * Thin bar above the header on every page, pointing to /podcast. Styled like the
+ * De Online School stamp (components/site/stamp.tsx): the green, pale spaced caps
+ * in one weight, dotted lines.
+ */
 export function PodcastBanner() {
   return (
-    <div className="bg-ink text-ink-fg [--focus-ring:var(--color-white)]">
-      <p className="container-wide flex items-center justify-center gap-2.5 py-2 text-center text-meta">
+    <div className="border-b border-dashed border-green-pale/40 bg-green text-green-pale [--focus-ring:var(--color-white)]">
+      <p className="container-wide flex items-center justify-center gap-3 py-2.5 text-center font-display text-caption font-semibold tracking-[0.1em] uppercase">
         <svg
-          className="size-4 shrink-0 text-green-pale"
+          className="size-3.5 shrink-0"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          strokeWidth="1.9"
+          strokeWidth="2.2"
           strokeLinecap="round"
           aria-hidden="true"
         >
@@ -18,11 +22,22 @@ export function PodcastBanner() {
           <path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21" />
         </svg>
         <span>
-          <span className="font-semibold text-white">De Thuisschool Podcast</span>
-          <span className="hidden sm:inline"> · Volg je thuisonderwijs? Vertel je verhaal aan de micro.</span>
+          De Thuisschool Podcast
+          <span className="hidden sm:inline">
+            <span aria-hidden="true" className="mx-2.5 opacity-60">
+              •
+            </span>
+            Volg je thuisonderwijs? Vertel je verhaal aan de micro.
+          </span>
         </span>
-        <Link href="/podcast" className="font-semibold whitespace-nowrap text-white underline hover:text-green-pale">
-          Doe mee <span aria-hidden="true">→</span>
+        <span aria-hidden="true" className="opacity-60">
+          •
+        </span>
+        <Link
+          href="/podcast"
+          className="whitespace-nowrap text-white underline decoration-dotted decoration-1 underline-offset-4 hover:text-green-pale"
+        >
+          Doe mee
         </Link>
       </p>
     </div>
