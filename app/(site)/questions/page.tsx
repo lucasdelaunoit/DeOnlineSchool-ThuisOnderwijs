@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { categoryId, getQuestions, type Question } from "@/lib/questions";
+import { categoryId, type Question } from "@/lib/questions";
+import { getQuestions } from "@/lib/server/questions";
 
 export const metadata: Metadata = {
   title: "Veelgestelde vragen over thuisonderwijs en de Examencommissie",
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
     "Duidelijke antwoorden op vragen over thuisonderwijs en de Examencommissie in Vlaanderen, met bronnen en ervaringen van leerlingen en ouders.",
 };
 
-export default function QuestionsIndex() {
-  const byCategory = Map.groupBy(getQuestions(), (q) => q.category) as Map<string, Question[]>;
+export default async function QuestionsIndex() {
+  const byCategory = Map.groupBy(await getQuestions(), (q) => q.category) as Map<string, Question[]>;
 
   return (
     <main className="container-text pt-10 pb-16 md:pt-14 md:pb-20">

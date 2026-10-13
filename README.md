@@ -21,10 +21,28 @@ npm run build
 
 ## Question pages (`/questions/[slug]`)
 
-One JSON file per question in `content/questions/<slug>.json`; the type with every field
-is `Question` in `lib/questions.ts`. Adding a file adds a page (prerendered at build) and
-lists it on `/questions`, grouped by `category`. A broken file fails the build with its
-name. Text fields support `*italic*` and `[1]` (footnote to the first source).
+The questions are stored in the database (table `questions`). There is no admin page
+yet: a question is written as a JSON file `<slug>.json` in the shape of `Question`
+(`lib/questions.ts`) and imported with the CLI (`scripts/questions.ts`):
+
+```bash
+npm run questions -- list
+npm run questions -- export [dir]           # database → <dir>/<slug>.json (default content/questions)
+npm run questions -- import <file|dir>...   # adds, or replaces the question with the same slug
+npm run questions -- delete <slug>
+```
+
+To edit: export, change the file, import it. An import checks every file first (required
+fields, slug format, `[n]` pointing to a source) and saves nothing if one is wrong.
+Afterwards the CLI calls `POST /api/revalidate` on `SITE_URL` with `REVALIDATE_SECRET`,
+so the running site shows the change at once; without those, it shows after the next
+build. Pages read the questions through `lib/server/questions.ts` (`use cache`, tag
+`questions`) and are prerendered with them. Text fields support `*italic*` and `[1]`
+(footnote to the first source).
+
+`content/questions/` is the seed: `npm run db:seed` (run before `dev` and `build`) copies
+it into the database only when the database has no questions yet. The build needs at
+least one question. After that the database is the source; export to update the files.
 
 Comments from the form (`lib/server/comments.ts`, a server action) are saved unapproved
 in the database and mailed to `MAIL_TO` with a moderation link: `/moderation/<id>?token=…`
@@ -43,7 +61,8 @@ the site runs).
 | Table | What |
 | --- | --- |
 | `reactions` | comments; `approved` 0/1. Deleting a row removes it for good (GDPR requests). |
-| `question_search` | FTS5 index of the question files, rebuilt from `content/questions/` at the first search after a start. `GET /api/search?q=` (home page box) ranks with bm25: question > summary > full text. |
+| `questions` | the question pages; nested parts (sections, sources, …) as JSON. Written only through `lib/server/question-store.ts`. |
+| `question_search` | FTS5 index of `questions`, rebuilt by every import or delete. `GET /api/search?q=` (home page box) ranks with bm25: question > summary > full text. |
 
 Schema changes: add a step to `MIGRATIONS` in `lib/server/db.ts`; never edit a shipped
 one. Always pass values as `?` parameters.

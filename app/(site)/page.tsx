@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { HeroSearch } from "@/components/home/hero-search";
 import { Topics } from "@/components/home/topics";
 import { PlatformCta } from "@/components/question/platform-cta";
-import { getQuestions } from "@/lib/questions";
+import { getQuestions } from "@/lib/server/questions";
 import { onlineSchoolUrl, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 // The browser bar matches the hero, which the header sits on here.
 export const viewport: Viewport = { themeColor: "#1f3a31" };
 
-export default function HomePage() {
-  const questions = getQuestions();
+export default async function HomePage() {
+  const questions = await getQuestions();
   const prompts = questions.slice(0, 6).map((q) => q.title ?? q.question);
 
   return (

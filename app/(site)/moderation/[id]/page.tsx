@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatDate, getQuestion } from "@/lib/questions";
+import { formatDate } from "@/lib/questions";
 import { moderateReaction } from "@/lib/server/moderation";
+import { getQuestion } from "@/lib/server/questions";
 import { getReaction, isValidModerationToken } from "@/lib/server/reactions";
 
 // Opened from the link in the mail about a new reaction (lib/server/comments.ts).
@@ -43,7 +44,7 @@ async function Moderation({ params, searchParams }: PageProps<"/moderation/[id]"
     );
   }
 
-  const q = getQuestion(r.slug);
+  const q = await getQuestion(r.slug);
   return (
     <>
       <h1 className="text-h2">Reactie modereren</h1>

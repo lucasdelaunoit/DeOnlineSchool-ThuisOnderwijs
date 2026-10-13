@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "npm run db:seed",
     "dev": "next dev",
+    "prebuild": "npm run db:seed",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:seed": "tsx --disable-warning=ExperimentalWarning scripts/questions.ts seed",
+    "questions": "tsx --disable-warning=ExperimentalWarning scripts/questions.ts"
   },
   "dependencies": {
     "next": "16.4.0",
@@ -22,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

@@ -8,15 +8,16 @@ import { PlatformCta } from "@/components/question/platform-cta";
 import { Related } from "@/components/question/related";
 import { ShortAnswer } from "@/components/question/short-answer";
 import { Sources } from "@/components/question/sources";
-import { getQuestion, getQuestions, plainText } from "@/lib/questions";
+import { plainText } from "@/lib/questions";
+import { getQuestion, getQuestions } from "@/lib/server/questions";
 import { onlineSchoolUrl } from "@/lib/site";
 
-export function generateStaticParams() {
-  return getQuestions().map((q) => ({ slug: q.slug }));
+export async function generateStaticParams() {
+  return (await getQuestions()).map((q) => ({ slug: q.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/questions/[slug]">): Promise<Metadata> {
-  const q = getQuestion((await params).slug);
+  const q = await getQuestion((await params).slug);
   if (!q) return {};
   return {
     title: q.title ?? q.question,
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/questions/[slug]"
 }
 
 export default async function QuestionPage({ params }: PageProps<"/questions/[slug]">) {
-  const q = getQuestion((await params).slug);
+  const q = await getQuestion((await params).slug);
   if (!q) notFound();
 
   const utm = { source: "faq", campaign: q.slug };

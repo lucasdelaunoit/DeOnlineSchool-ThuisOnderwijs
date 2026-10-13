@@ -1,14 +1,12 @@
 /**
- * Question pages (/questions/[slug]). One JSON file per question in content/questions/,
- * named after its slug.
+ * Question pages (/questions/[slug]): the Question type and helpers without I/O. The
+ * questions are stored in the database (lib/server/questions.ts reads them,
+ * scripts/questions.ts imports and exports them as JSON files of this shape).
  *
  * Text fields support two bits of inline markup:
  *   *italic*  → <em>
  *   [1]        → footnote link to source 1
  */
-import fs from "node:fs";
-import path from "node:path";
-
 export type Block =
   | { type: "paragraph"; text: string }
   | { type: "list"; items: string[] }
@@ -39,32 +37,6 @@ export type Question = {
   related?: string[];
 };
 
-const DIR = path.join(process.cwd(), "content", "questions");
-
-let cache: Question[] | undefined;
-
-/** All questions, sorted by category and then by question. */
-export function getQuestions(): Question[] {
-  cache ??= fs
-    .readdirSync(DIR)
-    .filter((file) => file.endsWith(".json"))
-    .map((file) => parse(file, fs.readFileSync(path.join(DIR, file), "utf8")))
-    .sort((a, b) => a.category.localeCompare(b.category, "nl") || a.question.localeCompare(b.question, "nl"));
-  return cache;
-}
-
-export function getQuestion(slug: string) {
-  return getQuestions().find((q) => q.slug === slug);
-}
-
-/** The related questions that exist, or else others from the same category. */
-export function getRelated(q: Question, max = 5) {
-  const all = getQuestions();
-  const listed = (q.related ?? []).flatMap((slug) => all.filter((other) => other.slug === slug));
-  const related = listed.length ? listed : all.filter((other) => other.category === q.category && other.slug !== q.slug);
-  return related.slice(0, max);
-}
-
 export function categoryId(category: string) {
   return category
     .normalize("NFD")
@@ -89,16 +61,20 @@ export function plainText(text: string) {
     .trim();
 }
 
-// Fails the build with the file name when a question file is incomplete.
-function parse(file: string, raw: string): Question {
-  const q = JSON.parse(raw) as Question;
+/**
+ * Checks a question before it is saved: required fields, formats, and that every [n]
+ * points to a source. Throws with `where` (e.g. the file name) and the problem.
+ */
+export function validateQuestion(q: Question, where: string): Question {
   const fail = (problem: string) => {
-    throw new Error(`content/questions/${file}: ${problem}`);
+    throw new Error(`${where}: ${problem}`);
   };
+  if (typeof q !== "object" || q === null) fail("not a question object");
   for (const key of ["slug", "question", "description", "category", "checkedOn", "shortAnswer"] as const) {
     if (typeof q[key] !== "string" || !q[key].trim()) fail(`"${key}" is missing`);
   }
-  if (`${q.slug}.json` !== file) fail(`"slug" must match the file name`);
+  // The slug ends up in URLs and, on export, in a file name.
+  if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(q.slug)) fail(`"slug" may only have a-z, 0-9 and single dashes`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(q.checkedOn)) fail(`"checkedOn" must be YYYY-MM-DD`);
   if (!Array.isArray(q.sections) || !q.sections.length) fail(`"sections" is missing`);
   if (!Array.isArray(q.sources)) fail(`"sources" is missing`);

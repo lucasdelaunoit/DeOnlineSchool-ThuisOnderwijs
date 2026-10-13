@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { ArrowIcon } from "@/components/site/arrow-icon";
-import { getRelated, type Question } from "@/lib/questions";
+import type { Question } from "@/lib/questions";
+import { getRelated } from "@/lib/server/questions";
 
 /** Hidden while there are no other questions to link to. */
-export function Related({ q }: { q: Question }) {
-  const related = getRelated(q);
+export async function Related({ q }: { q: Question }) {
+  const related = await getRelated(q);
   if (!related.length) return null;
   return (
     <section aria-labelledby="related" className="pb-16 md:pb-24">

@@ -5,8 +5,8 @@
  * the page once approved.
  */
 import { headers } from "next/headers";
-import { getQuestion } from "@/lib/questions";
 import { MAIL_TO, clientIp, isEmpty, rateLimiter, sendMail, textField, timestamp } from "@/lib/server/mail";
+import { getQuestion } from "@/lib/server/questions";
 import { addReaction, moderationToken } from "@/lib/server/reactions";
 import { SITE_NAME } from "@/lib/site";
 
@@ -30,7 +30,7 @@ export async function postComment(_previous: CommentState | null, form: FormData
   // Honeypot: this hidden field must stay empty. Bots fill it in.
   if (!isEmpty(d.website)) return { ok: true };
 
-  const question = getQuestion(f.slug);
+  const question = await getQuestion(f.slug);
   if (!question || !f.firstName || /[\r\n]/.test(f.firstName) || !ROLES.includes(f.role) || !f.message) {
     return { ok: false, error: "missing", values: f };
   }
