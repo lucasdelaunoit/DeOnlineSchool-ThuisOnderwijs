@@ -119,7 +119,7 @@ export function HeroSearch({ prompts }: { prompts: string[] }) {
           className="absolute inset-x-0 top-full z-30 mt-3 origin-top overflow-hidden rounded-panel border border-line bg-white text-left shadow-popover transition-[opacity,translate,scale] duration-250 ease-out starting:-translate-y-1.5 starting:scale-[0.99] starting:opacity-0"
         >
           {results.length ? (
-            <ul id={`${id}-list`} role="listbox" aria-label="Gevonden vragen" className="max-h-[min(26rem,60vh)] overflow-y-auto py-2">
+            <ul id={`${id}-list`} role="listbox" aria-label="Gevonden vragen" className="scrollbar-slim max-h-[min(26rem,60vh)] divide-y divide-line overflow-y-auto">
               {results.map((entry, i) => (
                 <li key={entry.slug} role="presentation">
                   <Link
@@ -129,16 +129,18 @@ export function HeroSearch({ prompts }: { prompts: string[] }) {
                     tabIndex={-1}
                     href={`/questions/${entry.slug}`}
                     onMouseEnter={() => setActive(i)}
-                    className="group flex gap-4 px-5 py-3.5 text-ink no-underline transition-colors duration-150 aria-selected:bg-mint md:px-6"
+                    className="group flex gap-4 px-5 py-4.5 text-ink no-underline transition-colors duration-150 aria-selected:bg-mint md:px-6"
                   >
                     <span className="min-w-0 flex-1">
                       <span className="block text-caption font-semibold tracking-[0.08em] text-green uppercase">
                         {entry.category}
                       </span>
-                      <span className="mt-0.5 block font-medium text-ink">
+                      <span className="mt-1 block font-medium text-ink">
                         <Highlight text={entry.question} terms={terms} />
                       </span>
-                      <span className="mt-1 line-clamp-2 text-small text-muted">{entry.answer}</span>
+                      <span className="mt-1.5 line-clamp-1 text-small text-muted">
+                        <Highlight text={entry.answer} terms={terms} quiet />
+                      </span>
                     </span>
                     <ArrowIcon className="size-4.5 shrink-0 -translate-x-1 self-center text-green opacity-0 transition-[opacity,translate] duration-200 ease-out group-aria-selected:translate-x-0 group-aria-selected:opacity-100" />
                   </Link>
@@ -229,17 +231,29 @@ function useTypedText(texts: string[], paused: boolean) {
   return text;
 }
 
-/** Bold for the words that match the query. */
-function Highlight({ text, terms }: { text: string; terms: string[] }) {
-  return text.split(/(\s+)/).map((part, i) =>
-    terms.some((term) => normalize(part).startsWith(term)) ? (
-      <mark key={i} className="bg-transparent font-semibold text-inherit">
-        {part}
-      </mark>
-    ) : (
-      part
-    ),
-  );
+/**
+ * Marks the typed part of each matching word: "insc" in "inschrijven". Splits on
+ * letters and digits, so punctuation around a word stays out of the mark. `quiet`
+ * leaves out the bold, for the answer under the question.
+ */
+function Highlight({ text, terms, quiet }: { text: string; terms: string[]; quiet?: boolean }) {
+  return text.split(/([\p{L}\p{N}]+)/u).map((part, i) => {
+    const word = normalize(part);
+    const term = terms.filter((t) => word.startsWith(t)).sort((a, b) => b.length - a.length)[0];
+    if (!term) return part;
+    // Accents keep the length ("é" → "e"); if normalizing changed it, mark the whole word.
+    const end = word.length === part.length ? term.length : part.length;
+    return (
+      <span key={i}>
+        <mark
+          className={`rounded-[3px] bg-green-light/45 text-ink [box-decoration-break:clone] ${quiet ? "" : "font-semibold"}`}
+        >
+          {part.slice(0, end)}
+        </mark>
+        {part.slice(end)}
+      </span>
+    );
+  });
 }
 
 /** The search glass with a cross in it: nothing found. */

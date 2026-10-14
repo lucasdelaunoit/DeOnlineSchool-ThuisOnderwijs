@@ -15,7 +15,7 @@ export function Stamp({ campaign }: { campaign?: string }) {
   return (
     <div className="fixed right-3 bottom-[calc(12px+env(safe-area-inset-bottom,0px))] z-50 size-17 md:right-6 md:bottom-6 md:size-23">
       <a
-        className="block size-full rotate-12 rounded-full opacity-95 drop-shadow-stamp transition-[rotate,scale,opacity] duration-200 hover:rotate-0 hover:scale-108 hover:opacity-100 focus-visible:rotate-0 focus-visible:scale-108 focus-visible:opacity-100"
+        className="block size-full rotate-12 rounded-full drop-shadow-stamp transition-[rotate,scale] duration-200 hover:rotate-0 hover:scale-108 focus-visible:rotate-0 focus-visible:scale-108"
         href={href}
         target="_blank"
         rel="noopener"
