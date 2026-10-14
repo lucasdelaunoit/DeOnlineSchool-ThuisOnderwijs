@@ -146,13 +146,18 @@ export function HeroSearch({ prompts }: { prompts: string[] }) {
               ))}
             </ul>
           ) : (
-            <div id={`${id}-list`} className="px-5 py-5 md:px-6">
-              <p className="font-medium text-ink">Hier staat nog geen antwoord op.</p>
-              <p className="mt-1 text-small text-ink-soft">
-                Probeer een ander woord, of kies hieronder een onderwerp.{" "}
-                <Link href="/questions" className="font-medium">
-                  Alle vragen bekijken
-                </Link>
+            <div
+              id={`${id}-list`}
+              className="flex min-h-56 flex-col items-center justify-center px-6 py-8 text-center md:min-h-64 md:py-10"
+            >
+              <span className="flex size-12 items-center justify-center rounded-full bg-mint text-green md:size-14">
+                <NoResultsIcon className="size-6 md:size-7" />
+              </span>
+              <p className="mt-4 max-w-[36ch] font-semibold break-words text-ink">
+                Geen antwoord gevonden voor <q className="text-green-dark">{query.trim()}</q>
+              </p>
+              <p className="mt-1.5 max-w-[46ch] text-small text-ink-soft">
+                Hier staat nog geen vraag over. Probeer een ander woord, of kies hieronder een onderwerp.
               </p>
             </div>
           )}
@@ -234,6 +239,16 @@ function Highlight({ text, terms }: { text: string; terms: string[] }) {
     ) : (
       part
     ),
+  );
+}
+
+/** The search glass with a cross in it: nothing found. */
+function NoResultsIcon({ className }: { className: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5M8.75 8.75l4.5 4.5M13.25 8.75l-4.5 4.5" />
+    </svg>
   );
 }
 

@@ -1,0 +1,54 @@
+{
+  "slug": "diploma-via-examencommissie",
+  "question": "Krijg je via de Examencommissie hetzelfde diploma als op school?",
+  "title": "Diploma via de Examencommissie",
+  "description": "Is een diploma secundair onderwijs van de Examencommissie evenveel waard als een diploma van een school? En kun je ermee verder studeren?",
+  "category": "Diploma en getuigschriften",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja. Het diploma secundair onderwijs van de Examencommissie heeft dezelfde waarde als een diploma van een school. Je kunt er dus ook mee verder studeren aan een hogeschool of universiteit. [1]",
+  "facts": [
+    {
+      "label": "Waarde",
+      "value": "Zelfde als op school"
+    },
+    {
+      "label": "Verder studeren",
+      "value": "Ja"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wat behaal je precies?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Slaag je voor alle vakken van je programma, dan krijg je het diploma secundair onderwijs. Het heeft dezelfde waarde als een diploma dat je op school behaalt. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Verder studeren",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Met het diploma kun je je inschrijven in het hoger onderwijs, net als leerlingen die van school komen. Voor sommige opleidingen gelden extra voorwaarden, zoals een toelatingsexamen; die gelden voor iedereen. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Testpagina.",
+          "text": "Deze tekst is testinhoud en niet nagekeken. [1]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*. vlaanderen.be.",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    }
+  ],
+  "related": [
+    "inschrijven-examencommissie"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "vakfiches-examencommissie",
+  "question": "Wat staat er in een vakfiche, en hoe gebruik je die om te studeren?",
+  "title": "Vakfiches van de Examencommissie",
+  "description": "De vakfiche zegt wat je moet kennen en kunnen voor een examen. Zo lees je ze, en zo maak je er een studieplan mee.",
+  "category": "Examens en vakfiches",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Een vakfiche beschrijft per vak wat je moet kennen en kunnen, hoe het examen eruitziet en welk materiaal je mag gebruiken. Ze is de basis voor je studieplan: wat niet in de vakfiche staat, moet je niet kennen. [1]",
+  "sections": [
+    {
+      "title": "Wat staat erin?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "De doelen: wat je moet kennen en kunnen.",
+            "De vorm van het examen: schriftelijk, digitaal, mondeling of een portfolio.",
+            "Welk materiaal je mag meebrengen, zoals een rekenmachine.",
+            "Soms voorbeeldvragen."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zo maak je er een studieplan mee",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zet elk doel uit de vakfiche in een lijst en vink af wat je beheerst. Wat overblijft, verdeel je over de weken tot je examen. Oefen met de voorbeeldvragen als die er zijn. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kandidaten raden aan om bij twijfel altijd terug te grijpen naar de vakfiche, niet naar een handboek: handboeken bevatten vaak meer dan je moet kennen. [2]"
+        },
+        {
+          "type": "note",
+          "title": "Testpagina.",
+          "text": "Deze tekst is testinhoud en niet nagekeken. [1]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*. vlaanderen.be.",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Ervaringen van kandidaten in Facebookgroepen over de Examencommissie, 2025–2026. Samengevat door de redactie."
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik studeerde eerst uit een handboek en verloor veel tijd. Met de vakfiche als checklist ging het twee keer zo snel.",
+      "name": "Yasmine",
+      "role": "leerling",
+      "context": "biologie"
+    }
+  ],
+  "related": [
+    "inschrijven-examencommissie",
+    "inzage-examencommissie"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "inschrijven-examencommissie",
+  "question": "Hoe schrijf je je in bij de Examencommissie secundair onderwijs?",
+  "title": "Inschrijven bij de Examencommissie",
+  "description": "Stap voor stap: je account in het kandidatenplatform, je studierichting kiezen en je eerste examens plannen.",
+  "category": "Inschrijven bij de Examencommissie",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je schrijft je online in via het kandidatenplatform van de Examencommissie. Daar kies je het programma dat je wilt behalen en plan je daarna zelf je examens, vak per vak. [1]",
+  "facts": [
+    {
+      "label": "Waar",
+      "value": "Kandidatenplatform"
+    },
+    {
+      "label": "Aanmelden",
+      "value": "Online"
+    },
+    {
+      "label": "Tempo",
+      "value": "Vak per vak"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Stap voor stap",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Maak een account aan in het kandidatenplatform.",
+            "Kies de graad en de studierichting die je wilt behalen.",
+            "Bekijk de vakfiches van je vakken.",
+            "Plan je eerste examens wanneer je er klaar voor bent."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Moet je alles in één keer afleggen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. Je legt de examens af in je eigen tempo, en wat je behaalt, blijft behaald. Veel kandidaten beginnen met de vakken waar ze het sterkst in zijn. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Testpagina.",
+          "text": "Deze tekst is testinhoud en niet nagekeken. [1]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*. vlaanderen.be.",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    }
+  ],
+  "related": [
+    "vakfiches-examencommissie",
+    "diploma-via-examencommissie"
+  ]
+}

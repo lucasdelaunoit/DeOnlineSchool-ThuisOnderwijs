@@ -1,0 +1,80 @@
+{
+  "slug": "starten-met-huisonderwijs",
+  "question": "Hoe start je met huisonderwijs in Vlaanderen?",
+  "title": "Starten met huisonderwijs",
+  "description": "Wat moet je regelen als je kind thuis leert in plaats van op school? De verklaring, de leerplicht en wat de overheid daarna van je verwacht.",
+  "category": "Starten met thuisonderwijs",
+  "audience": "Voor ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je kind mag thuis leren in plaats van naar school te gaan, maar de leerplicht blijft gelden. Je dient daarvoor een *verklaring huisonderwijs* in bij de Vlaamse overheid. Daarna volgt de onderwijsinspectie op of je kind genoeg bijleert. [1]",
+  "facts": [
+    {
+      "label": "Leerplicht",
+      "value": "5 tot 18 jaar"
+    },
+    {
+      "label": "Aanvraag",
+      "value": "Verklaring huisonderwijs"
+    },
+    {
+      "label": "Toezicht",
+      "value": "Onderwijsinspectie"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wat is huisonderwijs precies?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In Vlaanderen geldt een *leerplicht*, geen schoolplicht. Je kind moet onderwijs krijgen, maar dat hoeft niet op school. Leert je kind thuis, alleen of in een kleine groep, dan heet dat huisonderwijs. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ook leren via een online school telt als huisonderwijs, zolang je kind niet ingeschreven is in een door Vlaanderen erkende school. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat moet je regelen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voor je begint, dien je een verklaring huisonderwijs in. Daarin bevestig je dat je de verantwoordelijkheid voor het onderwijs van je kind opneemt. Hou rekening met de termijnen: kijk ze na voor je de school opzegt. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dien de verklaring huisonderwijs tijdig in.",
+            "Schrijf je kind pas daarna uit op school.",
+            "Bewaar de bevestiging die je ontvangt.",
+            "Kies hoe je kind leert: zelf, met een begeleider of via een online school."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "En daarna?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De onderwijsinspectie komt na verloop van tijd langs om te kijken of je kind voldoende vooruitgang maakt. Op bepaalde leeftijden legt je kind ook examens af bij de Examencommissie. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Testpagina.",
+          "text": "Deze tekst is testinhoud: de termijnen en voorwaarden zijn niet nagekeken. Ga altijd uit van de officiële informatie. [1]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Huisonderwijs*. vlaanderen.be."
+    }
+  ],
+  "related": [
+    "inspectie-huisonderwijs",
+    "inschrijven-examencommissie"
+  ]
+}
