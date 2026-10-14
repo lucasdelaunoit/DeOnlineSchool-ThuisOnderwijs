@@ -1,5 +1,6 @@
 /**
- * Reactions on question pages (table reactions in lib/server/db.ts). A new reaction is
+ * Reactions on question pages (table reactions in lib/server/db.ts): the experiences
+ * visitors share, shown among the curated ones (lib/server/experiences.ts). A new reaction is
  * saved approved, so it shows on the page at once. `npm run reactions` lists each with
  * its moderation link (/moderation/<id>?token=…) to delete it. Only approved reactions show:
  * older ones saved unapproved wait for "Plaatsen" on that page.
@@ -8,7 +9,7 @@
  * browser. The form and moderation actions are in comments.ts and moderation.ts.
  */
 import { createHmac, timingSafeEqual } from "node:crypto";
-import { getDb } from "./db";
+import { getDb, transaction } from "./db";
 
 export type Reaction = {
   id: number;
@@ -59,9 +60,13 @@ export function approveReaction(id: number) {
   getDb().prepare("UPDATE reactions SET approved = 1 WHERE id = ?").run(id);
 }
 
-/** Removes it for good: for spam, and when someone asks to have their reaction deleted. */
+/** Removes it for good, with its hearts: for spam, and when someone asks to have their reaction deleted. */
 export function deleteReaction(id: number) {
-  getDb().prepare("DELETE FROM reactions WHERE id = ?").run(id);
+  const db = getDb();
+  transaction(db, () => {
+    db.prepare("DELETE FROM likes WHERE item = ? AND slug = (SELECT slug FROM reactions WHERE id = ?)").run(`r${id}`, id);
+    db.prepare("DELETE FROM reactions WHERE id = ?").run(id);
+  });
 }
 
 /**

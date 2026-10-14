@@ -37,6 +37,9 @@ export type Question = {
   related?: string[];
 };
 
+/** Length of a shared experience, in characters: the form and lib/server/comments.ts. */
+export const EXPERIENCE_LENGTH = { min: 20, max: 1000 };
+
 export function categoryId(category: string) {
   return category
     .normalize("NFD")

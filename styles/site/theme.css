@@ -50,6 +50,7 @@
   --color-green-light: #9fcab6; /* accent on forest */
 
   --color-error: #a5432f; /* form error messages */
+  --color-heart: #b8473a; /* a liked experience */
 
 
   /* Type. Font files are self-hosted by next/font in lib/site-fonts.ts. */

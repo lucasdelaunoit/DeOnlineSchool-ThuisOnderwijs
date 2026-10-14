@@ -51,6 +51,15 @@ const MIGRATIONS = [
      related TEXT,
      updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now'))
    );`,
+
+  // Hearts on the experience cards (lib/server/experiences.ts). `item` is the card's
+  // key: "r<id>" for a reaction, "q<hash of the quote>" for a curated experience.
+  `CREATE TABLE likes (
+     slug TEXT NOT NULL,
+     item TEXT NOT NULL,
+     count INTEGER NOT NULL DEFAULT 0,
+     PRIMARY KEY (slug, item)
+   ) WITHOUT ROWID;`,
 ];
 
 let db: DatabaseSync | undefined;

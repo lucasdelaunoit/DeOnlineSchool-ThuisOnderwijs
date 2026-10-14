@@ -1,27 +1,33 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
+import { EXPERIENCE_LENGTH } from "@/lib/questions";
 import { postComment } from "@/lib/server/comments";
 
 const ERRORS = {
-  missing: "Vul je voornaam, wie je bent en je reactie in.",
-  rate: "Je hebt net al enkele reacties geplaatst. Probeer het over een paar minuten opnieuw.",
-  save: "Je reactie kon niet verstuurd worden. Probeer het later opnieuw.",
+  missing: "Vul je voornaam, wie je bent en je ervaring in.",
+  short: `Je ervaring is te kort: schrijf minstens ${EXPERIENCE_LENGTH.min} tekens.`,
+  long: `Je ervaring is te lang: hou het bij ${EXPERIENCE_LENGTH.max} tekens.`,
+  rate: "Je hebt net al enkele ervaringen gedeeld. Probeer het over een paar minuten opnieuw.",
+  save: "Je ervaring kon niet verstuurd worden. Probeer het later opnieuw.",
 };
 
 /** Works without JavaScript too: the form posts to the server action. */
 export function CommentForm({ slug }: { slug: string }) {
   const [state, action, pending] = useActionState(postComment, null);
+  // Characters typed, counted like the server does (per character, not per UTF-16 unit).
+  const [length, setLength] = useState<number | null>(null);
 
   if (state?.ok) {
     return (
       <p role="status" className="rounded-card bg-mint px-5 py-4 text-ink">
-        <strong className="font-semibold">Bedankt voor je reactie.</strong> Ze staat nu op deze pagina.
+        <strong className="font-semibold">Bedankt om je ervaring te delen.</strong> Ze staat nu bij de andere ervaringen.
       </p>
     );
   }
 
   const values = state?.values;
+  const typed = length ?? Array.from(values?.message ?? "").length;
   return (
     <form action={action} className="flex flex-col gap-4">
       <input type="hidden" name="slug" value={slug} />
@@ -55,16 +61,25 @@ export function CommentForm({ slug }: { slug: string }) {
         </label>
       </div>
       <label className="field">
-        Je reactie *
+        Je ervaring *
         <textarea
           className="input resize-y"
           name="message"
           rows={4}
           required
-          maxLength={3000}
+          minLength={EXPERIENCE_LENGTH.min}
+          maxLength={EXPERIENCE_LENGTH.max}
+          aria-describedby="message-length"
           defaultValue={values?.message}
+          onChange={(e) => setLength(Array.from(e.target.value).length)}
         />
       </label>
+      {/* Outside the label, so it is not read as part of the field's name. */}
+      <p id="message-length" className="-mt-2.5 self-end text-meta text-muted tabular-nums">
+        {typed < EXPERIENCE_LENGTH.min ?
+          `Minstens ${EXPERIENCE_LENGTH.min} tekens${typed ? ` · nog ${EXPERIENCE_LENGTH.min - typed}` : ""}`
+        : `${typed} / ${EXPERIENCE_LENGTH.max}`}
+      </p>
 
       {state?.error && (
         <p role="alert" className="text-small text-error">
@@ -73,7 +88,7 @@ export function CommentForm({ slug }: { slug: string }) {
       )}
 
       <button type="submit" className="btn btn-primary self-start px-6" disabled={pending}>
-        {pending ? "Bezig met versturen…" : "Reactie plaatsen"}
+        {pending ? "Bezig met versturen…" : "Ervaring delen"}
       </button>
     </form>
   );

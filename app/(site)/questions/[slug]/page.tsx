@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Comments } from "@/components/question/comments";
 import { Experiences } from "@/components/question/experiences";
 import { Explanation } from "@/components/question/explanation";
 import { Intro } from "@/components/question/intro";
@@ -62,7 +61,6 @@ export default async function QuestionPage({ params }: PageProps<"/questions/[sl
         <Explanation q={q} />
         <Sources q={q} />
         <Experiences q={q} />
-        <Comments slug={q.slug} />
         <Related q={q} />
       </main>
       <PlatformCta href={onlineSchoolUrl("/", utm)} />

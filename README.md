@@ -45,12 +45,19 @@ build. Pages read the questions through `lib/server/questions.ts` (`use cache`, 
 it into the database only when the database has no questions yet. The build needs at
 least one question. After that the database is the source; export to update the files.
 
-Comments from the form (`lib/server/comments.ts`, a server action) are saved in the
-database and show under "Reageren" at once (read per request). No mail is sent:
+"Ervaringen" shows the file's curated `experiences` and the ones visitors share with the
+form below it as one set of cards (`components/question/experience-board.tsx`): newest
+first, 6 at a time with a "Meer ervaringen" button, a sort menu (newest, oldest, most
+hearts) and a heart on each card. A shared experience (`lib/server/comments.ts`, a server
+action) is saved as a reaction and shows at once (read per request). It must be 20–1000
+characters (`EXPERIENCE_LENGTH` in `lib/questions.ts`); the form counts along. Hearts are counted
+in the `likes` table; the browser remembers in localStorage which cards it liked, and an
+IP can give 60 hearts per 10 minutes. No mail is sent:
 `npm run reactions` lists the latest reactions, each with its moderation link.
 `/moderation/<id>?token=…` (HMAC of the id with `MODERATION_SECRET`) has the button to
-delete it. Spam is held off by a honeypot field and 3 comments per 10 minutes per IP. The
-file's `experiences` stay curated by hand.
+delete it, with its hearts. Spam is held off by a honeypot field and 3 comments per 10
+minutes per IP. The file's `experiences` stay curated by hand; editing a quote resets its
+hearts (they are keyed by a hash of the quote).
 
 ## Database (`lib/server/db.ts`)
 
@@ -64,6 +71,7 @@ the site runs).
 | Table | What |
 | --- | --- |
 | `reactions` | comments; `approved` 0/1. Deleting a row removes it for good (GDPR requests). |
+| `likes` | hearts per card: `slug`, `item` (`r<reaction id>` or `q<hash of the quote>`), `count`. |
 | `questions` | the question pages; nested parts (sections, sources, …) as JSON. Written only through `lib/server/question-store.ts`. |
 | `question_search` | FTS5 index of `questions`, rebuilt by every import or delete. `GET /api/search?q=` (home page box) ranks with bm25: question > summary > full text. |
 
@@ -80,13 +88,13 @@ Tailwind's default colours and text sizes are switched off; only these exist.
 | `ink`, `ink-soft`, `muted`, `ink-fg` | headings and footer background, running text, meta, text on ink |
 | `line`, `line-strong` | hairlines, form field borders |
 | `green`, `green-dark`, `green-pale` | links and accents, hover, text on green |
-| `error` | form errors |
+| `error`, `heart` | form errors, a liked experience |
 | `text-caption` / `meta` / `small` / `body` / `prose` / `lead` / `h3` / `h2-small` / `h2` / `h1` | type scale (12 → 38px) |
 | `font-display`, `font-sans` | both Commissioner; `font-display` (and h1–h3) adds the flare axis |
 
 Component classes (`styles/site/components.css`): `container-wide` (1040px),
 `container-text` (760px), `section`, `eyebrow`, `section-title`, `section-intro`,
-`prose`, `cite`, `btn` + `btn-primary` / `btn-light`, `field`, `input`.
+`prose`, `cite`, `btn` + `btn-primary` / `btn-light`, `field`, `input`, `like` (heart button).
 
 # De Thuisschool Podcast (`/podcast`)
 
