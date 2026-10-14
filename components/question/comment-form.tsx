@@ -16,8 +16,7 @@ export function CommentForm({ slug }: { slug: string }) {
   if (state?.ok) {
     return (
       <p role="status" className="rounded-card bg-mint px-5 py-4 text-ink">
-        <strong className="font-semibold">Bedankt voor je reactie.</strong> We bekijken ze en plaatsen ze als ze
-        anderen verder helpt.
+        <strong className="font-semibold">Bedankt voor je reactie.</strong> Ze staat nu op deze pagina.
       </p>
     );
   }

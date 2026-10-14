@@ -1,7 +1,8 @@
 /**
  * Reactions on question pages (table reactions in lib/server/db.ts). A new reaction is
- * saved unapproved and mailed to the editors with a moderation link
- * (/moderation/<id>?token=…). Only approved reactions show on the page.
+ * saved approved, so it shows on the page at once, and mailed to the editors with a
+ * moderation link (/moderation/<id>?token=…) to delete it. Only approved reactions show:
+ * older ones saved unapproved wait for "Plaatsen" on that page.
  *
  * Not a "use server" file on purpose: these functions must not be callable from the
  * browser. The form and moderation actions are in comments.ts and moderation.ts.
@@ -28,7 +29,7 @@ const COLUMNS = "id, slug, first_name, role, message, approved, created_at";
 
 export function addReaction(r: { slug: string; firstName: string; role: string; message: string }) {
   const { lastInsertRowid } = getDb()
-    .prepare("INSERT INTO reactions (slug, first_name, role, message) VALUES (?, ?, ?, ?)")
+    .prepare("INSERT INTO reactions (slug, first_name, role, message, approved) VALUES (?, ?, ?, ?, 1)")
     .run(r.slug, r.firstName, r.role, r.message);
   return Number(lastInsertRowid);
 }
@@ -38,6 +39,14 @@ export function approvedReactions(slug: string) {
   const rows = getDb()
     .prepare(`SELECT ${COLUMNS} FROM reactions WHERE slug = ? AND approved = 1 ORDER BY created_at, id`)
     .all(slug) as Row[];
+  return rows.map(toReaction);
+}
+
+/** The latest reactions on all questions, newest first. */
+export function recentReactions(limit: number) {
+  const rows = getDb()
+    .prepare(`SELECT ${COLUMNS} FROM reactions ORDER BY created_at DESC, id DESC LIMIT ?`)
+    .all(limit) as Row[];
   return rows.map(toReaction);
 }
 

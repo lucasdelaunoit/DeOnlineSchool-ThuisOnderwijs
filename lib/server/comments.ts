@@ -1,9 +1,9 @@
 "use server";
 /**
- * Comments on a question page. The comment is saved unapproved (lib/server/reactions.ts)
- * and mailed to the editors (MAIL_TO) with a link to approve or delete it. It shows on
- * the page once approved.
+ * Comments on a question page. The comment is saved (lib/server/reactions.ts) and shows
+ * on the page at once; it is mailed to the editors (MAIL_TO) with a link to delete it.
  */
+import { refresh } from "next/cache";
 import { headers } from "next/headers";
 import { MAIL_TO, clientIp, isEmpty, rateLimiter, sendMail, textField, timestamp } from "@/lib/server/mail";
 import { getQuestion } from "@/lib/server/questions";
@@ -50,7 +50,7 @@ export async function postComment(_previous: CommentState | null, form: FormData
   const link = token ? `${siteUrl(requestHeaders)}/moderation/${id}?token=${token}` : "(geen link: MODERATION_SECRET ontbreekt)";
 
   // Mail body in Dutch, for the editors. The reaction is saved, so a failed mail is
-  // only logged (by sendMail): the editors can still find it in the database.
+  // only logged (by sendMail): `npm run reactions` lists it with its link.
   await sendMail({
     source: "comment",
     fromName: SITE_NAME,
@@ -64,8 +64,10 @@ export async function postComment(_previous: CommentState | null, form: FormData
       `Is: ${f.role}\n\n` +
       `${f.message}\n\n` +
       `Ontvangen op: ${timestamp()}\n\n` +
-      `Plaatsen of verwijderen: ${link}\n`,
+      `De reactie staat al op de pagina. Verwijderen: ${link}\n`,
   });
+  // The page shows the new reaction without a reload.
+  refresh();
   return { ok: true };
 }
 
