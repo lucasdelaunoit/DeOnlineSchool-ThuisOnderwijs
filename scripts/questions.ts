@@ -7,7 +7,7 @@
  *   npm run questions -- export [dir]          database → <dir>/<slug>.json (default content/questions)
  *   npm run questions -- import <file|dir>...  JSON files → database (adds, or replaces the same slug)
  *   npm run questions -- delete <slug>
- *   npm run db:seed                            fills an EMPTY database from content/questions/
+ *   npm run db:seed                            fills an EMPTY database from content/questions/ (if it exists)
  *
  * After a change it calls POST /api/revalidate on SITE_URL with REVALIDATE_SECRET, so
  * the running site shows it. Reads .env.local and .env like Next.js does.
@@ -66,7 +66,7 @@ async function main([command, ...args]: string[]) {
         console.log(`Database has ${n} question(s): not seeding.`);
         return;
       }
-      const files = jsonFiles(SEED_DIR);
+      const files = fs.existsSync(SEED_DIR) ? jsonFiles(SEED_DIR) : [];
       saveQuestions(files.map(readFile));
       console.log(`Seeded ${files.length} question(s) from ${SEED_DIR}`);
       return;
