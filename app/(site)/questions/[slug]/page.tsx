@@ -27,6 +27,12 @@ export async function generateMetadata({ params }: PageProps<"/questions/[slug]"
   };
 }
 
+// The whole page depends on the slug. Reading it inside <Suspense> would make navigations
+// from Related instant, but the prerendered HTML would then hide the question in a
+// <div hidden> until a script runs: bad for search engines and without JavaScript. So
+// navigations wait for the (cached) page instead.
+export const instant = false;
+
 export default async function QuestionPage({ params }: PageProps<"/questions/[slug]">) {
   const q = await getQuestion((await params).slug);
   if (!q) notFound();
