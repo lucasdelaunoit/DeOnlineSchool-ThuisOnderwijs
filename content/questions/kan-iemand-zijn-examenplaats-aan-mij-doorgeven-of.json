@@ -1,0 +1,145 @@
+{
+  "slug": "kan-iemand-zijn-examenplaats-aan-mij-doorgeven-of",
+  "question": "Kan iemand zijn examenplaats aan mij doorgeven of met mij ruilen?",
+  "title": "Examenplaats doorgeven of ruilen?",
+  "description": "Mag iemand zijn examenplaats aan jou doorgeven of ermee ruilen? Nee, dat is fraude. Zo vind je zelf een vrijgekomen plaats in de kalender.",
+  "category": "Examendata en resultaten",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Nee, een examenplaats ruilen, doorgeven of verkopen is verboden en geldt volgens het examenreglement als fraude. Schrijft iemand zich uit, dan komt die plaats vrij in de planningskalender voor iedereen, dus kijk je zelf regelmatig in de kalender en schrijf je je in via het platform.",
+  "facts": [
+    {
+      "label": "Uitschrijven",
+      "value": "Tot 7 dagen vooraf"
+    },
+    {
+      "label": "Inschrijven",
+      "value": "Tot 3 dagen vooraf"
+    },
+    {
+      "label": "Inschrijvingen per vak",
+      "value": "Max. 5 per kalenderjaar"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Mag iemand zijn examenplaats aan jou doorgeven?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. Het examenreglement noemt het ruilen of verkopen van examenplaatsen uitdrukkelijk als fraude. Je schrijft je enkel zelf in, via het kandidatenplatform en met je eigen identiteit. [1] [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Op de examendag vergelijkt men je met de foto op je identiteitskaart en in het platform. Zonder geldig identiteitsbewijs leg je geen examen af. [4] [3]"
+        },
+        {
+          "type": "note",
+          "title": "Fraude heeft gevolgen.",
+          "text": "Ruilen of verkopen van examenplaatsen geldt als fraude volgens het examenreglement. Ga dus niet in op aanbiedingen of afspraken via sociale media. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat gebeurt er met een plaats die iemand opgeeft?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een kandidaat kan zich tot 7 dagen voor het examen uitschrijven. Daarna komt de plaats vrij in de planningskalender, en wie zich eerst inschrijft, krijgt ze. Wie later afhaakt of niet komt, krijgt een niet-deelname. [2] [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De kandidaat die uitschrijft, kan dus niet kiezen wie zijn plaats krijgt. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe vind je zelf een vrijgekomen plaats?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Bekijk de publieke planningskalender: een nummer toont de vrije plaatsen, een kruisje betekent volzet.",
+            "Schrijf je in via het platform, tot 3 dagen voor het examen (assessment en toegepaste informatica: 10 dagen).",
+            "Per vak schrijf je je maar één keer in per examenreeks. Ben je in een reeks uitgeschreven, dan kies je een moment in een andere reeks.",
+            "Per vak zijn er maximaal 5 inschrijvingen per kalenderjaar. Verplaats dus niet te vaak. [2] [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Zit je vast door een deadline of een bijzondere situatie? Stel je vraag via een melding in het platform of bel 1700. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden anderen aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten die een vroegere plaats zochten, geven deze tips: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kijk elke dag in de kalender, liefst vroeg in de ochtend en een paar keer per dag.",
+            "Een afspraak als 'ik schrijf uit, jij schrijft in' werkt niet: een vrijgekomen plaats verschijnt niet meteen en is voor iedereen.",
+            "Studeer alsof de vroege datum doorgaat. Zo kun je inspringen als er kort op voorhand een plaats vrijkomt."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik vroeg in een groep of iemand zijn plaats aan mij kon doorgeven. Ik leerde dat dit niet kan: een vrijgekomen plaats komt in de kalender voor iedereen, en wie eerst inschrijft, heeft ze.",
+      "name": "Femke",
+      "role": "leerling",
+      "context": "Frans 1"
+    },
+    {
+      "quote": "Mijn zoon had een examen vóór december nodig voor zijn inschrijving aan de universiteit. Ruilen mocht niet, dus hij studeerde verder en keek elke dag of er een plaats vrijkwam.",
+      "name": "Samira",
+      "role": "moeder",
+      "context": "3e graad, deadline universiteit"
+    },
+    {
+      "quote": "Toen ik enkele examens afzegde, wilde ik mijn plaatsen aan anderen geven. Een ander lid legde uit dat je uitschrijving niet meteen in de agenda verschijnt, dus zo'n afspraak heeft geen zin.",
+      "name": "Thibault",
+      "role": "leerling",
+      "context": "examens afgezegd"
+    },
+    {
+      "quote": "Voor Frans 2 keek ik twee à drie keer per dag in de kalender. Vroeg in de ochtend vond ik het vaakst een vrij plekje.",
+      "name": "Mehmet",
+      "role": "leerling",
+      "context": "Frans 2"
+    }
+  ],
+  "related": [
+    "wanneer-komen-er-nieuwe-examendata-of-vrije",
+    "wat-gebeurt-er-als-je-een-examen-of-inzage-mist",
+    "hoe-verloopt-een-examendag-in-het-examencentrum",
+    "hoe-contacteer-je-de-examencommissie-of-dien-je"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "wanneer-komen-er-nieuwe-examendata-of-vrije",
+  "question": "Wanneer komen er nieuwe examendata of vrije plaatsen bij als de reeksen volzet zijn?",
+  "title": "Volzette examenreeksen en vrije plaatsen",
+  "description": "Alles volzet bij de Examencommissie? Zo lees je de planningskalender, wanneer plaatsen vrijkomen en hoe je zelf een vrijgekomen plaats vindt.",
+  "category": "Examendata en resultaten",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie organiseert 5 examenreeksen per kalenderjaar; alle data staan op de publieke planningskalender. Plaatsen komen vrij wanneer kandidaten zich uitschrijven, wat kan tot 7 dagen voor het examen. Wanneer nieuwe reeksen of extra momenten precies verschijnen, vermelden de officiële bronnen niet, dus kijk regelmatig in de kalender.",
+  "facts": [
+    {
+      "label": "Examenreeksen",
+      "value": "5 per kalenderjaar"
+    },
+    {
+      "label": "Duur van een reeks",
+      "value": "± 8 à 10 weken"
+    },
+    {
+      "label": "Inschrijven",
+      "value": "Tot 3 dagen vooraf"
+    },
+    {
+      "label": "Uitschrijven",
+      "value": "Tot 7 dagen vooraf"
+    },
+    {
+      "label": "Zomersluiting 2026",
+      "value": "20 juli t/m 14 augustus"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe lees je de planningskalender?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Er zijn 5 examenreeksen per kalenderjaar. Elke reeks duurt ongeveer 8 à 10 weken. Alle data staan op de publieke planningskalender; in het kandidatenplatform zie je altijd de meest recente versie. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Een nummer: zoveel plaatsen zijn er nog vrij.",
+            "Een kruisje: het moment is volzet.",
+            "Een vinkje: jij bent voor dat moment gepland.",
+            "Een slotje: dat vak kun je nog niet plannen. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Je schrijft je in tot 3 dagen voor het examen. Voor een assessment en voor toegepaste informatica is dat 10 dagen. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wanneer komen er plaatsen vrij?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een plaats komt vrij als een kandidaat zich uitschrijft. Dat kan tot 7 dagen voor het examen; wie later afhaakt, krijgt een niet-deelname. De vrijgekomen plaats verschijnt dan opnieuw in de kalender, voor iedereen. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een plaats overnemen, ruilen of kopen van een andere kandidaat kan niet. Het examenreglement noemt dat fraude. [2]"
+        },
+        {
+          "type": "note",
+          "title": "Let op bij verplaatsen.",
+          "text": "Sinds 1 januari 2025 schrijf je je per vak maar één keer in per examenreeks. Schrijf je uit, dan kun je je in diezelfde reeks niet opnieuw inschrijven voor dat vak. Een nieuw moment kies je dan in een andere reeks. Per vak zijn er bovendien maximaal 5 inschrijvingen per kalenderjaar. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wanneer komen er nieuwe examendata bij?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen vermelden niet wanneer een nieuwe reeks of extra examenmomenten precies opengezet worden. Wel weet je dat er geen examens zijn tijdens de sluitingsperiodes: van 15 juli tot 15 augustus en tijdens de eindejaarsfeestdagen. In de zomer van 2026 loopt de sluiting van 20 juli tot en met 14 augustus. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vind je geen enkel moment dat past, of hangt er een deadline van af? Stel je vraag via een melding in het platform (rechtsboven, meldingen, contact) of bel 1700. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe vergroot je je kans op een vrije plaats? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die een plaats zochten in een volzette reeks, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kijk elke dag in de kalender, liefst ook vroeg in de ochtend. Vrijgekomen plaatsen zijn vaak snel weer weg.",
+            "Een uitschrijving staat niet altijd meteen in de kalender. Kijk dus meerdere keren.",
+            "Plan eerst een moment dat nog vrij is, zodat je zeker een plaats hebt. Kijk daarna of er een vroeger moment vrijkomt in een andere reeks.",
+            "Ken je leerstof al grotendeels, zodat je kunt inspringen als er kort na elkaar plaatsen vrijkomen."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik zocht een vroegere datum voor Frans 2 en keek elke dag in de kalender. Op een avond kwamen er plots twee plaatsen vrij voor de week erna, en ik kon meteen inschrijven.",
+      "name": "Jana",
+      "role": "leerling",
+      "context": "Frans 2, 3e graad"
+    },
+    {
+      "quote": "Na de punten van Frans 1 wilde mijn dochter meteen Frans 2 plannen. Om zes uur 's ochtends waren er nog plaatsen in juli, drie uur later bleef enkel september over.",
+      "name": "Hilde",
+      "role": "moeder",
+      "context": "Frans 2, laatste examen"
+    },
+    {
+      "quote": "Mijn zoon moest zijn mondeling Nederlands nog doen en alles leek volzet. Andere ouders raadden aan elke dag te kijken, omdat er regelmatig kandidaten annuleren.",
+      "name": "Karim",
+      "role": "vader",
+      "context": "mondeling Nederlands, 3e graad"
+    },
+    {
+      "quote": "Ik wilde mijn examen van april naar februari vervroegen. Wat voor mij werkte: 's ochtends kijken, want dan vond ik het vaakst een vrij plekje.",
+      "name": "Elif",
+      "role": "leerling",
+      "context": "samenleving en economie"
+    }
+  ],
+  "related": [
+    "kan-iemand-zijn-examenplaats-aan-mij-doorgeven-of",
+    "hoelang-moet-je-wachten-op-je-punten-en-op-je",
+    "wat-gebeurt-er-als-je-een-examen-of-inzage-mist",
+    "hoeveel-studietijd-heb-je-nodig-per-vak-en",
+    "hoe-en-wanneer-plan-je-je-examens-2de-graad-in-en"
+  ]
+}

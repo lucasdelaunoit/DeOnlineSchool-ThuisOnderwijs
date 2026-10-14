@@ -1,0 +1,165 @@
+{
+  "slug": "kun-je-de-examens-oefenen-en-lijken-oefenexamens",
+  "question": "Kun je de examens oefenen en lijken oefenexamens op het echte examen?",
+  "title": "Lijken oefenexamens op het echte examen?",
+  "description": "Kun je de examens van de Examencommissie oefenen? Wat het digitale proefexamen toont, hoe betrouwbaar oefenexamens zijn en hoe je zelf goed oefent.",
+  "category": "Studiemateriaal en cursussen",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja, met het digitale proefexamen van de Examencommissie oefen je alle vraagtypes, maar het bevat geen inhoudelijke vragen. Oefenexamens van andere aanbieders zijn eigen vragen op basis van de vakfiche, want echte examenvragen zijn vertrouwelijk. Hoe sterk ze op het echte examen lijken, verschilt per vak en per aanbieder.",
+  "sections": [
+    {
+      "title": "Wat is het digitale proefexamen van de Examencommissie?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie biedt een digitaal proefexamen aan met alle vraagtypes. Zo leer je hoe het examenprogramma werkt en hoe je antwoorden ingeeft. Inhoudelijke vragen over de leerstof staan er niet in. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Voor sommige wiskunde- en wetenschapsoefeningen schrijf je met een digitale pen op een schrijftablet. Daarvoor bestaan een proefexamen en een filmpje.",
+            "De online rekenapps, zoals de grafische rekenmachine en het rekenblad, kun je thuis vrij oefenen. Tijdens het examen is er geen handleiding.",
+            "Leg je je eerste examen online af via videogesprek, dan is er een testmoment op dinsdag tussen 10 en 11 uur met een medewerker. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lijken oefenexamens van aanbieders op het echte examen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Examenvragen en verbetersleutels mogen niet gekopieerd, gefotografeerd of verspreid worden. Oefenexamens in betaalde cursussen of op online leerplatformen bevatten dus geen echte examenvragen. De makers schrijven eigen vragen op basis van de vakfiche. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De ervaringen lopen uiteen. Sommige kandidaten vinden zulke oefenexamens sterk gelijkend, anderen vonden het echte examen langer of moeilijker. Een goede score op een oefenexamen is dus een nuttig signaal, maar geen garantie. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Examenvragen delen is verboden.",
+          "text": "Vragen uit een echt examen overschrijven, fotograferen of doorsturen, ook als 'inzage' in een groep, is volgens het examenreglement niet toegestaan en wordt gesanctioneerd. Gebruik zulke documenten niet om te oefenen. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe maak je zelf een goed oefenexamen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je eigen oefenmateriaal is pas nuttig als het de hele vakfiche dekt. Zo pak je het aan:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Maak een lijst van alle onderdelen in de vakfiche die geldt in het jaar van je examen, en zorg dat elk onderdeel minstens één keer aan bod komt.",
+            "Haal oefeningen uit verschillende bronnen: je handboek, een tweede handboek uit de bibliotheek en eventuele oefentoetsen.",
+            "Oefen onder examenomstandigheden: met een timer, zonder notities en op een computer als dat kan.",
+            "Verbeter jezelf eerlijk en noteer per onderdeel waar je punten verliest. Herhaal die stukken eerst.",
+            "Krijg je vragen over iets wat niet in de vakfiche staat, check dan of het echt bij je examen hoort. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wat kun je leren uit je eigen examen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ben je niet geslaagd, dan kun je een inzage aanvragen. Je bekijkt daar je eigen examen. Je mag persoonlijke notities maken en meenemen over wat je fout deed, maar de vragen zelf mag je niet kopiëren of fotograferen. [3] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of een volgend examen dezelfde vragen bevat, staat niet in het examenreglement. Ga er dus niet van uit en studeer de volledige vakfiche. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Welke oefenexamens raden kandidaten aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deze oefenexamens en oefenvormen worden in de Facebookgroepen over de Examencommissie het vaakst aangeraden. Wij beoordelen zelf de kwaliteit niet: vergelijk altijd met de vakfiche van jouw examenjaar. Echte examenvragen zijn vertrouwelijk: geen enkel oefenexamen bevat ze. [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "INzicht (online platform, 3de graad): veel kandidaten vinden de proefexamens sterk lijken op het echte examen. Kritiek die je soms leest: bij geschiedenis, aardrijkskunde en Nederlands 1 zakten enkelen ondanks goede proefexamenscores.",
+            "De Studie Factorie (cursus Frans): veel kandidaten herkenden de schrijf-, thuis- en spreekopdrachten uit de cursus op het examen Frans 1 en Frans 2. Kritiek die je soms leest: woordenschatlijsten soms te beperkt.",
+            "Delta (handboek wiskunde, Plantyn): kandidaten gebruiken de oefenreeksen 1 tot 3 als maatstaf voor wiskunde. Kritiek die je soms leest: oplossingen zijn moeilijk te krijgen.",
+            "ChatGPT en andere AI-tools (app): sommige kandidaten laten er proefvragen mee maken op basis van de vakfiche. Let op: AI maakt fouten en de vragen lijken niet noodzakelijk op het echte examen. [4]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wat zeggen andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gebruik een oefenexamen vooral om te zien welke onderdelen je nog niet kent, niet als voorspelling van je score.",
+            "Merk je dat een oefenexamen iets vraagt dat niet in je cursus staat, vergelijk dan je cursus met de vakfiche.",
+            "Oefen ook de vraagstelling: lange vragen met bronnen of teksten kosten meer tijd dan je denkt.",
+            "Ook een examen dat tegenvalt, leert je hoe de vragen gesteld worden. Je hebt per vak meerdere kansen."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Mijn twee zonen haalden ruim boven 80% op de oefenexamens van hun cursus. Het echte examen vonden ze toch veel langer en moeilijker.",
+      "name": "Griet",
+      "role": "moeder",
+      "context": "geschiedenis, 3e graad"
+    },
+    {
+      "quote": "Het examen van mijn zoon had weinig open vragen en leek goed op de oefenexamens van zijn betaalde cursus. Voor hem was het tot nu toe het makkelijkste vak.",
+      "name": "Tom",
+      "role": "vader",
+      "context": "economie en samenleving, 3e graad"
+    },
+    {
+      "quote": "Op het oefenexamen kwamen vragen over leerstof die niet in de cursus van mijn zoon stond. We kregen de raad om eerst de vakfiche na te kijken en zo nodig aan te vullen.",
+      "name": "Nadia",
+      "role": "moeder",
+      "context": "algemene economie, 3e graad"
+    },
+    {
+      "quote": "Mijn dochter vond de oefenexamens vlak voor haar eerste examen te moeilijk en raakte in paniek. Ze is toch gegaan, al was het maar om de vraagstelling te leren kennen.",
+      "name": "Elif",
+      "role": "moeder",
+      "context": "aardrijkskunde, eerste examen"
+    }
+  ],
+  "related": [
+    "waar-vind-je-de-leerstof-vakfiche-en-wat",
+    "krijg-je-bij-een-herexamen-dezelfde-vragen-als-de",
+    "wat-is-een-inzage-hoe-verloopt-ze-en-kun-je-er",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop",
+    "kan-iemand-mee-naar-mijn-inzage-of-zijn-inzage"
+  ]
+}

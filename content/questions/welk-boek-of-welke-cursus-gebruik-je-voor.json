@@ -1,0 +1,152 @@
+{
+  "slug": "welk-boek-of-welke-cursus-gebruik-je-voor",
+  "question": "Welk boek of welke cursus gebruik je voor wiskunde, en waar vind je oefeningen met oplossingen?",
+  "title": "Studiemateriaal voor wiskunde kiezen",
+  "description": "Welk boek of welke cursus gebruik je voor wiskunde bij de Examencommissie? Zo kies je materiaal volgens de vakfiche en oefen je met oplossingen en GeoGebra",
+  "category": "Studiemateriaal en cursussen",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie geeft geen cursus wiskunde: je kiest zelf materiaal dat de vakfiche van je examenjaar dekt. Vergelijk de inhoudstafel met de vakfiche en kies een boek waarbij oplossingen horen. Oefen daarnaast met de gratis rekenapps en het digitale proefexamen, want die gebruik je ook op het examen.",
+  "sections": [
+    {
+      "title": "Welk materiaal past bij jouw examen wiskunde?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie organiseert de examens, maar geeft geen lessen of studiemateriaal. Per vak is er een vakfiche met de leerinhouden, de vaardigheden en een lijst met leermiddelen. Gebruik altijd de vakfiche die geldt in het jaar van je examen: nieuwe fiches gaan in op 1 januari. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Welk boek of welke cursus je kiest, hangt dus af van je richting en je graad. Zo kies je verstandig:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Leg de inhoudstafel naast de vakfiche en vink elk onderdeel af. Ontbreekt er iets, vul het dan aan met een ander boek of hoofdstuk.",
+            "Je hoeft niet één reeks van begin tot eind te volgen. Je mag delen uit verschillende handboeken combineren.",
+            "Staat iets wel in je boek maar niet in de vakfiche, dan ligt de nadruk elders. Ga daar niet te lang op door.",
+            "Ontlenen in de bibliotheek of tweedehands kopen is prima. Controleer wel of een oudere uitgave nog bij de huidige vakfiche past. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Waar vind je oefeningen met oplossingen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bij wiskunde leer je vooral door veel oefeningen te maken en je antwoorden te controleren. Let daarom bij het kiezen van een boek op deze punten:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kijk vóór je koopt of er oplossingen of een verbetersleutel bij horen. Bij sommige handboeken zitten die in een apart deel of een digitale omgeving.",
+            "Uitgewerkte oplossingen, met alle tussenstappen, helpen meer dan alleen eindantwoorden.",
+            "Gratis uitlegvideo's op YouTube kunnen een onderwerp anders uitleggen als het boek niet helpt. Gebruik ze als extra, niet in plaats van de vakfiche.",
+            "Maak eerst zelf de oefening en kijk pas daarna naar de oplossing. Noteer wat je fout deed en herhaal die oefeningen later."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe oefen je met GeoGebra, de rekenapps en de schrijftablet?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Op het examen werk je met online rekenapps: een grafische rekenmachine, een rekenblad en apps voor kansrekenen en statistiek. Ze zijn gebaseerd op GeoGebra, maar niet alle functies staan aan. Je kunt er thuis vrij mee oefenen. Tijdens het examen heb je geen handleiding, dus oefen vooraf tot je de apps vlot gebruikt. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een gewone en een wetenschappelijke online rekenmachine staan voor iedereen op de examencomputer. Voor sommige wiskunde- en wetenschapsoefeningen schrijf je met een digitale pen op een schrijftablet. Daarvoor bestaan een proefexamen en een filmpje. [2] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maak ook het digitale proefexamen van de Examencommissie. Het bevat alle vraagtypes, zodat je weet hoe je antwoorden ingeeft. Inhoudelijke vragen staan er niet in: de leerstof oefen je met je eigen materiaal. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welk materiaal raden kandidaten aan voor wiskunde? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dit materiaal wordt in de Facebookgroepen over de Examencommissie het vaakst aangeraden voor wiskunde. Wij beoordelen zelf de kwaliteit niet: vergelijk altijd met de vakfiche van jouw examenjaar. [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "VBTL (handboek, Die Keure): vaak aangeraden voor wiskunde in de 3de graad, met ruime uitleg dicht bij de vakfiche. Kritiek die je soms leest: vrij moeilijk zonder begeleiding, verspreid over veel boeken, programmeren ontbreekt.",
+            "Delta / Delta Nova (handboek, Plantyn): gebruikt voor wiskunde en statistiek in de 2de en 3de graad. Kandidaten vinden de oefenreeksen een goede maatstaf. Kritiek die je soms leest: oplossingen zijn moeilijk te krijgen.",
+            "Polpo (digitaal platform van Die Keure): geeft voor ongeveer 100 euro per jaar toegang tot de digitale methodes, inclusief verbetersleutels zoals die van VBTL. Kritiek die je soms leest: het platform is niet erg intuïtief.",
+            "Math with Menno (YouTube-kanaal): kandidaten noemen de uitlegvideo's wiskunde duidelijk, vooral voor de 2de en 3de graad.",
+            "ChatGPT en andere AI-tools (app): sommige kandidaten laten er oefeningen mee uitleggen. Let op: AI maakt geregeld rekenfouten. Controleer elke uitkomst en houd de vakfiche als leidraad. [3]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wat zeggen andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die het examen wiskunde al aflegden, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oefen met de rekenapps via de links van de Examencommissie, niet met een andere versie van GeoGebra. Wie dat deed, liep op het examen soms vast.",
+            "Lees bij elke vraag goed of je tussenstappen moet tonen of de rekenapp mag gebruiken.",
+            "Plan ruim tijd. Een paar dagen voor een volledig vak wiskunde is voor de meesten te kort.",
+            "Vind je een handboek moeilijk zonder uitleg, zoek dan extra uitleg bij een bijlesleerkracht of in uitlegvideo's."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "In mijn handboek stond theorie over de regel van Cramer, maar ik vond die nergens in de vakfiche. In de groep kreeg ik de raad me te houden aan wat de vakfiche vraagt.",
+      "name": "Jonas",
+      "role": "leerling",
+      "context": "wiskunde 3, 3e graad"
+    },
+    {
+      "quote": "Ons werd aangeraden om thuis te oefenen met de rekenapps via de site van de Examencommissie. Sommige kandidaten hadden met een andere versie geoefend en liepen daardoor vast op het examen.",
+      "name": "Hanne",
+      "role": "moeder",
+      "context": "wiskunde, bedrijfswetenschappen"
+    },
+    {
+      "quote": "Bij de grotere oefeningen tellen de tussenstappen mee. Bij elke vraag stond met een icoontje aangegeven of ik de rekenapp mocht gebruiken.",
+      "name": "Bilal",
+      "role": "leerling",
+      "context": "wiskunde, 3e graad"
+    },
+    {
+      "quote": "Het examen was volledig digitaal, met vooral open vragen. Ik werkte met handboeken uit het gewone onderwijs, maar zonder extra begeleiding vond ik die best ingewikkeld.",
+      "name": "Yara",
+      "role": "leerling",
+      "context": "wiskunde gevorderd, 2e graad"
+    }
+  ],
+  "related": [
+    "hoe-moeilijk-is-het-examen-wiskunde-en-hoe-bereid",
+    "hoe-ziet-het-examen-wiskunde-gevorderd-2-en-3",
+    "hoe-ziet-het-examen-statistiek-eruit-en-hoe",
+    "waar-vind-je-verbetersleutels-bij-handboeken-als",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens"
+  ]
+}

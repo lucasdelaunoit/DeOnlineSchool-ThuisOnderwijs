@@ -1,0 +1,170 @@
+{
+  "slug": "wat-gebeurt-er-als-je-een-examen-of-inzage-mist",
+  "question": "Wat gebeurt er als je een examen of inzage mist of te laat uitschrijft?",
+  "title": "Examen gemist of te laat uitgeschreven?",
+  "description": "Wanneer krijg je een niet-deelname, hoeveel mag je er hebben en wat gebeurt er bij de vijfde? Ook: wat als je een inzage mist.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Mis je een examen, kom je meer dan 15 minuten te laat of schrijf je minder dan 7 dagen vooraf uit, dan krijg je een niet-deelname; attesten worden niet aanvaard. Je mag er maximaal 4 per kalenderjaar hebben, bij de vijfde volgt een schorsing van 2 maanden. Een gemiste inzage vervalt.",
+  "facts": [
+    {
+      "label": "Uitschrijven",
+      "value": "Tot 7 dagen vooraf"
+    },
+    {
+      "label": "Te laat",
+      "value": "Max. 15 minuten"
+    },
+    {
+      "label": "Niet-deelnames",
+      "value": "Max. 4 per kalenderjaar"
+    },
+    {
+      "label": "Bij een 5de",
+      "value": "2 maanden geschorst"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wanneer krijg je een niet-deelname?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je krijgt een niet-deelname in deze gevallen: [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je bent afwezig op het examen.",
+            "Je schrijft je minder dan 7 dagen voor het examen uit.",
+            "Je komt meer dan 15 minuten te laat.",
+            "Je hebt geen geldig identiteitsbewijs bij.",
+            "Een andere reden, bijvoorbeeld omdat je geen profielfoto hebt. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Je hoeft een afwezigheid niet te verantwoorden. De Examencommissie aanvaardt ook geen attesten of ziektebriefjes. Een overzicht vind je in de rubriek niet-deelnames van het kandidatenplatform. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel niet-deelnames mag je hebben?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Maximaal 4 per kalenderjaar; volgens het examenreglement geldt dat per graad. Bij een vijfde niet-deelname word je vanaf die dag 2 maanden geschorst, ook tijdens vakanties. Je wordt uitgeschreven uit je studierichting en uit alle geplande examens. Het platform kun je dan tijdelijk niet gebruiken, behalve om meldingen te sturen en je punten te bekijken. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na de schorsing schrijf je opnieuw in en betaal je opnieuw. Je examenbeurten en resultaten blijven behouden, en je krijgt opnieuw een marge van 4 niet-deelnames. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Kun je het examen meteen opnieuw plannen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Na een niet-deelname kun je vanaf 21 uur opnieuw inschrijven voor een volgend moment. Dat moet wel in een andere examenreeks: sinds 1 januari 2025 kun je je per vak maar één keer per reeks inschrijven. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per vak mag je je per kalenderjaar maximaal 5 keer inschrijven en maximaal 3 keer deelnemen. Een niet-deelname telt dus mee als inschrijving. Kandidaten melden dat ze er geen examenbeurt door verloren. [3] [5]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Volgens het examenreglement kan een examen bij overmacht vooraf geannuleerd worden, met een melding via het platform. Wat als overmacht geldt, staat niet in de officiële bronnen. Bel bij twijfel 1700. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat als je een inzage mist?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per examen heb je één keer recht op een inzage. Kom je niet opdagen, dan vervalt dat recht. Een inzage plan je binnen de maand na de publicatie van je resultaat. [3] [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of uitschrijven voor een inzage als niet-deelname telt, vermelden de officiële bronnen niet. Kandidaten melden van niet. Twijfel je, maak dan een melding in het kandidatenplatform of bel 1700. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe vermijd je een niet-deelname? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders geven deze tips: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Twijfel je of je klaar bent, beslis dan voor de termijn van 7 dagen verstrijkt.",
+            "Schrijf je zo vroeg mogelijk uit, dan geef je je plaats door aan iemand anders.",
+            "Neem een trein vroeger dan nodig, zeker bij een staking of betoging in Brussel.",
+            "Leg je identiteitskaart de avond voordien klaar.",
+            "Hou bij hoeveel niet-deelnames je dit jaar al hebt. [5]"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Door een medisch probleem in ons gezin konden we niet naar het examen, en het was te laat om uit te schrijven. Het werd een niet-deelname, maar volgens andere ouders verloren we er geen examenbeurt mee.",
+      "name": "Ruben",
+      "role": "vader",
+      "context": "onverwachte medische situatie in het gezin"
+    },
+    {
+      "quote": "Mijn wekker ging niet af en ik miste mijn examen. In dezelfde reeks kon ik niet meer inschrijven, dus moest ik bijna twee maanden wachten op een nieuw moment.",
+      "name": "Aylin",
+      "role": "leerling",
+      "context": "Nederlands 2"
+    },
+    {
+      "quote": "Ik kon toch niet naar mijn inzage en schreef me de dag ervoor uit. Andere kandidaten zeiden dat dat geen niet-deelname oplevert en dat iemand anders zo je plaats krijgt.",
+      "name": "Elias",
+      "role": "leerling",
+      "context": "inzage"
+    },
+    {
+      "quote": "Op de dag van het examen was er een betoging aan het station. Iedereen bevestigde dat examens altijd doorgaan en dat zo'n reden niet aanvaard wordt; wij kozen toen bewust voor een niet-deelname.",
+      "name": "Marleen",
+      "role": "moeder",
+      "context": "betoging in Brussel"
+    }
+  ],
+  "related": [
+    "wat-als-mijn-kind-door-ziekte-of-overmacht-de",
+    "hoeveel-examenbeurten-heb-je-hoe-werken",
+    "wat-is-een-inzage-hoe-verloopt-ze-en-kun-je-er",
+    "wanneer-komen-er-nieuwe-examendata-of-vrije",
+    "hoe-verloopt-een-examendag-in-het-examencentrum"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "hoeveel-studietijd-voorzie-je-best-per-vak-en-hoe",
+  "question": "Hoeveel studietijd voorzie je best per vak en hoe snel kun je examens na elkaar plannen?",
+  "title": "Studietijd per vak 1ste graad",
+  "description": "Hoeveel studietijd voorzie je per vak in de 1ste graad en hoe snel plan je examens na elkaar? Regels voor planning en ervaringen van ouders.",
+  "category": "Starten en keuzes",
+  "audience": "Voor ouders · 1ste graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie geeft geen richttijden voor studietijd per vak: je studeert in je eigen tempo. Je plant vak per vak, tot 3 dagen voor het examen, in een van de 5 examenreeksen per jaar. Ouders rekenen in de praktijk meestal op enkele weken tot een paar maanden per vak.",
+  "facts": [
+    {
+      "label": "Examenreeksen",
+      "value": "5 per kalenderjaar"
+    },
+    {
+      "label": "Inschrijven",
+      "value": "Tot 3 dagen vooraf"
+    },
+    {
+      "label": "Uitschrijven",
+      "value": "Tot 7 dagen vooraf"
+    },
+    {
+      "label": "Beurten per vak",
+      "value": "3 per kalenderjaar"
+    },
+    {
+      "label": "Resultaat",
+      "value": "Uiterlijk na 30 dagen"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoeveel studietijd raadt de Examencommissie aan per vak?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen geven geen richttijd per vak. De Examencommissie geeft geen lessen of studiebegeleiding: je studeert zelfstandig, in je eigen tempo. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wat je moet kennen, staat in de vakfiche van elk vak. Daar vind je de leerinhouden, de vaardigheden en een lijst met leermiddelen. Gebruik de vakfiche die geldt in het jaar van je examen. Voor de 1ste graad zijn er vanaf 2026 nieuwe vakken, dus controleer of je de juiste fiche hebt. [2] [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Met het digitale proefexamen leer je alle vraagtypes kennen. Zo weet je vooraf hoe het examen eruitziet. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe snel kun je examens na elkaar plannen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je plant je examens zelf in het kandidatenplatform, vak per vak, op de data die nog vrij zijn. Volgorde en tempo kies je zelf, tenzij de vakfiche een vaste volgorde oplegt. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Er zijn 5 examenreeksen per kalenderjaar, die elk ongeveer 8 à 10 weken duren.",
+            "Per vak schrijf je je maar één keer in per examenreeks.",
+            "Inschrijven voor een examen kan tot 3 dagen vooraf.",
+            "Uitschrijven kan tot 7 dagen vooraf. Later geldt als niet-deelname.",
+            "Tussen 15 juli en 15 augustus en tijdens de eindejaarsfeestdagen zijn er geen examens. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De vrije plaatsen zie je op de publieke planningskalender. Het platform toont altijd de meest recente versie. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel tijd moet je voorzien voor een herkansing?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je resultaat staat uiterlijk 30 dagen na het examen in het platform. Een nieuwe beurt voor hetzelfde vak plan je pas als je resultaat zichtbaar is en een eventuele inzage afgerond is. Die herkansing valt in een andere reeks dan je eerste poging. [1] [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per vak heb je 3 examenbeurten per kalenderjaar. Op 1 januari krijg je er telkens 3 nieuwe. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Hou in je planning rekening met de wachttijd op je punten. Zo kom je niet in de problemen als je een vak opnieuw moet afleggen. [1] [3]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe pakken andere ouders de planning aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders van kinderen in de 1ste graad geven deze tips: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start met een vak waarin je kind sterk is. Zo leert het rustig hoe een examen verloopt.",
+            "Plan moeilijke vakken zoals Frans en wiskunde ruimer in en bouw die geleidelijk op.",
+            "Werk in de voormiddag aan het ene vak en in de namiddag aan een ander, als je kind dat aankan.",
+            "Kijk eerst naar de beschikbare examendata en plan pas dan je studietijd."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Voor de meeste vakken rekenen we op ongeveer twee maanden. Burgerschap ging veel sneller, aardrijkskunde vroeg een week of vijf.",
+      "name": "Griet",
+      "role": "moeder",
+      "context": "zoon, 1ste graad"
+    },
+    {
+      "quote": "We boeken één vak per maand in en begonnen met de vakken waarin hij goed is. Frans en wiskunde plannen we verder in de tijd.",
+      "name": "Nadia",
+      "role": "moeder",
+      "context": "chronisch ziek kind, 1ste graad"
+    },
+    {
+      "quote": "Het verschilt enorm per kind. De ene zoon legde na zijn eerste jaar op school alle overige examens af tussen eind juni en oktober.",
+      "name": "Koen",
+      "role": "vader",
+      "context": "twee zonen, 1ste graad"
+    },
+    {
+      "quote": "Wij werken makkelijk drie tot vier maanden per vak. Als ouder voel je zelf het best aan hoeveel herhaling je kind nodig heeft.",
+      "name": "Yasmina",
+      "role": "moeder",
+      "context": "dochter, 1ste graad"
+    }
+  ],
+  "related": [
+    "hoeveel-studietijd-heb-je-nodig-per-vak-en",
+    "wanneer-zijn-de-examendata-en-wanneer-kan-mijn",
+    "hoe-begin-ik-aan-de-examencommissie-1ste-graad-en",
+    "welke-methode-of-welk-leerplatform-kies-je-best",
+    "hoeveel-examenbeurten-heb-je-hoe-werken"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "kan-je-na-een-b-attest-via-de-examencommissie",
+  "question": "Kan je na een B-attest via de Examencommissie toch de 2de graad in de gewenste richting of finaliteit behalen?",
+  "title": "2de graad na een B-attest",
+  "description": "Kun je na een B-attest via de Examencommissie toch de 2de graad in je gewenste richting halen? Wat de regels zeggen en waar je best navraagt.",
+  "category": "Starten en keuzes",
+  "audience": "Voor leerlingen en ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja. Bij de Examencommissie mag iedereen inschrijven, ongeacht vooropleiding, en je kiest zelf je graad en richting. Een B-attest van school sluit dus geen richting uit. Wat dat attest betekent als je later terug naar school wilt, staat niet in de bronnen van de Examencommissie: vraag het na bij de school of het CLB.",
+  "facts": [
+    {
+      "label": "Inschrijvingsgeld",
+      "value": "41 euro per studierichting"
+    },
+    {
+      "label": "Verklaring huisonderwijs",
+      "value": "Uiterlijk de 3de schooldag van september"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Mag je na een B-attest de 2de graad via de Examencommissie doen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Iedereen kan deelnemen aan de Examencommissie. Leeftijd, nationaliteit of vooropleiding spelen geen rol. Je kiest zelf in welke graad en studierichting je inschrijft. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De bronnen van de Examencommissie zeggen niets over attesten van scholen. Een B-attest wordt bij je inschrijving dus niet als voorwaarde vermeld. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke richting en finaliteit kun je kiezen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In de 2de graad kies je één richting uit drie finaliteiten: [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Doorstroom: Economische wetenschappen, Humane wetenschappen, Latijn, Natuurwetenschappen, Moderne talen.",
+            "Dubbele finaliteit: Bedrijf en organisatie, Maatschappij en welzijn.",
+            "Arbeidsmarkt: Organisatie en logistiek. [2]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Je schrijft in voor de hele graad, niet voor één leerjaar. Slaag je voor alle vakken, dan krijg je een getuigschrift van de 2de graad. Je kunt ook meteen in de 3de graad inschrijven. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat betekent je B-attest dan nog?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dat zeggen de bronnen van de Examencommissie niet. Of een school je later toelaat in een bepaalde richting, hangt af van de toelatingsvoorwaarden en van de school zelf. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wil je na de Examencommissie terug naar school? Bespreek je plan dan vooraf met de school waar je wilt starten en met het CLB. Bij vragen over de Examencommissie zelf kun je bellen naar 1700 of een melding sturen in het platform. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Wat als je nog leerplichtig bent?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een inschrijving bij de Examencommissie volstaat niet om aan de leerplicht te voldoen. Wie niet naar school gaat, volgt huisonderwijs. Je ouders dienen daarvoor elk schooljaar een verklaring huisonderwijs in, uiterlijk op de derde schooldag van september. [3]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Je kunt niet tegelijk in een school en in huisonderwijs ingeschreven zijn. Starten met huisonderwijs tijdens het schooljaar kan alleen uitzonderlijk. Kom je van een erkende Vlaamse school, dan verwittig je vooraf het CLB van die school. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere ouders en kandidaten aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en jongeren die na een B-attest voor de Examencommissie kozen, geven deze tips: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bekijk of de 3de graad meteen een optie is: de 2de graad is bij de Examencommissie niet verplicht.",
+            "Denk je aan school en Examencommissie samen? Vraag eerst aan de school of ze daarvoor openstaan.",
+            "Onderschat het werk niet: je studeert twee schooljaren leerstof zelfstandig."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik dacht dat ik na mijn B-attest eerst de 2de graad moest afwerken. In de groep hoorde ik dat ik me zonder diploma van de 2de graad gewoon voor de 3de graad mocht inschrijven.",
+      "name": "Jonas",
+      "role": "leerling",
+      "context": "B-attest in het 4de doorstroom"
+    },
+    {
+      "quote": "Na het B-attest wilden we de 2de graad Maatschappij en welzijn via de Examencommissie doen. Andere ouders raadden aan eerst te vragen of de school dat combineren toelaat.",
+      "name": "Sofie",
+      "role": "moeder",
+      "context": "dochter, B-attest 3de jaar"
+    },
+    {
+      "quote": "We twijfelden tussen het jaar overdoen en de Examencommissie. Daar leerden we dat je per graad werkt, dus het 3de en 4de jaar samen.",
+      "name": "Hamza",
+      "role": "vader",
+      "context": "zoon, B-attest 3de jaar"
+    }
+  ],
+  "related": [
+    "in-welke-graad-start-je-best-kun-je-de-tweede",
+    "is-de-2de-graad-via-de-examencommissie-haalbaar",
+    "kan-je-meteen-met-de-2de-graad-starten-zonder",
+    "kan-je-via-de-examencommissie-je-getuigschrift",
+    "kun-je-de-examencommissie-combineren-met-school"
+  ]
+}

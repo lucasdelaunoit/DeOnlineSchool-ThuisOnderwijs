@@ -1,0 +1,151 @@
+{
+  "slug": "kun-je-al-starten-in-het-hoger-onderwijs-terwijl",
+  "question": "Kun je al starten in het hoger onderwijs terwijl je nog op resultaten, je diploma of een laatste examen wacht?",
+  "title": "Hoger onderwijs starten voor je diploma",
+  "description": "Wacht je nog op je laatste resultaat of je diploma? Lees wat de toelatingsregels zeggen, hoe een creditcontract werkt en wat anderen deden.",
+  "category": "Starten en keuzes",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Voor een bachelor heb je in principe een diploma secundair onderwijs nodig. De hogeschool of universiteit kan afwijken of je laten starten met een creditcontract, maar dat beslist elke instelling zelf, dus neem tijdig contact op. Reken voor je laatste resultaat op maximaal 30 dagen: een spoedprocedure bestaat niet.",
+  "facts": [
+    {
+      "label": "Resultaat",
+      "value": "Uiterlijk na 30 dagen"
+    },
+    {
+      "label": "Spoedprocedure",
+      "value": "Bestaat niet"
+    },
+    {
+      "label": "Diploma",
+      "value": "Wekelijks per aangetekende post"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Heb je je diploma nodig om te starten?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voor een bachelor is een diploma secundair onderwijs de gewone toegangsweg. Een diploma met onderwijskwalificatie 4 geeft toegang, onderwijskwalificatie 3 niet. Voor een graduaat volstaat onder meer een diploma secundair onderwijs met onderwijskwalificatie 3 of 4. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De instelling kan afwijken van de toelatingsvoorwaarden, om humanitaire, medische, psychologische of sociale redenen, of na een toets die je algemene niveau meet. Hoe je je inschrijft als je diploma er nog niet is, vermelden de officiële bronnen niet. Contacteer daarvoor de hogeschool of universiteit zelf. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Kun je starten met een creditcontract?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Met een creditcontract schrijf je je in voor één of meer opleidingsonderdelen, zonder de volledige opleiding. Je volgt lessen en examens samen met de gewone studenten en krijgt per geslaagd onderdeel een creditbewijs. [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je voldoet aan de algemene toelatingsvoorwaarden, of het instellingsbestuur beslist na onderzoek dat je het onderdeel kunt volgen.",
+            "Met een creditcontract heb je geen recht op een studietoelage.",
+            "Je betaalt studiegeld: een vast deel plus een deel per studiepunt.",
+            "Deadlines verschillen per instelling. Of je credits later meetellen voor een diploma, vraag je best na bij de instelling. [2]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoelang wacht je op je resultaat en je diploma?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je resultaat verschijnt uiterlijk 30 dagen na het examen in het platform. Digitale examens zijn soms sneller verbeterd. Een spoedprocedure bestaat niet. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diploma's worden wekelijks uitgereikt, per aangetekende post naar het adres in het platform. Ze worden ook opgenomen in de LED-databank. Je krijgt je diploma pas als je aan alle vakken hebt deelgenomen, behalve de vrijgestelde. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Plan je laatste examen ruim.",
+          "text": "Je kunt je inschrijven tot 3 dagen vooraf, maar data raken volzet. Tel daarna nog tot 30 dagen bij voor je resultaat. Slaag je niet, dan plan je de herkansing in een volgende reeks. [5] [3]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe pakten anderen het aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten die al in deze situatie zaten, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Neem nog vóór je laatste examen contact op met de studieloopbaanbegeleiding of de studentenvoorzieningen van je opleiding.",
+            "Vraag concreet: mag ik al lessen volgen, tot wanneer kan ik mijn diploma bezorgen, en wat gebeurt er als ik dan nog niet geslaagd ben?",
+            "De regels verschillen per instelling en soms per opleiding. Wat bij een vriend lukte, geldt niet automatisch voor jou.",
+            "Houd een plan B achter de hand, zoals een creditcontract voor enkele vakken en de rest vanaf het tweede semester."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Toelatingsvoorwaarden in het hoger onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/inschrijving-en-toelating-in-onderwijs/hoger-onderwijs/toelatingsvoorwaarden"
+    },
+    {
+      "text": "Vlaamse overheid, *Creditbewijzen hoger onderwijs behalen via een creditcontract*",
+      "url": "https://www.vlaanderen.be/creditbewijzen-hoger-onderwijs-behalen-via-een-creditcontract"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Na een gesprek met de studieloopbaanbegeleiding mocht ik al lessen volgen vanaf de start van het academiejaar. Kon ik op de inschrijvingsdeadline nog niet aantonen dat ik geslaagd was, dan zou het een creditcontract worden.",
+      "name": "Lotte",
+      "role": "leerling",
+      "context": "laatste examens in september"
+    },
+    {
+      "quote": "Ik wachtte nog op mijn punten voor geschiedenis. Na een afspraak bij de studentenvoorzieningen van mijn hogeschool had ik gewoon mogen starten, op voorwaarde dat ik mijn diploma nog zou halen.",
+      "name": "Mehmet",
+      "role": "leerling",
+      "context": "wachten op een laatste resultaat"
+    },
+    {
+      "quote": "Onze dochter mocht al met twee vakken beginnen. Is haar diploma er niet op tijd, dan kan ze de andere vakken pas vanaf februari volgen.",
+      "name": "Nathalie",
+      "role": "moeder",
+      "context": "laatste examen wiskunde, hogeschool"
+    },
+    {
+      "quote": "Onze zoon volgt al lessen, maar zolang zijn resultaat er niet is, kan hij niet aan het cursusmateriaal of de oefensessies. Dat wachten is frustrerend.",
+      "name": "Dirk",
+      "role": "vader",
+      "context": "laatste resultaat, universiteit"
+    }
+  ],
+  "related": [
+    "kun-je-via-een-creditcontract-al-starten-in-het",
+    "hoelang-moet-je-wachten-op-je-punten-en-op-je",
+    "kun-je-de-examencommissie-combineren-met-school",
+    "wat-houdt-het-7de-voorbereidend-jaar-op-het-hoger",
+    "heb-je-via-de-examencommissie-een"
+  ]
+}

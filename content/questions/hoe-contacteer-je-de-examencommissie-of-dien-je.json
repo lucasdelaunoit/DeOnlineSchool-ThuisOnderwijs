@@ -1,0 +1,168 @@
+{
+  "slug": "hoe-contacteer-je-de-examencommissie-of-dien-je",
+  "question": "Hoe contacteer je de examencommissie of dien je een klacht in over een examen of je dossier?",
+  "title": "Examencommissie contacteren of klacht",
+  "description": "Zo contacteer je de Examencommissie (1700, meldingen), meld je een incident tijdens het examen en ga je in beroep tegen een resultaat.",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Voor vragen bel je gratis 1700 of stuur je een melding via het kandidatenplatform. Ben je het niet eens met een resultaat, doe dan eerst een inzage; daarna kun je met een aangetekende brief in beroep gaan, binnen de termijn van het examenreglement. Een incident tijdens het examen meld je meteen aan de toezichter.",
+  "facts": [
+    {
+      "label": "Telefoon",
+      "value": "1700"
+    },
+    {
+      "label": "Antwoord op opmerkingen",
+      "value": "Binnen 30 dagen"
+    },
+    {
+      "label": "Beslissing beroepscommissie",
+      "value": "Binnen 30 kalenderdagen"
+    },
+    {
+      "label": "Raad van State",
+      "value": "Binnen 60 kalenderdagen"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe contacteer je de Examencommissie?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Via een melding in het kandidatenplatform: rechtsboven op meldingen klikken en dan op contact. Dat kan zodra je geregistreerd bent, ook als je nog geen studierichting gekozen of betaald hebt.",
+            "Telefonisch via het gratis nummer 1700.",
+            "Per post: Examencommissie secundair onderwijs, Consciencegebouw, Koning Albert II-laan 15 bus 131, 1210 Brussel. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In je profiel kun je instellen dat je een e-mail krijgt bij een nieuwe melding. Die mail bevat zelf geen inhoud, dus lees het antwoord altijd in het platform. Een afspraak ter plaatse maken kan alleen in uitzonderlijke gevallen. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat doe je bij een incident tijdens het examen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Loopt er tijdens een examen iets technisch mis, wacht dan tot de Examencommissie een oplossing meedeelt. Wie het lokaal eerder verlaat, verliest de examenbeurt. Verloren tijd wordt verlengd. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meld het incident meteen aan de toezichter. Die vult een incidentenformulier in dat je mee ondertekent. Kun je door overmacht niet deelnemen, dan kan het examen vooraf geannuleerd worden via een melding in het platform. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe ga je in tegen een resultaat of beslissing?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Ben je niet geslaagd, plan dan binnen de maand na de publicatie een inzage. Je kunt daar opmerkingen maken; je krijgt binnen 30 dagen een antwoord.",
+            "Ben je het daarna nog niet eens, stuur dan een aangetekende brief aan de beroepscommissie. Dat kan na de publicatie van je resultaat, na de afsluiting van een online inzage of na het antwoord op je opmerkingen.",
+            "De beroepscommissie beslist binnen 30 kalenderdagen.",
+            "Tegen die beslissing kun je nog naar de Raad van State, binnen 60 kalenderdagen. [4] [3]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Let op de termijn.",
+          "text": "De termijn om beroep aan te tekenen is kort en staat in het examenreglement. Lees die na zodra je resultaat of antwoord binnen is. Twijfel je welke termijn voor jou geldt, vraag het dan meteen via een melding of via 1700. [3] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Werd een vrijstelling geweigerd, dan kun je tot 30 kalenderdagen na de beslissing in beroep gaan, enkel met nieuwe bewijsstukken. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Waar kun je terecht met een algemene klacht?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voor algemene klachten, bijvoorbeeld over wachttijden of volzette examenreeksen, beschrijven de geraadpleegde bronnen geen aparte procedure. Zet je klacht dan concreet en vriendelijk in een melding, of vraag via 1700 waar je ze best indient. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat zijn de ervaringen van anderen? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die al contact opnamen, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vraag bij 1700 naar de Examencommissie, dan word je doorverbonden.",
+            "Een melding via het platform wordt volgens velen snel beantwoord.",
+            "Meld een technisch probleem met een thuisopdracht meteen en beschrijf precies wat er gebeurde.",
+            "Bewaar schermafbeeldingen van foutmeldingen en van berichten in het platform."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Vrijstellingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/vrijstellingen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Het nummer dat ik online vond, werkte niet meer. Via 1700 vroeg ik naar de Examencommissie en werd ik doorverbonden met een heel vriendelijke medewerker.",
+      "name": "Jente",
+      "role": "leerling",
+      "context": "telefonisch contact"
+    },
+    {
+      "quote": "Tijdens Frans 2 was de tekst van mijn zoon plots verdwenen, en ter plaatse kon niemand hem helpen. Op onze melding kregen we snel een vriendelijk antwoord, maar een oplossing was er niet.",
+      "name": "Rachid",
+      "role": "ouder",
+      "context": "Frans 2, 3de graad"
+    },
+    {
+      "quote": "Door een storing moesten we tijdens het examen lang wachten. Achteraf kreeg ik een melding dat die beurt niet meetelde en dat er een extra moment kwam voor wie wilde herkansen.",
+      "name": "Mila",
+      "role": "leerling",
+      "context": "sociale en gedragswetenschappen, 3de graad"
+    },
+    {
+      "quote": "Mijn thuisopdracht gaf foutmeldingen en stond daarna als ingediend, zonder dat ik ze gezien had. Ik heb het meteen gemeld, maar kreeg geen oplossing.",
+      "name": "Oumaima",
+      "role": "leerling",
+      "context": "Frans 2, spreekopdracht thuis"
+    }
+  ],
+  "related": [
+    "wat-is-een-inzage-hoe-verloopt-ze-en-kun-je-er",
+    "wat-doe-je-bij-problemen-met-inloggen-of-je",
+    "wat-gebeurt-er-als-je-een-examen-of-inzage-mist",
+    "hoe-werkt-de-online-spreekopdracht-thuis-voor",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop"
+  ]
+}

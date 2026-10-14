@@ -1,0 +1,164 @@
+{
+  "slug": "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop",
+  "question": "Hoe werkt een digitaal examen op tablet of laptop en krijg je technische hulp?",
+  "title": "Digitaal examen bij de Examencommissie",
+  "description": "Hoe werkt een digitaal examen: examencomputer, schrijftablet en rekenapps. En wat doe je als er technisch iets misloopt tijdens je examen?",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Een digitaal examen leg je af op een examencomputer in het examencentrum in Brussel, niet op je eigen laptop of tablet. Voor sommige wiskunde- en wetenschapsoefeningen krijg je een schrijftablet met digitale pen. Loopt er technisch iets mis, meld het dan meteen aan de toezichter en wacht op de oplossing van de Examencommissie.",
+  "facts": [
+    {
+      "label": "Te laat",
+      "value": "Max. 15 minuten"
+    },
+    {
+      "label": "Ten vroegste beëindigen",
+      "value": "15 min na de start"
+    },
+    {
+      "label": "Testmoment online examen",
+      "value": "Dinsdag, 10 tot 11 uur"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Op welk toestel leg je het examen af?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je examens zijn digitaal en vinden plaats in het examencentrum in Brussel. Je werkt op een examencomputer en logt in met een persoonlijke code. Jas, tas en gsm gaan in een locker. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je eigen gsm, smartwatch, laptop of tablet gebruiken geldt als fraude. Een toestel dat aanstaat, geldt al als in gebruik. Alleen voor de spreekopdracht die je thuis maakt, mag je je eigen pc of laptop gebruiken. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Het kandidatenplatform werkt het best in Chrome of Edge. Safari werkt niet goed. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Welke hulpmiddelen staan er op de examencomputer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voor iedereen staan er woordenboeken, spellingcontrole en een gewone en wetenschappelijke online rekenmachine klaar. Je mag eigen draadloze oortjes of een hoofdtelefoon gebruiken tegen omgevingsgeluid. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bij sommige vakken werk je met rekenapps: een online grafische rekenmachine, een rekenblad en apps voor kansrekenen en statistiek. Ze zijn gebaseerd op GeoGebra, maar hebben niet alle functies. Tijdens het examen krijg je er geen handleiding bij. Voor sommige wiskunde- en wetenschapsoefeningen schrijf je op een schrijftablet met digitale pen. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe kun je vooraf oefenen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Met het digitaal proefexamen leer je alle vraagtypes kennen. Het bevat geen inhoudelijke vragen. Voor het schrijftablet zijn er een proefexamen en een filmpje. De rekenapps kun je thuis vrij uitproberen. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leg je een examen af via videogesprek, bijvoorbeeld een mondeling vanuit het buitenland? Dan kun je je eerste keer vooraf testen met een medewerker, op dinsdag tussen 10 en 11 uur. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat als er technisch iets misloopt?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Meld een probleem meteen aan de toezichter. Die maakt een incidentenformulier op, dat je mee ondertekent. Bij een onvoorziene technische situatie wacht je tot de Examencommissie een oplossing meedeelt. De tijd die je verliest, wordt verlengd. Verlaat je het lokaal eerder, dan verlies je je examenbeurt. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hoever een toezichter je mag helpen met de bediening van de computer, vermelden de officiële bronnen niet. Heb je achteraf nog vragen, stel ze dan via een melding in het kandidatenplatform of bel 1700. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Een examen beëindigen kan ten vroegste 15 minuten na de start. Je sluit af met de knop beëindigen. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke tips geven andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten die al digitale examens aflegden, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oefen thuis met de rekenapps via de website van de Examencommissie, niet met een andere versie van GeoGebra.",
+            "Ken de sneltoets Ctrl+Z (ongedaan maken) en wees voorzichtig met knippen, kopiëren en plakken.",
+            "Oefen het schrijven met een digitale pen vooraf: het gaat trager dan op papier.",
+            "Weet je bij de start niet hoe het scherm of het schrijftablet werkt? Vraag het meteen.",
+            "Meld elk probleem tijdens het examen, zodat het op het incidentenformulier komt."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Schrijven met de digitale pen kostte me veel tijd. Op het einde kon ik mijn eigen handschrift amper nog lezen.",
+      "name": "Noor",
+      "role": "leerling",
+      "context": "wiskunde en fysica, 3de graad"
+    },
+    {
+      "quote": "Bij het knippen en plakken verdween de hele tekst van mijn dochter en ze kreeg hem niet meer terug. Achteraf hoorden we dat Ctrl+Z had kunnen helpen.",
+      "name": "Fatima",
+      "role": "moeder",
+      "context": "Frans 2, 2de graad"
+    },
+    {
+      "quote": "Het uploaden van een oplossing lukte niet bij mijn zoon, en de toezichter mocht hem daar niet mee helpen. Oefen dus vooraf met de rekenapps van de Examencommissie zelf.",
+      "name": "Koen",
+      "role": "vader",
+      "context": "statistiek, 3de graad"
+    },
+    {
+      "quote": "Tijdens mijn examen viel de wifi uit en moesten we lang wachten. Later kregen we een melding dat die beurt niet meetelde en dat er een extra examenmoment kwam.",
+      "name": "Jens",
+      "role": "leerling",
+      "context": "sociale en gedragswetenschappen"
+    }
+  ],
+  "related": [
+    "hoe-verloopt-een-examendag-in-het-examencentrum",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens",
+    "hoe-werkt-de-online-spreekopdracht-thuis-voor",
+    "welke-faciliteiten-zijn-er-bij-dyslexie-of",
+    "hoe-ziet-het-examen-statistiek-eruit-en-hoe"
+  ]
+}

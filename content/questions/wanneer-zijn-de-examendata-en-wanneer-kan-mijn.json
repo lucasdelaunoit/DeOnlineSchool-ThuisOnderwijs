@@ -1,0 +1,163 @@
+{
+  "slug": "wanneer-zijn-de-examendata-en-wanneer-kan-mijn",
+  "question": "Wanneer zijn de examendata en wanneer kan mijn kind een vak (her)kansen?",
+  "title": "Examendata en herkansen in de 1ste graad",
+  "description": "Wanneer zijn de examens 1ste graad bij de Examencommissie en wanneer kan je kind een vak herkansen? Reeksen, beurten en planning uitgelegd.",
+  "category": "Examendata en resultaten",
+  "audience": "Voor ouders · 1ste graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De data staan op de publieke planningskalender: er zijn 5 examenreeksen per kalenderjaar, buiten de sluitingsperiodes. Je kind heeft per vak 3 examenbeurten per kalenderjaar. Een herkansing plan je pas als het resultaat zichtbaar is, en altijd in een andere reeks dan de eerste poging.",
+  "facts": [
+    {
+      "label": "Examenreeksen",
+      "value": "5 per kalenderjaar"
+    },
+    {
+      "label": "Beurten per vak",
+      "value": "3 per kalenderjaar"
+    },
+    {
+      "label": "Resultaat",
+      "value": "Uiterlijk 30 dagen"
+    },
+    {
+      "label": "Geslaagd",
+      "value": "Vanaf 50%"
+    },
+    {
+      "label": "Uitschrijven",
+      "value": "Tot 7 dagen vooraf"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wanneer zijn de examendata voor de 1ste graad?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In de 1ste graad kiest je kind Basisvorming A of Basisvorming B. Je plant de examens vak per vak in het kandidatenplatform, in je eigen tempo en volgorde, op de data die beschikbaar zijn. [5] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er zijn 5 examenreeksen per kalenderjaar, die elk ongeveer 8 à 10 weken duren. Alle data staan op de publieke planningskalender. Inschrijven kan tot 3 dagen voor het examen. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tussen 15 juli en 15 augustus en tijdens de eindejaarsfeestdagen zijn er geen examens. In 2026 loopt de zomersluiting van 20 juli tot en met 14 augustus. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel kansen heeft je kind per vak?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per vak heeft je kind 3 examenbeurten per kalenderjaar. Op 1 januari komen er telkens 3 nieuwe. Elke deelname kost één beurt. Bij meerdere pogingen telt de hoogste score. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je kind is geslaagd vanaf 50%. Deliberatie bestaat niet, maar bij een score vanaf 45% kunnen buispunten helpen, voor maximaal 3 vakken. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volgens het examenreglement kan je kind zich per vak hoogstens 5 keer inschrijven en 3 keer deelnemen per kalenderjaar. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wanneer kan je kind een vak herkansen?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Wacht op het resultaat: dat staat uiterlijk 30 dagen na het examen in het platform.",
+            "Plan de volgende beurt pas als het resultaat zichtbaar is. Vraag je een inzage aan, rond die dan eerst af.",
+            "Kies een moment in een volgende (of eerdere) reeks, niet in dezelfde reeks als de eerste poging.",
+            "Per vak schrijf je je maar één keer in per reeks. Uitschrijven en opnieuw inschrijven in dezelfde reeks kan niet. [2] [1]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Denk aan de leerplicht.",
+          "text": "Volgt je kind huisonderwijs, dan moet het getuigschrift van de 1ste graad behaald zijn in het schooljaar waarin je kind vóór 1 januari 16 wordt. Lukt dat niet op tijd, dan moet je kind naar een erkende school. Hou daar rekening mee bij het plannen van herkansingen. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe plannen andere ouders? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders van kinderen in de 1ste graad geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reken op een paar maanden tussen een examen en de herkansing: de wachttijd op punten, de volgende reeks en de zomersluiting tellen samen.",
+            "Wil je weten wat de eerstvolgende data zijn, kijk dan in de publieke kalender of bij het examen in het platform.",
+            "Het tempo verschilt sterk per kind. Sommige ouders plannen één of twee vakken tegelijk, met een paar weken ertussen.",
+            "Is alles volzet, kijk dan dagelijks: er komen geregeld plaatsen vrij."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik legde Engels af in april en haalde het niet. Mijn herkansing kon ik pas in oktober plannen, dus ik gebruik die tijd om gericht woordenschat en zinsbouw te oefenen.",
+      "name": "Zoë",
+      "role": "leerling",
+      "context": "Engels, 1ste graad"
+    },
+    {
+      "quote": "In juli en augustus stond er voor geschiedenis maar één datum, en die viel tijdens onze vakantie. Andere ouders raadden ons aan dagelijks te kijken of er nog een plaats vrijkwam.",
+      "name": "Sofie",
+      "role": "moeder",
+      "context": "geschiedenis, B-stroom"
+    },
+    {
+      "quote": "Mijn zoon deed het eerste middelbaar op school en legde daarna bijna al zijn examens van de 1ste graad af tussen eind juni en oktober, met de zomersluiting ertussen. Het tempo hangt echt van het kind af.",
+      "name": "Ravi",
+      "role": "ouder",
+      "context": "1ste graad, na een jaar school"
+    },
+    {
+      "quote": "Mijn zoon had zijn tweede poging voor Nederlands begin juli. We oefenden vooral begrijpend lezen en luisteren met korte teksten en filmpjes.",
+      "name": "Lien",
+      "role": "moeder",
+      "context": "Nederlands, B-stroom"
+    }
+  ],
+  "related": [
+    "hoe-begin-ik-aan-de-examencommissie-1ste-graad-en",
+    "hoeveel-studietijd-voorzie-je-best-per-vak-en-hoe",
+    "wat-als-mijn-kind-door-ziekte-of-overmacht-de",
+    "hoeveel-examenbeurten-heb-je-hoe-werken",
+    "wanneer-komen-er-nieuwe-examendata-of-vrije"
+  ]
+}

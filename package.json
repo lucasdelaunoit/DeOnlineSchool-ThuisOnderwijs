@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "eslint",
     "db:seed": "tsx --disable-warning=ExperimentalWarning scripts/questions.ts seed",
-    "questions": "tsx --disable-warning=ExperimentalWarning scripts/questions.ts"
+    "questions": "tsx --disable-warning=ExperimentalWarning scripts/questions.ts",
+    "landingspaginas": "tsx scripts/landingspaginas.ts"
   },
   "dependencies": {
     "next": "16.4.0",

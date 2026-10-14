@@ -1,0 +1,148 @@
+{
+  "slug": "waar-vind-ik-voordelige-of-tweedehands-boeken",
+  "question": "Waar vind ik voordelige of tweedehands boeken voor de 1ste graad?",
+  "title": "Tweedehands boeken voor de 1ste graad",
+  "description": "Voordelige of tweedehands boeken voor de 1ste graad Examencommissie: waar je ze vindt en hoe je controleert of ze nog passen bij de vakfiche.",
+  "category": "Hulp en contact",
+  "audience": "Voor ouders · 1ste graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie geeft zelf geen studiemateriaal: je kiest je boeken zelf, nieuw of tweedehands, of je ontleent ze. Welke leermiddelen passen, staat in de vakfiche die geldt in het jaar van je examen. Vergelijk bij een tweedehands of ouder boek altijd de inhoudstafel met die vakfiche, zeker omdat de 1ste graad vanaf 2026 nieuwe vakken heeft.",
+  "facts": [
+    {
+      "label": "Nieuwe vakfiches",
+      "value": "Gaan in op 1 januari"
+    },
+    {
+      "label": "Vooraf online",
+      "value": "Minstens een half jaar"
+    },
+    {
+      "label": "Nieuwe vakken 1ste graad",
+      "value": "Vanaf 2026"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Moet je boeken kopen voor de Examencommissie?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee, niet verplicht. De Examencommissie werkt met zelfstudie en geeft geen lessen, cursussen of studiemateriaal. Per vak is er wel een vakfiche met de leerinhouden, de vaardigheden en een lijst met leermiddelen die je kunt gebruiken. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je zoekt zelf je materiaal. Dat mag nieuw of tweedehands gekocht zijn, maar je kunt boeken ook ontlenen of in de bibliotheek gaan kijken. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Waar vind je voordelige of tweedehands boeken?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen noemen geen vaste plek om boeken te kopen. In de praktijk zoeken ouders en kandidaten vooral op deze plaatsen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tweedehandsplatformen en zoekertjessites, waar je kunt zoeken op de titel of het ISBN uit de vakfiche.",
+            "Facebookgroepen over de Examencommissie of over huisonderwijs, waar gezinnen na de 1ste graad hun boeken verkopen of weggeven.",
+            "De bibliotheek, voor naslagwerk en extra uitleg bij een vak.",
+            "Familie, buren of kennissen met kinderen die de 1ste graad net achter de rug hebben."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vergelijk de prijs van een tweedehands boek met de nieuwprijs bij de uitgeverij. Een leerwerkboek dat al volledig ingevuld is, is goedkoper, maar je kind kan er minder zelf mee oefenen."
+        }
+      ]
+    },
+    {
+      "title": "Hoe weet je of een tweedehands boek nog past?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Leg de inhoudstafel van het boek naast de vakfiche. Gebruik altijd de vakfiche die geldt in het jaar waarin je kind het examen aflegt. Nieuwe vakfiches gaan in op 1 januari en staan minstens een half jaar vooraf online. Een oudere boekversie kan dus afwijken van wat er op het examen komt. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Controleer ook de stroom. In de 1ste graad kies je tussen Basisvorming A en Basisvorming B, en die hebben elk hun eigen vakfiches. [3]"
+        },
+        {
+          "type": "note",
+          "title": "Let op bij de 1ste graad.",
+          "text": "Vanaf 2026 zijn er nieuwe vakken in de 1ste graad. Boeken die vroeger voor een vak gebruikt werden, passen daardoor niet altijd meer. Kijk op de pagina met het aanbod studierichtingen welke vakken er nu zijn, en open voor elk vak de juiste vakfiche voor je je boeken koopt. [3] [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere ouders aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en kandidaten die al boeken zochten voor de 1ste graad, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zoek eerst tweedehands en koop pas nieuw bij de uitgeverij als je een boek nergens vindt.",
+            "Vraag bij de verkoper na of het boek voor de A- of de B-stroom is en welke editie het is.",
+            "Werkt je kind vrij zelfstandig, dan volstaat voor veel vakken een leerwerkboek.",
+            "Een online code bij een tweedehands boek is vaak al gebruikt. Vraag eventueel bij de uitgeverij of je een nieuwe code kunt krijgen.",
+            "Verbetersleutels zitten niet altijd bij het boek en zijn soms duur. Kijk dat na voor je koopt."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik zoek de boeken uit de vakfiche eerst tweedehands. Vind ik ze niet, of wil mijn zoon voor een vak liever een invulboek, dan koop ik ze nieuw bij de uitgeverij.",
+      "name": "Ilse",
+      "role": "ouder",
+      "context": "start 1ste graad"
+    },
+    {
+      "quote": "We begonnen pas in september en vroegen in de groep of iemand cursussen had om te lenen of over te nemen. Een tip die we kregen: kan je kind zelfstandig werken, dan heb je aan leerwerkboeken vaak genoeg.",
+      "name": "Yasmina",
+      "role": "moeder",
+      "context": "1ste graad, laat gestart"
+    },
+    {
+      "quote": "Na de 1ste graad hebben we onze gebruikte leerwerkboeken te koop gezet. De eerste vraag van kopers was telkens of ze voor de A- of de B-stroom waren.",
+      "name": "Wim",
+      "role": "ouder",
+      "context": "na de 1ste graad"
+    },
+    {
+      "quote": "Van de boeken op de nieuwe vakfiche voor Frans waren er twee nergens meer te vinden. We zijn daarom op zoek gegaan naar een ander leerwerkboek met veel oefeningen op lezen en schrijven.",
+      "name": "Samira",
+      "role": "ouder",
+      "context": "Frans, 1ste graad B-stroom"
+    }
+  ],
+  "related": [
+    "waar-vind-ik-de-leerstof-en-hoe-gebruik-ik-de",
+    "waar-koop-of-verkoop-je-tweedehands-studieboeken",
+    "welke-methode-of-welk-leerplatform-kies-je-best",
+    "waar-vind-je-de-leerstof-vakfiche-en-wat",
+    "welk-studiemateriaal-gebruik-je-voor-de-1ste"
+  ]
+}

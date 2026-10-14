@@ -1,0 +1,156 @@
+{
+  "slug": "hoe-verloopt-een-examendag-in-het-examencentrum",
+  "question": "Hoe verloopt een examendag in het examencentrum in Brussel (aankomst, openingsuur, lokaal, bereikbaarheid)?",
+  "title": "Examendag in het examencentrum Brussel",
+  "description": "Waar is het examencentrum, wat breng je mee, wat als je te laat bent? Zo verloopt een examendag bij de Examencommissie in Brussel.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je examen is in het Consciencegebouw in Brussel, op de 1e verdieping, vlak bij station Brussel-Noord. Breng een geldig identiteitsbewijs mee en stop jas, tas en gsm in een locker. Wees op tijd: wie meer dan 15 minuten te laat is, mag niet meer deelnemen.",
+  "facts": [
+    {
+      "label": "Te laat",
+      "value": "Max. 15 minuten"
+    },
+    {
+      "label": "Vroegst stoppen",
+      "value": "15 min na de start"
+    },
+    {
+      "label": "Niet-deelnames",
+      "value": "Max. 4 per jaar"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Waar is het examencentrum en hoe geraak je er?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Het examencentrum ligt in het Consciencegebouw, Koning Albert II-laan 15, 1210 Brussel, op de 1e verdieping. Station Brussel-Noord ligt vlakbij. Je examenuur vind je in het kandidatenplatform. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hoe laat het gebouw 's morgens opengaat, staat niet in de officiële bronnen. Twijfel je, bel dan 1700 of stel je vraag via een melding in het kandidatenplatform. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat breng je mee en wat gebeurt er bij aankomst?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Breng altijd een geldig identiteitsbewijs mee. Een foto ervan volstaat niet, en zonder geldig bewijs mag je niet deelnemen. Aanvaard zijn onder meer je eID, kids-ID, internationaal paspoort, Belgisch (voorlopig) rijbewijs of elektronische vreemdelingenkaart. Itsme of een andere digitale versie wordt niet aanvaard. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je jas, tas en gsm gaan in een locker: je neemt niets persoonlijks mee in het examenlokaal. Men vergelijkt je met de foto op je identiteitskaart en in het platform. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een begeleider mag mee tot aan de onthaalbalie en wacht op het gelijkvloers. In de wachtruimte van het examencentrum mag een begeleider alleen als ondersteunende maatregel bij een zorgproblematiek, met een medisch attest. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe verloopt het examen zelf?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een digitaal examen maak je op een examencomputer. Je logt in met een persoonlijke code en sluit af met 'beëindigen', ten vroegste 15 minuten na de start. Op de computer vind je onder meer een woordenboek, spellingcontrole en een online rekenmachine. Eigen draadloze oortjes of een hoofdtelefoon tegen omgevingsgeluid mag je gebruiken. [1] [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bij een mondeling examen bereid je je eerst voor in een apart lokaal. Een scherm toont hoeveel voorbereidingstijd je nog hebt, en de examinator haalt je op. Een gsm of smartwatch die aanstaat, geldt als in gebruik en dus als fraude. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat als je te laat bent of er iets misloopt?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je mag maximaal 15 minuten te laat komen, zonder extra tijd. Ben je later, dan telt dat als niet-deelname. Je hoeft niets te verantwoorden, maar de Examencommissie aanvaardt ook geen attesten of ziektebriefjes. Per kalenderjaar mag je maximaal 4 keer niet deelnemen. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valt er tijdens het examen iets technisch uit, wacht dan tot de Examencommissie een oplossing meedeelt. Wie het lokaal eerder verlaat, verliest zijn beurt; verloren tijd wordt verlengd. Meld een incident aan de toezichter: samen vul je een incidentenformulier in dat je mee ondertekent. [2]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Heb je een bewijs nodig dat je er was, bijvoorbeeld voor school of werk? Download het in het platform via 'Examenresultaten', de drie puntjes en 'Download aanwezigheidsbewijs'. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe zorg je voor een rustige examendag? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die al vaak naar Brussel reisden, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Neem een trein vroeger dan nodig. Een afgeschafte trein of file is geen geldige reden.",
+            "Woon je ver, plan dan liever geen examen om 8.30 uur. Sommigen overnachten de avond ervoor in Brussel.",
+            "Met de auto parkeer je betalend; in de straten rond het gebouw is weinig plaats.",
+            "Zeg aan het onthaal dat het je eerste keer is. Dan krijg je extra uitleg.",
+            "Wie meereist, kan beneden in het gebouw wachten met een boek of laptop."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Op de ochtend van het examen bleek onze trein geschrapt. Omdat we ruim marge hadden ingepland, haalden we nog een vroegere trein en waren we op tijd.",
+      "name": "Hilde",
+      "role": "moeder",
+      "context": "examen om 8.30 uur, vanuit West-Vlaanderen"
+    },
+    {
+      "quote": "Mijn dochter toont bij het aanmelden haar identiteitskaart en krijgt een nummer mee naar het lokaal. Ze komt altijd zo'n halfuur vooraf aan, zodat ze rustig haar spullen in een kastje kan leggen.",
+      "name": "Nadia",
+      "role": "moeder",
+      "context": "aanmelden in het examencentrum"
+    },
+    {
+      "quote": "Terwijl mijn zoon examen deed, zat ik beneden in het gebouw met mijn laptop. Er zijn zitplaatsen en je kunt er iets drinken.",
+      "name": "Bart",
+      "role": "vader",
+      "context": "wachten tijdens het examen"
+    },
+    {
+      "quote": "Ik zei aan het onthaal dat het mijn eerste keer was. Ze legden alles rustig uit en wezen me de weg.",
+      "name": "Elif",
+      "role": "leerling",
+      "context": "eerste examen, 3e graad"
+    }
+  ],
+  "related": [
+    "wat-gebeurt-er-als-je-een-examen-of-inzage-mist",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop",
+    "hoe-verloopt-het-praktisch-na-inschrijving",
+    "welke-faciliteiten-zijn-er-bij-dyslexie-of",
+    "wat-doe-je-bij-problemen-met-inloggen-of-je"
+  ]
+}

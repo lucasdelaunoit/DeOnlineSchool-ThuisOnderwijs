@@ -1,0 +1,158 @@
+{
+  "slug": "waar-koop-of-verkoop-je-tweedehands-studieboeken",
+  "question": "Waar koop of verkoop je tweedehands studieboeken?",
+  "title": "Tweedehands studieboeken voor de EC",
+  "description": "Waar vind je tweedehands studieboeken voor de Examencommissie, hoe controleer je of ze bij de vakfiche passen en hoe verkoop je je boeken veilig?",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Tweedehands studieboeken vind je op tweedehandsplatformen, in Facebookgroepen over de Examencommissie en soms in de bibliotheek. De Examencommissie levert zelf geen studiemateriaal; welke leermiddelen passen, staat in de vakfiche. Vergelijk de inhoudstafel met de vakfiche van het jaar van je examen, want oudere uitgaven kunnen afwijken.",
+  "facts": [
+    {
+      "label": "Nieuwe vakfiches",
+      "value": "Gaan in op 1 januari"
+    },
+    {
+      "label": "Online vooraf",
+      "value": "Minstens een half jaar"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Welke boeken heb je nodig?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie geeft geen lessen en levert geen studiemateriaal. Per vak is er een vakfiche met de leerinhouden, de vaardigheden en een lijst met leermiddelen. Nieuwe vakfiches gaan in op 1 januari en staan minstens een half jaar vooraf online. Gebruik de fiche die geldt in het jaar van je examen. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je zoekt je materiaal zelf: nieuw of tweedehands kopen, of ontlenen, bijvoorbeeld in de bibliotheek. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let op als het aanbod veranderde. Sinds 1 september 2025 zijn er nieuwe studierichtingen in de 3e graad, en vanaf 2026 zijn er nieuwe vakken in de 1e graad. Boeken van iemand die een oude richting of een vroeger programma deed, sluiten dan misschien niet meer aan. [2] [3]"
+        }
+      ]
+    },
+    {
+      "title": "Waar koop je tweedehands studieboeken?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Op tweedehandsplatformen. Zoek op de titel, de reeksnaam of het ISBN-nummer, in de rubriek voor schoolboeken.",
+            "In Facebookgroepen over de Examencommissie. Kandidaten die klaar zijn, verkopen er vaak hun boeken, soms per pakket.",
+            "Via een eigen zoekoproep: vermeld de titel, het deel, je graad en richting en je regio.",
+            "In de bibliotheek, om boeken te ontlenen.",
+            "Bij familie, vrienden of oud-leerlingen van een school die dezelfde richting volgden. [4]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe controleer je of een tweedehands boek nog klopt?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vergelijk de inhoudstafel met de leerinhouden in je vakfiche.",
+            "Kijk naar de editie, het uitgavejaar en het ISBN-nummer. Vraag de verkoper om een foto van de inhoudstafel.",
+            "Check of het boek bij jouw graad, richting of finaliteit hoort. In de 1e graad is er een A- en een B-stroom.",
+            "Is het een leerwerkboek? Vraag hoeveel er al is ingevuld en of de verbetersleutel of handleiding erbij zit.",
+            "Controleer of je alle delen hebt, bijvoorbeeld deel 1 en deel 2. [2]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Let op met oudere uitgaven.",
+          "text": "Een boek dat vroeger goed aansloot, kan na een nieuwe vakfiche afwijken. Gebruik altijd de vakfiche die geldt in het jaar van je examen als maatstaf. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe verkoop je je boeken veilig?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vermeld in je advertentie de titel, de editie, het ISBN-nummer, de staat van het boek en voor welke graad en richting je het gebruikte. Zet je adres en telefoonnummer niet openbaar en spreek ophalen af op een veilige plek. Ben je minderjarig, laat dan een ouder meekijken."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verkoop of deel geen notities met examenvragen. Examenvragen en verbetersleutels kopiëren of verspreiden is verboden, ook als je ze bij een inzage zag. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe vind je goede tweedehands boeken? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die boeken kochten en verkochten, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zet de ISBN-nummers in je zoekoproep, dan weten verkopers meteen welk boek je bedoelt.",
+            "Vraag bij invulboeken naar de verbetersleutel. Die apart kopen kan duur zijn.",
+            "Vraag of het boek voor de A- of de B-stroom is, of voor welke richting.",
+            "Boeken worden soms als pakket per graad verkocht. Reken uit of je alles nodig hebt."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Achteraf bleek dat we bij invulboeken ook de verbetersleutel nodig hadden, en die is apart duur. Vraag daar dus meteen naar als je tweedehands koopt.",
+      "name": "Wim",
+      "role": "vader",
+      "context": "3e graad, invulboeken"
+    },
+    {
+      "quote": "Ik zocht de geschiedenisboeken uit de vakfiche via een oproep in een groep. Binnen enkele minuten reageerden twee mensen, en ik kon de boeken bij iemand in de buurt ophalen.",
+      "name": "Yasmina",
+      "role": "leerling",
+      "context": "geschiedenis, 3e graad"
+    },
+    {
+      "quote": "Ik zette de ISBN-nummers van de wiskundewerkboeken in mijn oproep. De tip die ik kreeg: zoek op een tweedehandssite op de reeksnaam, in de rubriek schoolboeken.",
+      "name": "Thibault",
+      "role": "leerling",
+      "context": "wiskunde, 3e graad doorstroom"
+    },
+    {
+      "quote": "Ik had boeken gekocht die ik uiteindelijk niet gebruikte en heb ze doorverkocht. Kopers vroegen vooral of de correctiesleutels erbij zaten en waar ze konden ophalen.",
+      "name": "Amber",
+      "role": "leerling",
+      "context": "3e graad, boeken verkocht"
+    }
+  ],
+  "related": [
+    "waar-vind-ik-voordelige-of-tweedehands-boeken",
+    "waar-vind-je-de-leerstof-vakfiche-en-wat",
+    "welk-boek-of-welke-cursus-gebruik-je-voor",
+    "waar-vind-je-een-samenvatting-van-een-vak-of-van"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "heb-je-via-de-examencommissie-een",
+  "question": "Heb je via de examencommissie een studentenstatuut (studentenjob, schoolattest, kinderbijslag), ook na je diploma?",
+  "title": "Studentenstatuut via de Examencommissie?",
+  "description": "Heb je een studentenstatuut via de Examencommissie? Wat zeggen de bronnen over attesten, studentenjobs en het Groeipakket voor en na je 18de?",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De officiële bronnen van de Examencommissie vermelden geen studentenstatuut. Je kunt wel een inschrijvingsbewijs en een aanwezigheidsattest krijgen. Het Groeipakket loopt tot en met de maand waarin je 18 wordt; daarna volstaat de Examencommissie alleen niet meer.",
+  "facts": [
+    {
+      "label": "Groeipakket zeker",
+      "value": "Tot de maand van je 18de"
+    },
+    {
+      "label": "Als schoolverlater",
+      "value": "Nog 12 maanden"
+    },
+    {
+      "label": "Volwassenenonderwijs",
+      "value": "Min. 17 uur per week"
+    },
+    {
+      "label": "Vanaf 25 jaar",
+      "value": "Geen Groeipakket"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Ben je student als je via de Examencommissie studeert?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen spreken niet over een studentenstatuut. Ook het examenreglement vermeldt het niet. Of je als kandidaat een studentenjob mag doen, staat er dus niet in. Twijfel je, bel dan 1700 of stel je vraag via een melding in het kandidatenplatform. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ben je jonger dan 18 en volg je huisonderwijs? Dan ben je leerplichtig. Je inschrijving bij de Examencommissie volstaat niet om aan die leerplicht te voldoen: je ouders dienen ook elk schooljaar een verklaring huisonderwijs in. [5]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wil je weten of je tijdens de lesuren als jobstudent mag werken? Dat lees je in onze vraag over werken als jobstudent met huisonderwijs."
+        }
+      ]
+    },
+    {
+      "title": "Welk attest kun je krijgen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een inschrijvingsbewijs vraag je aan via een melding in het kandidatenplatform. Je krijgt het digitaal. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een aanwezigheidsattest download je zelf, na een examen of een inzage. Ga in het platform naar Examenresultaten, klik op de drie puntjes en kies Download aanwezigheidsbewijs. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een schoolattest of studentenkaart zoals een school die geeft, vermelden de bronnen niet. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Krijg je nog Groeipakket (kinderbijslag)?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tot en met de maand waarin je 18 wordt, heb je recht op het Groeipakket. Tussen 18 en 25 jaar volstaat deelnemen aan examens van de Examencommissie niet. Je hebt dan daarnaast een van deze inschrijvingen nodig: [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "minstens 17 uur per week in het secundair volwassenenonderwijs;",
+            "minstens 13 uur per week in het hoger beroepsonderwijs;",
+            "een inschrijving voor minstens 27 studiepunten in het hoger onderwijs. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Heb je geen van die inschrijvingen, dan krijg je als schoolverlater nog 12 maanden Groeipakket na je 18de verjaardag. Parentia raadt aan je dan als werkzoekende in te schrijven bij de VDAB. Vanaf 25 jaar is er geen Groeipakket meer. Deze regels gelden in Vlaanderen. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Volg je huisonderwijs, dan heb je geen recht op schooltoeslag. Ontving je die al en stap je midden in het jaar over, dan wordt ze teruggevorderd. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Wat verandert er na je diploma?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen zeggen niet wat je statuut is tussen je laatste examen en de start van een vervolgopleiding. Voor het Groeipakket gelden dezelfde regels als hierboven. Schrijf je je in voor minstens 27 studiepunten in het hoger onderwijs, dan voldoe je weer aan de voorwaarden tot je 25 bent. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of je in die tussenperiode als student mag werken, vermelden de bronnen niet. Vraag het na bij 1700. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere kandidaten en ouders aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die hier al mee te maken kregen, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vraag het officiële inschrijvingsbewijs aan via een melding. Werkgevers vragen soms een bewijs dat je studeert.",
+            "Leg een werkgever kort uit hoe de Examencommissie werkt. Veel werkgevers kennen het systeem niet.",
+            "Kijk je recht op Groeipakket ruim voor je 18de verjaardag na bij je uitbetaler. Ouders krijgen soms tegenstrijdige antwoorden.",
+            "Wil je na je 18de het Groeipakket behouden, bekijk dan lessen in het volwassenenonderwijs naast de Examencommissie."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Parentia, *Heb je nog recht op het Groeipakket als je deelneemt aan de examencommissie?*",
+      "url": "https://www.parentia.be/nl/gezinsadministratie/heb-je-nog-recht-op-het-groeipakket-of-kinderbijslag-als-je-deelneemt-aan-de-examencommissie"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Mijn werkgever vroeg een schoolattest. Ik gaf een schermafbeelding van mijn profiel en mijn examenplanning in het kandidatenplatform, met wat uitleg, en dat werd aanvaard.",
+      "name": "Ilias",
+      "role": "leerling",
+      "context": "studentenjob, 19 jaar"
+    },
+    {
+      "quote": "Bij een paar werkgevers werd ik afgewezen omdat ik geen officiële student ben. Ze wisten vaak zelf niet goed hoe het zit met de Examencommissie.",
+      "name": "Mira",
+      "role": "leerling",
+      "context": "studentenjob, meerderjarig"
+    },
+    {
+      "quote": "Onze dochter werd in de lente 18. Als schoolverlater krijgen we het Groeipakket nog tot een jaar later.",
+      "name": "Hilde",
+      "role": "moeder",
+      "context": "dochter 18, 3de graad"
+    },
+    {
+      "quote": "Toen onze dochter 18 werd, liet ik haar naast de Examencommissie lessen volgen in het volwassenenonderwijs. De school vulde een attest in voor het Groeipakket, en dat liep gewoon door.",
+      "name": "Bart",
+      "role": "vader",
+      "context": "dochter meerderjarig, volwassenenonderwijs"
+    }
+  ],
+  "related": [
+    "mag-je-als-jobstudent-werken-tijdens-de-lesuren",
+    "kun-je-de-examencommissie-combineren-met-school",
+    "wat-moet-je-regelen-voor-huisonderwijs-en",
+    "kun-je-al-starten-in-het-hoger-onderwijs-terwijl",
+    "hoe-contacteer-je-de-examencommissie-of-dien-je"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "wat-doe-je-als-je-online-cursus-niet-werkt-of-je",
+  "question": "Wat doe je als je online cursus niet werkt of je gekochte cursus niet toekomt?",
+  "title": "Online cursus werkt niet of komt niet toe",
+  "description": "Werkt je online cursus niet of kreeg je je gekochte cursus niet? Zo los je het op met de aanbieder en studeer je intussen verder met de vakfiche.",
+  "category": "Studiemateriaal en cursussen",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Kijk eerst je spam na en volg de activatie- of inloginstructies van de aanbieder. Lukt het niet, contacteer de aanbieder dan schriftelijk met je bestelgegevens en bewaar je betalingsbewijs. Studeer intussen verder met de vakfiche en materiaal uit de bibliotheek, en kijk of je examen nog haalbaar is.",
+  "sections": [
+    {
+      "title": "Wie helpt je bij een probleem met een gekochte cursus?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie verkoopt geen cursussen en biedt geen studiemateriaal aan. Een cursus, samenvatting of online leerplatform koop je bij een andere aanbieder. Voor problemen met je aankoop, je login of de levering moet je dus bij die aanbieder zijn, niet bij de Examencommissie. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat controleer je eerst?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Veel problemen hebben een eenvoudige oorzaak. Overloop eerst deze punten:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zoek in je spam of map met ongewenste mail naar een bevestiging, activatiecode of inlogmail.",
+            "Lees de leveringsvoorwaarden: staat er een termijn in werkdagen, dan tellen weekends en feestdagen meestal niet mee.",
+            "Kijk of je de cursus nog moet activeren, of je een nieuw wachtwoord kreeg of je bij een nieuw platform moet inloggen.",
+            "Probeer een andere browser of een ander toestel en wis je browsergegevens.",
+            "Kijk op de website of sociale media van de aanbieder of er een storing of onderhoud gemeld is."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe contacteer je de aanbieder?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Werkt het daarna nog niet, neem dan schriftelijk contact op, bijvoorbeeld per mail of via het contactformulier. Zo heb je een spoor van wat je vroeg en wanneer."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vermeld je naam, het e-mailadres van je account, je bestelnummer, de aankoopdatum en het vak.",
+            "Beschrijf kort wat er misloopt en voeg screenshots van foutmeldingen toe.",
+            "Bewaar je betalingsbewijs, de bestelbevestiging en alle mails.",
+            "Krijg je na een paar werkdagen geen antwoord, stuur dan een herinnering en vermeld je examendatum als die dichtbij is.",
+            "Kocht je tweedehands bij een particulier, bewaar dan ook het gesprek en de afspraken over verzending."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kom je er samen niet uit, dan kun je advies vragen bij een consumentenorganisatie."
+        }
+      ]
+    },
+    {
+      "title": "Hoe studeer je intussen verder?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wacht niet stil tot het opgelost is. Met de vakfiche heb je al de volledige lijst van leerinhouden en vaardigheden, en een lijst met leermiddelen. Daarmee kun je meteen verder: [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ontleen een handboek uit de lijst van leermiddelen in de bibliotheek en werk de onderdelen van de vakfiche af.",
+            "Maak het digitale proefexamen van de Examencommissie om de vraagtypes te leren kennen.",
+            "Gebruik gratis extra's, zoals uitlegvideo's op YouTube, voor onderdelen die je nog niet begrijpt. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Komt je examen te dichtbij? Uitschrijven kan tot 7 dagen voor het examen. Later geldt het als niet-deelname. Hou er rekening mee dat je je per vak maar één keer per examenreeks kunt inschrijven, dus een nieuw moment kies je in een andere reeks. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat zeggen andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die dit meemaakten, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Het antwoord van de aanbieder belandde vaak in de spam. Kijk daar eerst.",
+            "Bij een storing van een online platform is het verstandig om niet alles op de laatste dagen voor je examen te plannen.",
+            "Download of noteer wat je kunt, zodat je bij een storing niet zonder leerstof zit."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "We hadden een cursus betaald, maar na een week zagen we nog niets. Na een paar mails kwam er toch een antwoord; de cursus moest nog geactiveerd worden.",
+      "name": "Liesbeth",
+      "role": "moeder",
+      "context": "online cursus, 3e graad"
+    },
+    {
+      "quote": "Een paar dagen voor mijn examen lag het online platform van mijn cursus plat. Ik kon mijn digitale oefeningen niet meer maken en had liever wat vroeger geoefend.",
+      "name": "Ayoub",
+      "role": "leerling",
+      "context": "geschiedenis, 3e graad"
+    },
+    {
+      "quote": "Er stond dat de cursus ten laatste één werkdag na aankoop beschikbaar zou zijn. Ik kreeg hem ook in het weekend, maar de mail zat in mijn ongewenste mail.",
+      "name": "Marie",
+      "role": "leerling",
+      "context": "online cursus, levering"
+    },
+    {
+      "quote": "Mijn zoon kon dagenlang niet inloggen. De aanbieder was overgestapt naar een nieuw platform en stuurde nieuwe inloggegevens per mail; die hadden we gemist.",
+      "name": "Wim",
+      "role": "vader",
+      "context": "overstap naar een nieuw platform"
+    }
+  ],
+  "related": [
+    "waar-vind-je-de-leerstof-vakfiche-en-wat",
+    "waar-koop-of-verkoop-je-tweedehands-studieboeken",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens",
+    "hoe-contacteer-je-de-examencommissie-of-dien-je"
+  ]
+}

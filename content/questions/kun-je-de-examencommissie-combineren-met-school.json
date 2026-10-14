@@ -1,0 +1,142 @@
+{
+  "slug": "kun-je-de-examencommissie-combineren-met-school",
+  "question": "Kun je de examencommissie combineren met school, een studentenjob of hoger onderwijs?",
+  "title": "Combineren met school of studentenjob",
+  "description": "Kun je de Examencommissie combineren met school, een studentenjob of hoger onderwijs? Wat mag volgens de leerplicht en wat zeggen de bronnen?",
+  "category": "Starten en keuzes",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja, iedereen kan examens afleggen, ook naast school. Je kunt wel niet tegelijk in een school en in huisonderwijs ingeschreven zijn, en de Examencommissie telt niet voor de leerplicht. Een studentenstatuut vermelden de officiële bronnen niet; hoger onderwijs combineren kan soms via een creditcontract.",
+  "facts": [
+    {
+      "label": "Leerplicht",
+      "value": "Van 5 tot 18 jaar"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Kun je de Examencommissie combineren met school?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Iedereen kan deelnemen aan de examens, ook als je nog in een school ingeschreven bent. Leeftijd en vooropleiding spelen geen rol. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ben je leerplichtig, dan ga je naar school of volg je huisonderwijs. Je kunt niet tegelijk in een school én in huisonderwijs ingeschreven zijn. Een inschrijving bij de Examencommissie telt niet om aan de leerplicht te voldoen. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of je school je afwezigheid voor een examen wettigt, of je lessen mag overslaan voor vakken die je al via de Examencommissie haalde, beslist de school. De officiële bronnen van de Examencommissie zeggen daar niets over. Maak er vooraf afspraken over met de school en het CLB."
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Na elk examen download je zelf een aanwezigheidsattest: in het platform via Examenresultaten, de drie puntjes en Download aanwezigheidsbewijs. Dat bewijst dat je aanwezig was, maar het is geen afwezigheidsattest voor school. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Mag je een studentenjob doen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen en het examenreglement vermelden geen studentenstatuut. Wel kun je via een melding in het platform een inschrijvingsbewijs vragen; je krijgt het digitaal. [4] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of een werkgever dat aanvaardt en welke regels voor jou gelden, lees je in onze vragen over het studentenstatuut via de Examencommissie en over werken als jobstudent tijdens de lesuren. Twijfel je, bel dan 1700."
+        }
+      ]
+    },
+    {
+      "title": "Kun je al hoger onderwijs volgen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dat kan met een creditcontract. Je schrijft je dan in voor één of meer opleidingsonderdelen en volgt de lessen en examens samen met gewone studenten. Je moet voldoen aan de algemene toelatingsvoorwaarden, of de instelling beslist na onderzoek dat je bekwaam bent. Met een creditcontract heb je geen recht op een studietoelage. [5]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wacht je nog op je resultaten of je diploma? Lees dan onze vraag over starten in het hoger onderwijs terwijl je nog op je resultaten wacht."
+        }
+      ]
+    },
+    {
+      "title": "Hoe combineren anderen het? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die school, werk of hoger onderwijs combineren met de Examencommissie, delen deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bespreek je plan vooraf met de school. Sommige scholen laten je lessen missen voor vakken die je al haalde, andere niet.",
+            "Wil je als vrije leerling enkele lessen blijven volgen, vraag het dan tijdig en met het CLB erbij. Niet elke school gaat akkoord.",
+            "Combineer je voltijds school met examens, plan dan vaste studiemomenten in.",
+            "Voor een creditcontract neem je best contact op met de studiebegeleiding van de opleiding: niet elke instelling en richting laat het toe."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Creditbewijzen hoger onderwijs behalen via een creditcontract*",
+      "url": "https://www.vlaanderen.be/creditbewijzen-hoger-onderwijs-behalen-via-een-creditcontract"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik combineer voltijds school met examens bij de Examencommissie. Dat lukt goed, zolang ik genoeg tijd maak om te studeren.",
+      "name": "Jarne",
+      "role": "leerling",
+      "context": "voltijds school en EC"
+    },
+    {
+      "quote": "Wij vroegen of onze zoon als vrije leerling lessen mocht blijven volgen naast de Examencommissie, maar de school weigerde. Hij koos toen volledig voor de Examencommissie, met privébijles.",
+      "name": "Marieke",
+      "role": "moeder",
+      "context": "zoon, 3e graad"
+    },
+    {
+      "quote": "Onze zoon legt de vakken van de 1e graad af bij de Examencommissie en volgt nog een paar vakken op school. Voor techniek stemmen we af met de school, omdat ze daar vaak dezelfde leerstof zien.",
+      "name": "Fatima",
+      "role": "moeder",
+      "context": "zoon, 1e graad, deels op school"
+    },
+    {
+      "quote": "Ik combineer mijn laatste examens met een creditcontract in het hoger onderwijs. Niet elke universiteit en niet elke richting laat dat toe, dus vraag het na.",
+      "name": "Aster",
+      "role": "leerling",
+      "context": "EC en creditcontract"
+    }
+  ],
+  "related": [
+    "heb-je-via-de-examencommissie-een",
+    "mag-je-als-jobstudent-werken-tijdens-de-lesuren",
+    "kun-je-al-starten-in-het-hoger-onderwijs-terwijl",
+    "kun-je-via-een-creditcontract-al-starten-in-het",
+    "wat-moet-je-regelen-voor-huisonderwijs-en"
+  ]
+}

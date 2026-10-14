@@ -1,0 +1,165 @@
+{
+  "slug": "bestaat-er-een-whatsapp-of-studiegroep-voor-mijn",
+  "question": "Bestaat er een WhatsApp- of studiegroep voor mijn richting in de 2de graad?",
+  "title": "WhatsApp- en studiegroep 2de graad",
+  "description": "Bestaat er een WhatsApp- of studiegroep voor jouw richting in de 2de graad? Zo vind je er een, start je er zelf een en bewaak je je privacy.",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie organiseert zelf geen studiegroepen. Kandidaten en ouders vinden elkaar vooral via Facebookgroepen over de Examencommissie, maar voor veel richtingen van de 2de graad bestaat er geen vaste WhatsApp-groep. Vind je er geen, start er dan zelf één. Deel daarin nooit examenvragen of persoonsgegevens.",
+  "facts": [
+    {
+      "label": "Richtingen 2de graad",
+      "value": "8"
+    },
+    {
+      "label": "Richtingen per graad",
+      "value": "1 per kandidaat"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Welke richtingen heeft de 2de graad?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 2de graad telt acht studierichtingen, verdeeld over drie finaliteiten. Per graad schrijf je je in voor één studierichting. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Doorstroomfinaliteit: Economische wetenschappen, Humane wetenschappen, Latijn, Natuurwetenschappen en Moderne talen.",
+            "Dubbele finaliteit: Bedrijf en organisatie, Maatschappij en welzijn.",
+            "Arbeidsmarktfinaliteit: Organisatie en logistiek. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vermeld in een oproep altijd de exacte naam van je richting en de graad. Zo vinden medestudenten met dezelfde vakken je sneller."
+        }
+      ]
+    },
+    {
+      "title": "Hoe vind je een groep voor jouw richting?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie werkt met zelfstudie en biedt geen lessen of studiebegeleiding. Een studiegroep zoek of maak je dus zelf. [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zoek in Facebookgroepen over de Examencommissie op de naam van je richting en de graad. Vaak stond dezelfde vraag er al.",
+            "Lees de reacties onder oudere berichten: soms is er intussen een groep gestart.",
+            "Zoek je vooral contact in je buurt, vermeld dan je regio. Voor online samen studeren maakt de regio niet uit.",
+            "Vind je niets voor jouw richting, sluit dan aan bij een bredere groep voor de 2de graad of voor jouw finaliteit."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe start je zelf een groep?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een groep starten is eenvoudig. Met een paar afspraken vooraf blijft ze ook bruikbaar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Plaats een korte oproep met je graad, je richting en of het om online contact of samen studeren in je regio gaat.",
+            "Spreek af waarvoor de groep dient: planning, uitleg over leerstof, motivatie of praktische vragen.",
+            "Stel een paar eenvoudige huisregels op en spreek af wie nieuwe leden toevoegt.",
+            "Verwijs voor regels en data altijd naar de officiële bronnen en de vakfiche, niet naar wat iemand in de groep denkt."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Waar let je op voor privacy en examenvragen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deel in een groep zo weinig mogelijk persoonsgegevens, zoals je adres, je geboortedatum of je identiteitskaart. Deel nooit je inloggegevens of digitale sleutels: je bent zelf verantwoordelijk om te kunnen inloggen op het kandidatenplatform. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Examenvragen delen mag niet.",
+          "text": "Volgens het examenreglement mag je examenvragen en verbetersleutels niet kopiëren, fotograferen, filmen of verspreiden. Misbruik wordt gesanctioneerd. Ook het ruilen of verkopen van examenplaatsen geldt als fraude. Spreek dat duidelijk af in je groep. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat zijn de ervaringen van anderen? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die een groep zochten of startten, vertellen dit: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Onder een oproep reageren vaak veel mensen met 'ik volg', maar komt er geen groep. Wie zelf de eerste stap zet, heeft meer kans.",
+            "Anonieme leden in een Facebookgroep kunnen vaak geen privéberichten ontvangen. Pas je profiel aan als je wilt dat iemand je toevoegt.",
+            "Een groep met ouders uit verschillende richtingen van de 2de graad doorstroom kan al nuttig zijn voor praktische vragen.",
+            "Krijg je in een groep tegenstrijdig advies over leerstof, controleer het dan altijd met de vakfiche."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik vond geen groep voor de 2de graad doorstroom en vroeg in een Facebookgroep wie er samen één wilde starten. Er reageerden meteen ouders uit verschillende richtingen, en zo kwam er een WhatsApp-groep.",
+      "name": "Griet",
+      "role": "ouder",
+      "context": "2de graad Latijn"
+    },
+    {
+      "quote": "Op mijn vraag naar een WhatsApp-groep reageerden heel wat mensen met 'ik volg'. Weken later was er nog altijd geen groep.",
+      "name": "Kenzo",
+      "role": "leerling",
+      "context": "2de graad Bedrijf en organisatie"
+    },
+    {
+      "quote": "Ik vond vooral informatie over de 3de graad. Op mijn oproep reageerden een paar ouders van wie het kind dezelfde richting volgt, en met één van hen hou ik nu privé contact.",
+      "name": "Amal",
+      "role": "ouder",
+      "context": "2de graad Maatschappij en welzijn"
+    },
+    {
+      "quote": "Onze dochter wilde medestudenten uit de buurt leren kennen om af en toe samen te studeren. Wij boden daarvoor zelf een rustige plek aan in onze oproep.",
+      "name": "Linh",
+      "role": "ouder",
+      "context": "2de graad Natuurwetenschappen"
+    }
+  ],
+  "related": [
+    "zijn-er-studiegroepen-of-medestudenten-in-mijn",
+    "hoe-vind-ik-andere-leerlingen-of-ouders-om-samen",
+    "hoe-ga-je-om-met-eenzaamheid-en-waar-vind-je",
+    "waar-vind-je-bijles-of-begeleiding-voor-de-2de",
+    "is-de-2de-graad-via-de-examencommissie-haalbaar"
+  ]
+}

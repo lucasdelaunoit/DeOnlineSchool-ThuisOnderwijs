@@ -1,0 +1,141 @@
+{
+  "slug": "waar-vind-je-verbetersleutels-en-oplossingen-bij",
+  "question": "Waar vind je verbetersleutels en oplossingen bij de handboeken van de 2de graad?",
+  "title": "Verbetersleutels bij handboeken 2de graad",
+  "description": "Waar vind je verbetersleutels en oplossingen bij de handboeken van de 2de graad voor de Examencommissie, en wat doe je als er geen zijn?",
+  "category": "Studiemateriaal en cursussen",
+  "audience": "Voor ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie levert zelf geen handboeken of verbetersleutels. Een verbetersleutel hoort bij de uitgeverij van je boek: vraag die er zelf naar. Volgens andere ouders zit ze soms in een handleiding voor leerkrachten of een digitale licentie, en geven sommige uitgeverijen toegang als je toont dat je bij de Examencommissie ingeschreven bent.",
+  "sections": [
+    {
+      "title": "Krijg je verbetersleutels van de Examencommissie?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. Bij de Examencommissie studeer je zelfstandig: er zijn geen lessen, geen begeleiding en geen studiemateriaal van de Examencommissie. De vakfiche van elk vak bevat wel een lijst leermiddelen. Die boeken koop je nieuw of tweedehands, of je ontleent ze. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verbetersleutels of oplossingen moet je dus zelf zoeken bij het materiaal dat je kiest. Hou daar rekening mee voor je een boek koopt. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Waar vraag je een verbetersleutel aan?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en kandidaten vinden oplossingen meestal via een van deze wegen: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mail of bel de klantendienst van de uitgeverij en vraag of je als kandidaat van de Examencommissie toegang kunt krijgen tot de verbetersleutel.",
+            "Koop de handleiding voor leerkrachten bij. Die bevat vaak de oplossingen, maar is meestal duurder dan het leerwerkboek.",
+            "Neem een digitale licentie op het leerplatform van een uitgeverij, waar oplossingen soms inbegrepen zijn.",
+            "Koop een tweedehands handleiding en controleer of het om dezelfde editie gaat en of een eventuele code nog werkt. [4]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vraagt een uitgeverij een bewijs dat je ingeschreven bent? Een inschrijvingsbewijs vraag je via een melding in het kandidatenplatform; je krijgt het digitaal. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat doe je als er geen verbetersleutel is?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ook zonder verbetersleutel kun je je antwoorden controleren:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kies waar mogelijk een leerwerkboek of handboek waarin de theorie bij de oefeningen staat, zodat je zelf kunt terugbladeren.",
+            "Vergelijk je antwoord met de uitleg in de theorie of met gratis YouTube-uitlegvideo’s over hetzelfde onderwerp.",
+            "Werk samen met een medekandidaat en verbeter elkaars oefeningen.",
+            "Neem enkele privélessen of volg een cursus in het volwassenenonderwijs. Dat mag; de Examencommissie beoordeelt de kwaliteit van privélessen niet. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Maak ook het digitaal proefexamen. Zo leer je alle vraagtypes kennen voor je examen. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Let op.",
+          "text": "Verbetersleutels van je eigen examen zie je enkel tijdens een inzage. Die mag je niet kopiëren, fotograferen, filmen of verspreiden; misbruik wordt gesanctioneerd. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere ouders aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en kandidaten met ervaring in de 2de graad geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vraag vóór je bestelt na of de uitgeverij een verbetersleutel geeft, en onder welke voorwaarden.",
+            "Kijk goed wat je bestelt: handboek, werkboek, leerwerkboek en handleiding zijn verschillende producten.",
+            "Een leerwerkboek waarin de leerstof staat, is voor sommige vakken genoeg om zonder verbetersleutel te oefenen.",
+            "Verkoop of koop handleidingen tweedehands via Facebookgroepen of tweedehandsplatformen, maar check de editie."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik wist niet of ik het handboek, het werkboek of het leerwerkboek moest bestellen, en de verbetersleutel zat in een aparte handleiding. Andere ouders vertelden dat het leerwerkboek alleen voor hen ruim volstond.",
+      "name": "Nathalie",
+      "role": "moeder",
+      "context": "biologie, 2de graad"
+    },
+    {
+      "quote": "Het stoorde me dat ik voor de oplossingen van mijn werkboeken nog een extra platform of boek moest betalen. Ik heb eerst bij de uitgeverij nagevraagd wat er kon.",
+      "name": "Ayoub",
+      "role": "leerling",
+      "context": "start 2de graad"
+    },
+    {
+      "quote": "Mijn zoon kon zijn eigen handschrift in zijn oude werkboek niet meer lezen. Ik heb de verbetersleutel aangevraagd bij de uitgeverij, maar wist niet of dat gratis zou zijn.",
+      "name": "Griet",
+      "role": "moeder",
+      "context": "werkboek 4de jaar, met dysgrafie"
+    },
+    {
+      "quote": "Wij kopen de boeken rechtstreeks bij de uitgeverijen. De handleiding met verbetersleutel kun je bijkopen, maar die is wel duur.",
+      "name": "Tom",
+      "role": "vader",
+      "context": "humane wetenschappen"
+    }
+  ],
+  "related": [
+    "waar-vind-je-verbetersleutels-bij-handboeken-als",
+    "welke-boeken-sites-en-samenvattingen-gebruik-je",
+    "heeft-iemand-tweedehands-boeken-voor-de-2de-graad",
+    "welke-boeken-en-online-leerplatformen-gebruik-je"
+  ]
+}

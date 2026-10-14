@@ -1,0 +1,145 @@
+{
+  "slug": "wat-doe-je-bij-problemen-met-inloggen-of-je",
+  "question": "Wat doe je bij problemen met inloggen of je profielfoto op het kandidatenplatform?",
+  "title": "Problemen met inloggen of profielfoto?",
+  "description": "Raak je niet in het kandidatenplatform of wordt je profielfoto geweigerd? Zo log je in met eID of itsme, en zo maak je een foto die wel lukt.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je logt altijd in met je eigen identiteit: met je eID en een kaartlezer, of met digitale sleutels zoals itsme. Lukt het niet, probeer dan Chrome of Edge of een andere sleutel, en bel 1700 als het blijft mislukken. Je profielfoto is een scherpe pasfoto van alleen jouw gezicht; zonder foto kun je niet deelnemen.",
+  "facts": [
+    {
+      "label": "Digitale sleutels via eID",
+      "value": "Vanaf 12 jaar"
+    },
+    {
+      "label": "itsme",
+      "value": "Vanaf 13 jaar"
+    },
+    {
+      "label": "Hulplijn",
+      "value": "1700"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe log je in op het kandidatenplatform?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je meldt je aan op het kandidatenplatform (examencommissie.vlaanderen.be) met je eID en een kaartlezer, of met digitale sleutels. Gebruik altijd je eigen identiteit, ook als je minderjarig bent. Meld je je aan met de kaart van iemand anders, bijvoorbeeld van een ouder, dan moet je opnieuw inschrijven. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Werk bij voorkeur in Chrome of Edge. Safari werkt niet goed met het platform. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke digitale sleutel kun je gebruiken?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Tussen 12 en 18 jaar kun je digitale sleutels activeren met je eID.",
+            "itsme kan vanaf 13 jaar.",
+            "Een Belgische kids-ID (6 tot 12 jaar) werkt. Na je 12de blijft hij werken tot de vervaldatum.",
+            "Een niet-Belgische kids-ID werkt niet, omdat er geen chip in zit. [1]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Maak meerdere digitale sleutels aan als reserve. Je bent zelf verantwoordelijk om te kunnen inloggen. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Waaraan moet je profielfoto voldoen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je profielfoto is een scherpe foto van je gezicht, met de kwaliteit van een pasfoto. Alleen jij staat erop: geen andere personen en geen huisdieren. Op de examendag vergelijkt men je met de foto op je identiteitskaart en in het platform. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heb je geen profielfoto, dan kun je niet deelnemen. Dat telt als een niet-deelname. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Waar vind je hulp als het blijft mislukken?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bel 1700 als je niet binnenraakt. Kun je wel inloggen, dan stel je je vraag via een melding: rechtsboven in het platform, bij Meldingen en dan Contact. Dat kan zodra je geregistreerd bent, ook als je nog geen studierichting gekozen of betaald hebt. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke tips geven anderen die hetzelfde meemaakten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en kandidaten die vastliepen bij het inloggen of de profielfoto, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lukt het niet met de kaartlezer, installeer dan de software van de eID-lezer opnieuw, herstart je computer of probeer een andere lezer.",
+            "Probeer een andere browser. Bij sommigen lag het daaraan.",
+            "Wordt je foto geweigerd omdat je gezicht niet goed zichtbaar is: kies goed licht en een effen achtergrond, snijd bij tot hoofd en schouders, zet je bril af en zorg dat je haar je gezicht niet bedekt.",
+            "Werkt het platform voor niemand, kijk dan of er onderhoud aangekondigd is en probeer later opnieuw.",
+            "Werkt de pincode of het certificaat van je eID niet, dan kan je gemeente dat nakijken. [3]"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Met de kaartlezer lukte het aanmelden telkens niet, ook niet na het leegmaken van de cache. Uiteindelijk werkte het in een andere browser.",
+      "name": "Ilse",
+      "role": "moeder",
+      "context": "eerste aanmelding, zoon van 15"
+    },
+    {
+      "quote": "Elke foto van onze zoon werd geweigerd omdat zijn gezicht niet zichtbaar genoeg was. Met zijn haar naar achteren, zijn oren vrij en zonder bril werd ze wel aanvaard.",
+      "name": "Youssef",
+      "role": "vader",
+      "context": "profielfoto bij inschrijving"
+    },
+    {
+      "quote": "Ik wachtte na de betaling op een mail met inloggegevens. Mijn dochter bleek gewoon meteen te kunnen inloggen met itsme.",
+      "name": "Hanne",
+      "role": "moeder",
+      "context": "net ingeschreven, 2de graad"
+    },
+    {
+      "quote": "Op een dag raakte ik niet in het platform en dacht ik dat het aan mij lag. Er bleken aangekondigde werken aan het platform te zijn, een paar dagen later werkte alles weer.",
+      "name": "Ayoub",
+      "role": "leerling",
+      "context": "3de graad"
+    }
+  ],
+  "related": [
+    "hoe-schrijf-je-je-in-of-opnieuw-in-wijzig-je-van",
+    "hoe-verloopt-het-praktisch-na-inschrijving",
+    "hoe-verloopt-een-examendag-in-het-examencentrum",
+    "hoe-contacteer-je-de-examencommissie-of-dien-je",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop"
+  ]
+}

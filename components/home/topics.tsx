@@ -3,10 +3,7 @@ import { ArrowIcon } from "@/components/site/arrow-icon";
 import { topicsWithQuestions } from "@/lib/categories";
 import { categoryId, type Question } from "@/lib/questions";
 
-/**
- * The topics as tiles. Topics with questions are white and link to their part of
- * /questions; the rest sit flat on the page, muted, with "Binnenkort".
- */
+/** The topics that have questions, as tiles linking to their part of /questions. */
 export function Topics({ questions }: { questions: Question[] }) {
   const topics = topicsWithQuestions(questions);
 
@@ -26,43 +23,28 @@ export function Topics({ questions }: { questions: Question[] }) {
         <ul className="mt-7 grid gap-3 sm:grid-cols-2 md:gap-4 lg:grid-cols-3">
           {topics.map((topic, i) => (
             <li key={topic.name} style={{ "--i": i + 4 } as React.CSSProperties} className="rise">
-              {topic.questions.length ? (
-                <Link
-                  href={`/questions#${categoryId(topic.name)}`}
-                  className="group flex h-full min-h-44 flex-col rounded-panel border border-line bg-white p-6 text-ink no-underline shadow-card transition-[translate,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-green/30 hover:text-ink hover:shadow-tile"
-                >
-                  <Body topic={topic} />
-                  <span className="mt-auto flex items-center justify-between pt-6 text-meta text-muted">
-                    {count(topic.questions.length)}
-                    <span className="flex size-9 items-center justify-center rounded-full bg-mint text-green transition-colors duration-300 ease-out group-hover:bg-green group-hover:text-white">
-                      <ArrowIcon className="size-4" />
-                    </span>
-                  </span>
-                </Link>
-              ) : (
-                <div className="flex h-full min-h-44 flex-col rounded-panel border border-line p-6">
-                  <Body topic={topic} muted />
-                  <span className="mt-auto pt-6 text-meta text-muted">Binnenkort</span>
+              <Link
+                href={`/questions#${categoryId(topic.name)}`}
+                className="group flex h-full min-h-44 flex-col rounded-panel border border-line bg-white p-6 text-ink no-underline shadow-card transition-[translate,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-green/30 hover:text-ink hover:shadow-tile"
+              >
+                <div>
+                  <h3 className="text-h3 text-ink transition-colors duration-150 group-hover:text-green-dark">
+                    {topic.name}
+                  </h3>
+                  {topic.intro && <p className="mt-1.5 text-small text-muted">{topic.intro}</p>}
                 </div>
-              )}
+                <span className="mt-auto flex items-center justify-between pt-6 text-meta text-muted">
+                  {count(topic.questions.length)}
+                  <span className="flex size-9 items-center justify-center rounded-full bg-mint text-green transition-colors duration-300 ease-out group-hover:bg-green group-hover:text-white">
+                    <ArrowIcon className="size-4" />
+                  </span>
+                </span>
+              </Link>
             </li>
           ))}
         </ul>
       </div>
     </section>
-  );
-}
-
-function Body({ topic, muted = false }: { topic: { name: string; intro?: string }; muted?: boolean }) {
-  return (
-    <div>
-      <h3
-        className={`text-h3 transition-colors duration-150 ${muted ? "font-medium text-ink-soft" : "text-ink group-hover:text-green-dark"}`}
-      >
-        {topic.name}
-      </h3>
-      {topic.intro && <p className="mt-1.5 text-small text-muted">{topic.intro}</p>}
-    </div>
   );
 }
 

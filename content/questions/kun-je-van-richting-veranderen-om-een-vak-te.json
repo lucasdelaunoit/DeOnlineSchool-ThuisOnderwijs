@@ -1,0 +1,159 @@
+{
+  "slug": "kun-je-van-richting-veranderen-om-een-vak-te",
+  "question": "Kun je van richting veranderen om een vak te omzeilen waarvoor je blijft buizen, en welke geslaagde vakken neem je mee?",
+  "title": "Van richting veranderen: wat neem je mee?",
+  "description": "Kun je van richting veranderen om een vak te omzeilen? Wat kost het, welke resultaten en beurten neem je mee en wanneer helpen buispunten?",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja, van richting veranderen kan altijd, meestal tegen opnieuw 41 euro. Resultaten van vakken met dezelfde leerinhoud gaan mee, net als je vrijstellingen. Een vak omzeilen lukt alleen als de nieuwe richting dat vak niet bevat, want daar leg je alle vakken van het programma af.",
+  "facts": [
+    {
+      "label": "Inschrijvingsgeld",
+      "value": "41 euro per richting"
+    },
+    {
+      "label": "Examen binnen 7 dagen",
+      "value": "Telt als niet-deelname"
+    },
+    {
+      "label": "Examenbeurten",
+      "value": "3 per vak per jaar"
+    },
+    {
+      "label": "Resultaten geldig",
+      "value": "7 jaar"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Mag je van richting veranderen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Je wijzigt je studierichting zelf in het kandidatenplatform. Per graad volg je één studierichting. Kies je een andere richting, dan betaal je opnieuw 41 euro, tenzij je nog geen examens gepland had. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geplande examens die ook in de nieuwe richting zitten, blijven staan. Voor de andere word je uitgeschreven. Lag zo'n examen binnen de 7 dagen, dan telt het als niet-deelname. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Je kunt niet twee richtingen in dezelfde graad naast elkaar houden. Kies je een andere richting in dezelfde graad, dan is je oude richting niet langer geldig. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke geslaagde vakken neem je mee?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vakken met dezelfde leerinhoud gaan mee: je resultaat en je aantal gebruikte beurten blijven behouden. Je krijgt voor die vakken dus niet automatisch 3 nieuwe beurten. Ook je vrijstellingen neem je mee. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je hoeft daarvoor geen vrijstelling aan te vragen: bij dezelfde vakinhoud worden eerdere resultaten automatisch overgenomen. De bronnen spreken alleen over vakken met dezelfde leerinhoud. Heeft een vak in de nieuwe richting een andere inhoud, reken er dan op dat je het opnieuw aflegt. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Kun je zo een vak omzeilen waarvoor je blijft buizen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Alleen als de nieuwe richting dat vak niet bevat. Er is geen deliberatie of dispensatie: je legt alle examens uit het programma van je richting af, en er worden geen leerinhouden geschrapt. Zit hetzelfde vak ook in de nieuwe richting, dan neem je je resultaat en je gebruikte beurten gewoon mee. [3] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blijf je in je richting, dan krijg je op 1 januari opnieuw 3 beurten voor dat vak. Ook een vak waarvoor je al geslaagd bent, mag je opnieuw afleggen zolang je beurten hebt. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Haal je minstens 45 % voor dat vak? Kijk dan eerst of buispunten je laten slagen. Dat kan voor maximaal 3 vakken, met in totaal maximaal 7 buispunten. Elke vrijstelling neemt wel één buispunt weg. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Wat zeggen kandidaten die al van richting veranderden? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die de overstap al maakten, geven deze tips: [7]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bekijk vooraf in het kandidatenplatform welke vakken meegaan: wie een andere studierichting kiest, krijgt een overzicht voor hij bevestigt.",
+            "Lees bovenaan de vakfiche voor welke richtingen ze geldt. Zo zie je of een vak dezelfde inhoud heeft.",
+            "Tel hoeveel nieuwe vakken je erbij krijgt. Twee vakken herkansen gaat soms sneller dan een hele nieuwe richting.",
+            "Twijfel je over een vak dat anders opgebouwd is, zoals een taalvak? Bel 1700 voor je overstapt."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Vrijstellingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/vrijstellingen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Voor we van richting veranderden, zagen we in het platform welke vakken mee zouden gaan. Dat klopte bijna helemaal; alleen Frans moest opnieuw, omdat het in de nieuwe richting anders opgebouwd is.",
+      "name": "Ann",
+      "role": "moeder",
+      "context": "overstap in de 3de graad"
+    },
+    {
+      "quote": "Mijn zoon had 47 % voor Engels toen hij van richting veranderde. Dat resultaat ging gewoon mee naar de nieuwe richting.",
+      "name": "Mehmet",
+      "role": "vader",
+      "context": "Engels, overstap in de 3de graad"
+    },
+    {
+      "quote": "Voor twee moeilijke vakken een hele nieuwe richting beginnen, kost vaak meer tijd dan ze opnieuw afleggen. In een nieuwe richting krijg je er ook vakken bij die je nooit gestudeerd hebt.",
+      "name": "Lieve",
+      "role": "begeleider",
+      "context": "fysica en chemie, wetenschappen-wiskunde"
+    },
+    {
+      "quote": "Ik had nog twee vakken open en overwoog een overstap. Biologie ging niet mee, en in de nieuwe richting wachtten me nog drie examens.",
+      "name": "Arne",
+      "role": "leerling",
+      "context": "van wetenschappen-wiskunde naar humane wetenschappen"
+    }
+  ],
+  "related": [
+    "hoeveel-examenbeurten-heb-je-hoe-werken",
+    "hoe-schrijf-je-je-in-of-opnieuw-in-wijzig-je-van",
+    "welke-richting-kies-je-best-tso-bso-zo-weinig",
+    "wat-gebeurt-er-met-je-eerder-behaalde-examens-als",
+    "wat-doe-je-als-je-ondanks-studeren-niet-slaagt-of"
+  ]
+}

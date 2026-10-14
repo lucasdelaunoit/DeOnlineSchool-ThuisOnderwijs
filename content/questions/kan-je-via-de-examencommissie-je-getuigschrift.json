@@ -1,0 +1,150 @@
+{
+  "slug": "kan-je-via-de-examencommissie-je-getuigschrift",
+  "question": "Kan je via de Examencommissie je getuigschrift 2de graad halen en daarna terug instromen op school?",
+  "title": "Na de 2de graad terug naar school",
+  "description": "Haal je getuigschrift 2de graad via de Examencommissie en stroom je daarna terug in op school? Wat vaststaat en waar je toelating vraagt.",
+  "category": "Starten en keuzes",
+  "audience": "Voor leerlingen en ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja, je kunt het getuigschrift van de 2de graad via de Examencommissie halen. Het is gelijkwaardig aan dat van een gewone school. Of je daarna terug kunt instromen, en wanneer, beslist de school: de bronnen van de Examencommissie zeggen daar niets over. Bespreek je plan dus tijdig met de school en het CLB.",
+  "facts": [
+    {
+      "label": "Resultaat",
+      "value": "Uiterlijk na 30 dagen"
+    },
+    {
+      "label": "Getuigschriften",
+      "value": "Wekelijks uitgereikt"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Kun je je getuigschrift van de 2de graad via de Examencommissie halen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Je schrijft in voor een richting van de 2de graad en legt alle vakken af. Slaag je voor alle vakken, dan krijg je een getuigschrift van de 2de graad. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leg je maar een deel van de vakken af, dan krijg je geen getuigschrift. Een puntenrapport bewijst wel welke vakken je haalde. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Is dat getuigschrift evenwaardig aan dat van een school?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Studiebewijzen van de Examencommissie zijn gelijkwaardig aan die van het gewone onderwijs. Ze worden opgenomen in de LED-databank. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Getuigschriften worden wekelijks uitgereikt en per aangetekende post verstuurd naar het adres in je platform. Je krijgt het maar één keer. Ben je het kwijt, dan vraag je een duplicaat aan. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Mag je daarna terug naar school?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Daarover zeggen de bronnen van de Examencommissie niets. Of en wanneer je in een school kunt instromen, hangt af van de toelatingsvoorwaarden en van de school zelf. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neem daarom vooraf contact op met de school waar je wilt starten en met het CLB. Vraag ook of je in de loop van het schooljaar mag aansluiten of pas in september, en of er nog plaats is."
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Je resultaat staat uiterlijk 30 dagen na je examen in het platform. Moet je een vak herdoen, dan plan je die nieuwe beurt pas als je resultaat zichtbaar is, en in een andere reeks. Hou daar rekening mee als je in september op school wilt starten. [3] [4]"
+        }
+      ]
+    },
+    {
+      "title": "Waar let je op als je huisonderwijs volgt?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je kunt niet tegelijk in een school en in huisonderwijs ingeschreven zijn. Ga je terug naar school, dan loopt je huisonderwijs dus af. Stel je vragen over die overstap aan het CLB of het team huisonderwijs. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Wat zeggen ouders die het al deden? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders van jongeren die na de Examencommissie terug naar school wilden, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ga al in gesprek met scholen voor je met de Examencommissie start.",
+            "Reken erop dat niet elke school openstaat voor een instroom midden in het schooljaar.",
+            "Plan je laatste examens ruim op tijd, zodat je getuigschrift er is voor het nieuwe schooljaar."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Voor de start sprak ik met meerdere scholen. De meeste wilden haar pas in september laten instromen, en de school die wel openstond had geen plaats meer.",
+      "name": "Inge",
+      "role": "moeder",
+      "context": "dochter, 2de graad"
+    },
+    {
+      "quote": "Onze dochter begon met de 2de graad via de Examencommissie en ging toch terug naar school in het 4de jaar. Dat ging vlot, al werd het 5de jaar daarna een stuk zwaarder.",
+      "name": "Bart",
+      "role": "vader",
+      "context": "dochter, terug naar het 4de jaar"
+    },
+    {
+      "quote": "Na een moeilijk schooljaar wil onze dochter de 2de graad op één jaar halen en daarna terug naar school. We werken met een online platform.",
+      "name": "Samira",
+      "role": "moeder",
+      "context": "dochter, 2de graad Humane wetenschappen"
+    },
+    {
+      "quote": "Ik zakte voor een vak en kon het pas in oktober opnieuw plannen, terwijl ik in september naar school wilde. Andere leden raadden me aan de school te vragen of ik later mag aansluiten.",
+      "name": "Thomas",
+      "role": "leerling",
+      "context": "wil in september naar school"
+    }
+  ],
+  "related": [
+    "is-de-2de-graad-via-de-examencommissie-haalbaar",
+    "kun-je-de-examencommissie-combineren-met-school",
+    "hoe-bewijs-je-eerder-behaalde-getuigschriften-of",
+    "hoelang-moet-je-wachten-op-je-punten-en-op-je",
+    "kan-je-na-een-b-attest-via-de-examencommissie"
+  ]
+}

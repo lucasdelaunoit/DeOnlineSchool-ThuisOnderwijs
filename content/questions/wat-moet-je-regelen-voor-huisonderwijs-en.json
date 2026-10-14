@@ -1,0 +1,173 @@
+{
+  "slug": "wat-moet-je-regelen-voor-huisonderwijs-en",
+  "question": "Wat moet je regelen voor huisonderwijs en leerplicht (verklaring, CLB, controle) en behoud je het groeipakket?",
+  "title": "Huisonderwijs, leerplicht en groeipakket",
+  "description": "Verklaring huisonderwijs, CLB-contacten, inspectie en groeipakket: wat je als ouder regelt als je kind via de Examencommissie studeert.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Volgt je kind geen school meer, dan meld je als ouder huisonderwijs aan bij AGODI: elk schooljaar een verklaring, uiterlijk op de derde schooldag van september, met een gekozen CLB. Reken op verplichte CLB-contacten en mogelijk een controle door de onderwijsinspectie. Het groeipakket loopt tot je kind 18 wordt; daarna volstaan examens bij de Examencommissie alleen niet.",
+  "facts": [
+    {
+      "label": "Leerplicht",
+      "value": "5 tot 18 jaar"
+    },
+    {
+      "label": "Verklaring",
+      "value": "Uiterlijk 3e schooldag"
+    },
+    {
+      "label": "CLB-afspraak",
+      "value": "Vóór 1 oktober"
+    },
+    {
+      "label": "Groeipakket",
+      "value": "Tot 18 jaar"
+    },
+    {
+      "label": "Schoolverlater",
+      "value": "Nog 12 maanden"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Wat moet je regelen voor huisonderwijs?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In Vlaanderen geldt leerplicht, geen schoolplicht. Je kind is leerplichtig van 5 tot 18 jaar. Alleen inschrijven bij de Examencommissie is niet genoeg om aan de leerplicht te voldoen: je moet huisonderwijs ook laten registreren bij AGODI. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je dient als ouder een verklaring huisonderwijs in, via het Loket Huisonderwijs (met eID) of met het formulier per mail of post.",
+            "Dat doe je uiterlijk op de derde schooldag van september, en elk schooljaar opnieuw.",
+            "Je kiest een CLB in de provincie waar je woont en ondertekent de verklaring.",
+            "In de loop van september krijg je een bevestiging. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Starten tijdens het schooljaar kan alleen uitzonderlijk, bijvoorbeeld als je kind overstapt uit een erkende Vlaamse school. Verwittig dan vooraf het CLB van de school. Dat CLB heeft 10 werkdagen om gemotiveerd bezwaar te maken. Je kind kan niet tegelijk op school en in huisonderwijs ingeschreven zijn. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke getuigschriften moet je kind op tijd halen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Er zijn geen verplichte vakken of boeken, en je bepaalt zelf de dag- en jaarindeling. Wel moet je kind op tijd bepaalde getuigschriften halen. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Het getuigschrift basisonderwijs: in het schooljaar waarin je kind vóór 1 januari 13 jaar wordt.",
+            "Het getuigschrift eerste graad secundair: in het schooljaar waarin je kind vóór 1 januari 16 jaar wordt.",
+            "Inschrijven bij de Examencommissie secundair: in het schooljaar waarin je kind vóór 1 januari 15 jaar wordt. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Haalt je kind een getuigschrift niet op tijd, dan moet het naar een erkende school. Bij bijvoorbeeld een ernstige leerstoornis kan het CLB een vrijstelling van die verplichting geven. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat doen het CLB en de onderwijsinspectie?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CLB-contacten zijn verplicht op 6, 9, 11 en 14 jaar. Maak daarvoor een afspraak vóór 1 oktober. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De onderwijsinspectie kan controleren of je kind voldoende leert. Die controle wordt vooraf afgesproken en vindt meestal thuis plaats. Je medewerking is verplicht. Na twee negatieve controles na elkaar is huisonderwijs niet meer toegestaan voor de rest van de leerplicht. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Behoud je het groeipakket?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Het groeipakket loopt tot en met de maand waarin je kind 18 wordt. Tussen 18 en 25 jaar volstaat deelnemen aan examens van de Examencommissie alleen niet. Je kind moet daarnaast bijvoorbeeld minstens 17 uur per week secundair volwassenenonderwijs volgen, minstens 13 uur per week hoger beroepsonderwijs, of ingeschreven zijn voor minstens 27 studiepunten hoger onderwijs. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Als schoolverlater heeft je kind na zijn 18de verjaardag nog 12 maanden recht. Een inschrijving als werkzoekende bij VDAB is dan aanbevolen. Vanaf 25 jaar is er geen groeipakket meer. [2]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Op de schooltoeslag heb je geen recht bij huisonderwijs. Stap je midden in het schooljaar over terwijl je die al ontving, dan wordt ze teruggevorderd. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe bereid je je voor op de controle? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders die al een controle kregen, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vul de verklaring zorgvuldig in. Bij een controle vertrekt men daarvan, dus wat je schrijft moet kloppen met hoe je echt werkt.",
+            "Houd een planning bij: welke examens gepland zijn en hoe je kind er week per week naartoe werkt.",
+            "Leg het studiemateriaal, notities en behaalde resultaten klaar.",
+            "Laat je kind zelf vertellen hoe het leert, en toon ook hobby's en sociale contacten.",
+            "Noteer welk CLB je koos, zodat je tijdig zelf contact kunt opnemen."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Parentia, *Heb je nog recht op het Groeipakket als je deelneemt aan de examencommissie?*",
+      "url": "https://www.parentia.be/nl/gezinsadministratie/heb-je-nog-recht-op-het-groeipakket-of-kinderbijslag-als-je-deelneemt-aan-de-examencommissie"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "We werden uitgenodigd voor een gesprek met twee inspecteurs. Ze vroegen vooral naar de examenplanning, het studiemateriaal en wat mijn zoon buiten het studeren doet, en het verliep heel vriendelijk.",
+      "name": "Annelies",
+      "role": "moeder",
+      "context": "controle huisonderwijs, 3e graad"
+    },
+    {
+      "quote": "Onze dochter stapte pas in oktober over naar huisonderwijs. Het CLB belde ons op, we legden uit waarom, en er kwam geen bezwaar.",
+      "name": "Youssef",
+      "role": "vader",
+      "context": "overstap tijdens het schooljaar"
+    },
+    {
+      "quote": "Bij de lesgevers vul ik mezelf in, aangevuld met eventuele bijles. Bij de bronnen verwijs ik naar de leermiddelen die we per vak gebruiken.",
+      "name": "Katrien",
+      "role": "moeder",
+      "context": "verklaring huisonderwijs"
+    },
+    {
+      "quote": "Na de bevestiging stond in de brief dat we vóór 1 oktober contact moesten hebben met het CLB. Dat moesten we zelf doen; welk CLB we gekozen hadden, vonden we terug in onze online aanvraag.",
+      "name": "Mei",
+      "role": "moeder",
+      "context": "aanvaarde aanvraag"
+    }
+  ],
+  "related": [
+    "is-de-examencommissie-iets-voor-mij-of-mijn-kind",
+    "heb-je-via-de-examencommissie-een",
+    "mag-je-als-jobstudent-werken-tijdens-de-lesuren",
+    "wat-als-mijn-kind-door-ziekte-of-overmacht-de",
+    "hoe-schrijf-je-je-in-of-opnieuw-in-wijzig-je-van"
+  ]
+}

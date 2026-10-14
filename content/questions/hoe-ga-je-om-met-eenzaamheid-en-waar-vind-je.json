@@ -1,0 +1,155 @@
+{
+  "slug": "hoe-ga-je-om-met-eenzaamheid-en-waar-vind-je",
+  "question": "Hoe ga je om met eenzaamheid en waar vind je sociaal contact tijdens de examencommissie?",
+  "title": "Eenzaam tijdens de examencommissie?",
+  "description": "Voel je je eenzaam tijdens de Examencommissie? Zo vind je andere kandidaten, hou je contact met vrienden en weet je waar je terechtkunt voor een gesprek.",
+  "category": "Welzijn en motivatie",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Veel kandidaten vinden zelfstudie via de Examencommissie soms eenzaam: je hebt geen klas en geen speelplaats. Plan daarom bewust contact in, zoek medekandidaten via Facebookgroepen of een studiegroep en hou tijd vrij voor vrienden, hobby en sport. Blijft het gevoel aan je knagen, praat er dan over, bijvoorbeeld met Awel (102) of Tele-Onthaal (106).",
+  "sections": [
+    {
+      "title": "Waarom voelt de examencommissie soms eenzaam?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bij de Examencommissie studeer je zelfstandig. De Examencommissie geeft zelf geen lessen, geen studiemateriaal en geen begeleiding. Je kiest je eigen tempo, maar je mist ook de klas, de babbels tussendoor en de vrienden die je op school vanzelf ziet. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Voel je je daardoor soms alleen, dan is er niets mis met jou. Het is een heel gewone reactie op een andere manier van leren, en je bent zeker niet de enige die het zo ervaart."
+        }
+      ]
+    },
+    {
+      "title": "Waar vind je andere kandidaten?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In Facebookgroepen over de Examencommissie zoeken kandidaten en ouders geregeld leeftijdsgenoten in hun buurt, om samen te studeren of gewoon iets leuks te doen. Een eigen oproep met je graad en je regio levert vaak reacties op. [6]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wil je liever in een groep leren dan helemaal alleen? De Examencommissie noemt ook lessen in het volwassenenonderwijs als manier om je voor te bereiden. Hou bij contact via groepen wel deze afspraken in het oog: [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deel geen adres, telefoonnummer of andere persoonsgegevens in een openbare reactie. Gebruik daarvoor een privébericht.",
+            "Spreek de eerste keer af op een openbare plek en laat thuis weten met wie je afspreekt.",
+            "Examenvragen en verbetersleutels mag je niet kopiëren of verspreiden, ook niet in een besloten groep. Het examenreglement bestraft dat. [2]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe hou je contact met vrienden en anderen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Contact komt minder vanzelf als je niet meer elke dag naar school gaat. Een paar gewoontes helpen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Spreek bewust af met vrienden, liefst op een vast moment in de week, in plaats van te wachten tot het vanzelf gebeurt.",
+            "Hou een hobby, sportclub, jeugdbeweging of vrijwilligerswerk aan. Daar zie je mensen los van het studeren.",
+            "Studeer af en toe op een plek met andere mensen rond je, zoals de bibliotheek.",
+            "Geef je dag structuur: vaste start- en stopuren, pauzes en tijd om naar buiten te gaan.",
+            "Studeer samen met iemand, ook online. Samen leren of elkaar overhoren voelt vaak lichter."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wanneer praat je er best met iemand over?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Eenzaamheid kan op je humeur en je motivatie wegen. Merk je dat het gevoel blijft hangen of zwaarder wordt, wacht dan niet tot het vanzelf overgaat. Praat erover met iemand die je vertrouwt, zoals een ouder, een vriend of je huisarts. Ben je leerplichtig, dan kun je ook bij het CLB terecht."
+        },
+        {
+          "type": "note",
+          "title": "Hulp nodig?",
+          "text": "Jongeren kunnen gratis en anoniem praten met Awel: bel 102 (elke dag van 16 tot 22 uur, behalve op zon- en feestdagen) of chat via awel.be. Tele-Onthaal is er dag en nacht voor iedereen op 106, ook over eenzaamheid. Denk je aan zelfdoding, of maak je je zorgen om iemand anders, dan kun je altijd terecht bij de Zelfmoordlijn op 1813. [3] [4] [5]"
+        }
+      ]
+    },
+    {
+      "title": "Wat helpt volgens andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die dit herkennen, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Plaats zelf een oproep met je graad en regio, en stel een stad voor die vlot bereikbaar is met het openbaar vervoer.",
+            "Begin klein: één keer samen studeren of iets drinken is al een goede start.",
+            "Vergeet jezelf niet. Plan ook dingen die je blij maken, niet alleen studie.",
+            "Ook op school groeien echte vriendschappen niet vanzelf. Geef nieuwe contacten wat tijd."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Awel – luisterlijn voor kinderen en jongeren*",
+      "url": "https://www.vlaanderen.be/gezin/kinderen/jeugdhulp/awel"
+    },
+    {
+      "text": "Tele-Onthaal, *Tele-Onthaal 106*",
+      "url": "https://www.tele-onthaal.be"
+    },
+    {
+      "text": "Zelfmoordlijn 1813, *Zelfmoordlijn 1813*",
+      "url": "https://www.zelfmoord1813.be"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik voelde me soms eenzaam en startte samen met mijn mama een groepje om samen te studeren of iets leuks te doen. Op mijn oproep reageerden meteen leeftijdsgenoten en ouders uit de buurt.",
+      "name": "Lore",
+      "role": "leerling",
+      "context": "3de graad"
+    },
+    {
+      "quote": "De vriendschappen van mijn dochter met haar klasgenoten verwaterden toen ze niet meer naar school ging. Via een oproep in een Facebookgroep kwamen we in contact met gezinnen in de buurt die hetzelfde traject volgen.",
+      "name": "Leila",
+      "role": "moeder",
+      "context": "humane wetenschappen"
+    },
+    {
+      "quote": "Ik had al een hobby, maar miste toch het dagelijkse contact. De beste tip die ik kreeg: spreek bewust af met vrienden in plaats van te wachten tot het vanzelf gebeurt.",
+      "name": "Seppe",
+      "role": "leerling",
+      "context": "eerste jaar examencommissie"
+    },
+    {
+      "quote": "Ook ik vind het traject soms eenzaam. Wat mij helpt: mijn gevoelens delen met mensen rond mij en tijd maken voor dingen die me blij maken, want niet alles moet snel.",
+      "name": "Dounia",
+      "role": "leerling",
+      "context": "volwassen kandidaat, 3de graad"
+    }
+  ],
+  "related": [
+    "zijn-er-studiegroepen-of-medestudenten-in-mijn",
+    "hoe-vind-ik-andere-leerlingen-of-ouders-om-samen",
+    "bestaat-er-een-whatsapp-of-studiegroep-voor-mijn",
+    "hoe-ga-je-om-met-stress-faalangst-of-verloren",
+    "kun-je-de-examencommissie-combineren-met-school"
+  ]
+}

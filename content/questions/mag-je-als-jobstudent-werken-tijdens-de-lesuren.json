@@ -1,0 +1,125 @@
+{
+  "slug": "mag-je-als-jobstudent-werken-tijdens-de-lesuren",
+  "question": "Mag je als jobstudent werken tijdens de lesuren als je huisonderwijs volgt en via de examencommissie studeert?",
+  "title": "Jobstudent tijdens de lesuren?",
+  "description": "Mag je als jobstudent werken tijdens de lesuren als je huisonderwijs volgt en via de Examencommissie studeert? Wat de regels zeggen en wat onduidelijk is.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Op een reguliere school mag je niet werken tijdens de lesuren. Voor huisonderwijs bestaat er geen specifieke regel. De algemene regel is dat werk het onderwijs niet mag hinderen.",
+  "sections": [
+    {
+      "title": "Mag je werken tijdens de lesuren als je op school zit?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Het koninklijk besluit van 19 april 2026 (Belgisch Staatsblad 4 mei 2026), genomen op basis van artikel 7.15 van de Arbeidswet van 16 maart 1971, bepaalt dat het werk het regelmatig schoolbezoek niet mag belemmeren.",
+            "Wie op school zit, kan dus niet werken tijdens de lesuren: dan zit je in de klas. [1] [5]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wie mag jobstudent zijn?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vanaf 16 jaar, of vanaf 15 jaar als de eerste twee jaren secundair gevolgd zijn.",
+            "Studeren moet de hoofdactiviteit blijven. [2]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wat mag je als 15-jarige?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "15-jarigen die nog voltijds leerplichtig zijn, mogen enkel lichte arbeid doen: werk zonder specifieke opleiding en zonder mechanische apparatuur, zoals vakkenvullen, verkoopassistentie, onthaal of lichte schoonmaak.",
+            "Op een schooldag maximaal 2 uur, op andere dagen maximaal 8 uur, en buiten de schoolvakanties maximaal 12 uur per week.",
+            "Minstens 14 uur rust tussen twee werkperiodes, en geen overuren. [1] [5]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mag je 's avonds of 's nachts werken?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Volgens de pers mogen 15-jarigen nooit werken tussen 20 uur en 6 uur. [3]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Let op.",
+          "text": "Persbron, geen overheidsbron. De officiële tekst is het KB in het Belgisch Staatsblad (ejustice.just.fgov.be)."
+        }
+      ]
+    },
+    {
+      "title": "Huisonderwijs: niet specifiek geregeld",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Er bestaat geen overheidstekst die studentenarbeid bij huisonderwijs regelt.",
+            "Het begrip \"student\" wordt ruim uitgelegd. Ook wie zich voorbereidt op de examencommissie geldt als student.",
+            "Het KB legt geen vaste klokuren op. Het criterium is dat het werk het onderwijs niet mag hinderen. Jullie eigen lesrooster lijkt dus de maatstaf, maar dat is een interpretatie en geen officieel standpunt.",
+            "Wat een \"schooldag\" is in de 2-urenregel, is bij huisonderwijs onduidelijk. [4]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Let op.",
+          "text": "Securex is een sociaal secretariaat, geen overheid. Het punt over het lesrooster is een interpretatie."
+        }
+      ]
+    },
+    {
+      "title": "Aanbevolen stappen",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vraag een schriftelijk standpunt aan de FOD Werkgelegenheid, Arbeid en Sociaal Overleg via werk.belgie.be. Beschrijf daarin de leeftijd, het huisonderwijs en jullie lesrooster.",
+            "Contacteer het team huisonderwijs van AGODI voor de kant van de leerplicht.",
+            "Houd de verklaring van huisonderwijs bij de hand als bewijs van studentenstatuut voor de werkgever."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "FOD WASO, *FOD WASO – Bepaling van het begrip lichte arbeid (15-jarigen)*",
+      "url": "https://werk.belgie.be/nl/news/bepaling-van-het-begrip-lichte-arbeid-het-kader-van-de-tewerkstelling-van-studenten-van-15"
+    },
+    {
+      "text": "Vlaanderen.be, *Vlaanderen.be – Werken als jobstudent*",
+      "url": "https://www.vlaanderen.be/werken-als-jobstudent"
+    },
+    {
+      "text": "VRT NWS, *VRT NWS, 7 mei 2026*",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/05/07/15-jarigen-mogen-als-jobstudent-niet-industriele-arbeid-van-lic/"
+    },
+    {
+      "text": "Securex, *Securex – Studentenovereenkomst: wie is student?*",
+      "url": "https://www.securex.be/nl/lex4you/werkgever/nieuws/studentenovereenkomst-wie-is-student"
+    },
+    {
+      "text": "Partena Professional, *Student: het begrip 'lichte arbeid' is eindelijk gedefinieerd*",
+      "url": "https://www.partena-professional.be/nl/node/22463"
+    }
+  ],
+  "experiences": [],
+  "related": [
+    "kun-je-de-examencommissie-combineren-met-school",
+    "heb-je-via-de-examencommissie-een",
+    "wat-moet-je-regelen-voor-huisonderwijs-en"
+  ]
+}

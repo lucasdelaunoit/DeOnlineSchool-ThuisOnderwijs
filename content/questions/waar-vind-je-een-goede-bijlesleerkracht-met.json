@@ -1,0 +1,169 @@
+{
+  "slug": "waar-vind-je-een-goede-bijlesleerkracht-met",
+  "question": "Waar vind je een goede bijlesleerkracht met ervaring met de examencommissie?",
+  "title": "Een goede bijlesleerkracht vinden",
+  "description": "De Examencommissie geeft geen les, maar privéles mag. Waar vind je een bijlesleerkracht met ervaring en waar let je op bij je keuze?",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie geeft zelf geen lessen of begeleiding. Privélessen mogen wel, maar de Examencommissie beoordeelt hun kwaliteit niet. Kies daarom iemand die de vakfiche van jouw examen kent, vraag naar ervaring en referenties, en begin met een proefles.",
+  "sections": [
+    {
+      "title": "Kan de Examencommissie je een bijlesleerkracht aanraden?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. De Examencommissie werkt met zelfstudie: ze geeft geen lessen, geen studiebegeleiding en geen studiemateriaal. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Privélessen mogen wel. De Examencommissie beoordeelt hun kwaliteit niet, dus die keuze maak je zelf. Begeleiding kan ook via lessen in het volwassenenonderwijs. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Waar zoek je een bijlesleerkracht met ervaring?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In Facebookgroepen over de Examencommissie vragen ouders en kandidaten vaak naar bijles, en bieden lesgevers hun hulp aan. Plaats je zelf een oproep, vermeld dan het vak, je graad en richting, je regio en of online bijles ook mag. [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Andere kandidaten en ouders: vraag wie al goede ervaringen had voor jouw vak.",
+            "Je eigen netwerk: leerkrachten, of studenten uit het hoger onderwijs die het vak goed kennen.",
+            "Bijlesbureaus en studiebegeleidingscentra in je buurt.",
+            "Online bijles: dan speelt afstand geen rol en heb je meer keuze."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Waar let je op bij je keuze?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Een goede bijlesleerkracht werkt vanuit de vakfiche van jouw vak. Daarin staan de leerinhouden, de vaardigheden en een lijst met leermiddelen. Gebruik de fiche die geldt in het jaar van je examen. Met het digitale proefexamen leer je alle vraagtypes kennen; een ervaren lesgever kent die ook. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vraag welke ervaring de lesgever heeft met kandidaten van de Examencommissie en met jouw vak.",
+            "Vraag referenties van andere ouders of kandidaten.",
+            "Begin met een proefles of een kennismakingsgesprek.",
+            "Maak vooraf duidelijke afspraken over prijs, aantal lessen, plaats (aan huis of online) en annuleren.",
+            "Ben je minderjarig? Laat je ouders de afspraken maken en mee kennismaken."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Let op met beloftes.",
+          "text": "Niemand kan je slagen garanderen. Slaagcijfers of beloftes over 'de echte examenvragen' kun je niet controleren. Examenvragen en verbetersleutels verspreiden is bovendien verboden. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Wat kan bijles wel en niet voor je doen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bijles helpt je leerstof te begrijpen en gericht te oefenen. Leerinhouden worden nooit geschrapt, en er is geen deliberatie: je legt alle vakken van je programma zelf af. Het studeren en oefenen blijft dus jouw werk. [5]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Voor wiskunde en wetenschappen kun je thuis oefenen met de online rekenapps van de Examencommissie, zoals de grafische rekenmachine en het rekenblad. Tijdens het examen krijg je geen handleiding, dus oefen er ook mee tijdens je bijles. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welke begeleiding raden ouders en kandidaten aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deze vormen van begeleiding worden in de Facebookgroepen over de Examencommissie het vaakst aangeraden. Wij beoordelen zelf de kwaliteit niet: vraag altijd hoe er met de vakfiche gewerkt wordt. [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Athena (open leercentrum in Mechelen): lessen in kleine groepen ter voorbereiding op de Examencommissie; ouders raden het geregeld aan als je liever niet helemaal alleen studeert.",
+            "CVO of tweedekansonderwijs (volwassenenonderwijs): vanaf 18 jaar, ook op afstand; lessen met begeleiding, vooral voor Frans en wiskunde. In de 3de graad kunnen behaalde modules een vrijstelling geven.",
+            "De Studie Factorie (lessen): groeps- en privélessen Frans, vooral ter voorbereiding op het mondeling. Kritiek die je soms leest: enkele ouders waren niet tevreden over de lesgever. [3]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe haal je het meeste uit bijles? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die met bijles werkten, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Begin op tijd. Een paar weken voor het examen is vaak te kort om echt inzicht op te bouwen.",
+            "Vraag gerichte hulp bij wat je alleen niet verwerkt krijgt, in plaats van alle leerstof te herhalen.",
+            "Blijf zelf oefenen, zeker voor taalexamens: teksten maken en spreken moet je zelf inoefenen.",
+            "Eén aanbeveling zegt niet alles. Over dezelfde lesgever lees je soms zowel lovende als negatieve ervaringen."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Wij vonden een doctoraatsstudent die wekelijks twee uur aan huis kwam voor wiskunde. Hij hielp onze zoon echt inzicht opbouwen, maar dat duurde wel langer dan drie weken.",
+      "name": "Sofie",
+      "role": "moeder",
+      "context": "wiskunde, 3e graad"
+    },
+    {
+      "quote": "Onze zoon kreeg zijn bijles online, dus waar we woonden speelde geen rol. Zo konden we kiezen op ervaring in plaats van op afstand.",
+      "name": "Rachid",
+      "role": "vader",
+      "context": "economie-wiskunde, 3e graad"
+    },
+    {
+      "quote": "Onze dochter merkte dat alles zelf uitzoeken te veel tijd kostte. We zochten iemand die niet alle leerstof herhaalt, maar helpt bij wat ze alleen niet verwerkt krijgt.",
+      "name": "Hanne",
+      "role": "moeder",
+      "context": "wiskunde 1, 2 en 3"
+    },
+    {
+      "quote": "Toen ik in een groep om tips vroeg, kreeg ik over dezelfde begeleider zowel lovende als negatieve reacties. Eén aanbeveling zegt dus niet alles.",
+      "name": "Dirk",
+      "role": "vader",
+      "context": "studiebegeleiding, 3e graad"
+    }
+  ],
+  "related": [
+    "welke-organisaties-begeleiden-je-tijdens-een-ec",
+    "zijn-er-studiegroepen-of-medestudenten-in-mijn",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens",
+    "waar-vind-je-de-leerstof-vakfiche-en-wat",
+    "hoe-moeilijk-is-het-examen-wiskunde-en-hoe-bereid"
+  ]
+}

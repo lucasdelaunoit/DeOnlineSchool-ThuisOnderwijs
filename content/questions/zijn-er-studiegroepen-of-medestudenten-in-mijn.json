@@ -1,0 +1,144 @@
+{
+  "slug": "zijn-er-studiegroepen-of-medestudenten-in-mijn",
+  "question": "Zijn er studiegroepen of medestudenten in mijn regio of met hetzelfde examen?",
+  "title": "Studiegroepen en medestudenten vinden",
+  "description": "Zo vind je medestudenten voor de Examencommissie in je regio of met hetzelfde examen, en zo spreek je veilig af zonder examenvragen te delen.",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie organiseert geen lessen of studiegroepen: je studeert zelfstandig. Medestudenten vind je vooral via Facebookgroepen over de Examencommissie, waar kandidaten en ouders oproepen plaatsen per regio of richting. Spreek veilig af en deel nooit examenvragen, want dat is verboden.",
+  "sections": [
+    {
+      "title": "Organiseert de Examencommissie zelf studiegroepen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. Via de Examencommissie studeer je zelfstandig: er zijn geen lessen, cursussen of studiebegeleiding. Een studiegroep zoek of start je dus zelf. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wat je moet kennen, staat per vak in de vakfiche. Dat is handig als je samen studeert: wie hetzelfde vak aflegt, werkt met dezelfde fiche. Kijk wel na of iedereen de fiche gebruikt die geldt in het jaar van zijn examen. Leer je liever in een vaste groep met een lesgever, dan kun je ook lessen volgen in het volwassenenonderwijs. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe vind je medestudenten in je regio of met hetzelfde examen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In Facebookgroepen over de Examencommissie plaatsen kandidaten en ouders geregeld oproepen om samen te studeren of af te spreken. Je kunt zelf een oproep plaatsen of reageren op een bestaande. [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vermeld je regio, je graad en je studierichting. Noem ook het vak of het examen waarvoor je iemand zoekt.",
+            "Geef een idee van je leeftijd, bijvoorbeeld 'tussen 15 en 18', zodat je mensen vindt die bij je passen.",
+            "Zeg wat je zoekt: samen studeren, elkaar motiveren of ook gewoon eens iets leuks doen.",
+            "Zoek in de groep op je richting of je regio. Vaak staan er al oproepen waarop je kunt reageren.",
+            "Zitten jullie niet in dezelfde richting? Sommige vakken overlappen, dus samen studeren kan dan toch."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe spreek je veilig af, zeker als je minderjarig bent?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wie in een groep reageert, ken je meestal nog niet. Met deze afspraken houd je het veilig:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zet geen persoonsgegevens in een openbaar bericht: geen adres, telefoonnummer, school of foto's van je identiteitskaart. Deel ook nooit je inloggegevens van het kandidatenplatform.",
+            "Ben je minderjarig? Betrek je ouders. Laat hen meelezen of eerst zelf contact opnemen met de andere ouders.",
+            "Maak eerst online kennis, bijvoorbeeld met een videogesprek, voor je ergens afspreekt.",
+            "Spreek de eerste keer af op een openbare plek, zoals een bibliotheek, of bij iemand thuis met een ouder in de buurt.",
+            "Voelt iets niet juist, of vraagt iemand naar persoonlijke dingen die niets met studeren te maken hebben? Stop het contact en vertel het aan iemand die je vertrouwt."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wat mag je wel en niet delen in een studiegroep?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je eigen samenvattingen, uitleg bij moeilijke leerstof, je planning en tips over hoe je studeert, mag je gerust met elkaar delen."
+        },
+        {
+          "type": "note",
+          "title": "Examenvragen delen is verboden.",
+          "text": "Examenvragen en verbetersleutels mag je niet kopiëren, fotograferen, filmen of verspreiden, ook niet na een inzage. Misbruik wordt gesanctioneerd. Ook het ruilen of verkopen van examenplaatsen geldt als fraude. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe krijg je een studiegroep van de grond? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die al medestudenten zochten, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Verwacht niet meteen veel reacties. Herhaal je oproep na een tijdje, of reageer op oproepen van anderen in je buurt.",
+            "Zit je kind niet op Facebook? Dan kan een ouder de oproep plaatsen en eerst met de andere ouders contact leggen.",
+            "Studeer om beurten bij iemand thuis of spreek af in een bibliotheek. Eén of twee vaste dagen per week geven al structuur.",
+            "Afspreken om iets leuks te doen helpt ook. Veel kandidaten missen vooral sociaal contact."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik plaatste een oproep om samen te studeren in mijn regio. Binnen een paar dagen reageerden verschillende leerlingen en ouders, en had ik een groepje bij elkaar.",
+      "name": "Lotte",
+      "role": "leerling",
+      "context": "3e graad, regio Antwerpen"
+    },
+    {
+      "quote": "Mijn zoon zit niet op Facebook, dus plaatste ik zelf een oproep voor medestudenten uit de buurt. Een andere ouder met een zoon in dezelfde richting reageerde, en wij legden eerst onderling contact.",
+      "name": "Nadia",
+      "role": "moeder",
+      "context": "zoon in 3e graad wiskunde-wetenschappen"
+    },
+    {
+      "quote": "Samen met mijn mama startte ik een groepje om samen te studeren of iets leuks te doen. Er reageerden mensen van heel verschillende leeftijden, dus we bekeken eerst wie bij wie paste.",
+      "name": "Ilias",
+      "role": "leerling",
+      "context": "3e graad welzijnswetenschappen"
+    },
+    {
+      "quote": "Ik zocht een paar jongeren met wie onze zoon één of twee dagen per week kon studeren, gewoon voor structuur. Een betaalde studieplek vonden we te duur, dus hij gaat intussen ook naar een universiteitsbibliotheek.",
+      "name": "Koen",
+      "role": "vader",
+      "context": "zoon in 3e graad"
+    }
+  ],
+  "related": [
+    "hoe-ga-je-om-met-eenzaamheid-en-waar-vind-je",
+    "hoe-vind-ik-andere-leerlingen-of-ouders-om-samen",
+    "waar-vind-je-een-goede-bijlesleerkracht-met",
+    "welke-organisaties-begeleiden-je-tijdens-een-ec"
+  ]
+}

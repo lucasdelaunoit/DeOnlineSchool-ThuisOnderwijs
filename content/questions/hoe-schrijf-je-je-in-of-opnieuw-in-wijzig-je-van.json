@@ -1,0 +1,168 @@
+{
+  "slug": "hoe-schrijf-je-je-in-of-opnieuw-in-wijzig-je-van",
+  "question": "Hoe schrijf je je in (of opnieuw in), wijzig je van richting of betaal je met een opleidingscheque?",
+  "title": "Inschrijven bij de Examencommissie",
+  "description": "Zo schrijf je je in bij de Examencommissie, betaal je met een opleidingscheque en verander je van richting of graad. Met kosten en termijnen.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je schrijft je in via het kandidatenplatform met je eigen eID of digitale sleutel, kiest een graad en studierichting en betaalt 41 euro per studierichting. Van richting of graad veranderen kan altijd, maar meestal betaal je dan opnieuw. Met een opleidingscheque betalen kan ook: vraag eerst via een melding goedkeuring.",
+  "facts": [
+    {
+      "label": "Inschrijvingsgeld",
+      "value": "41 euro per richting"
+    },
+    {
+      "label": "Online betalen",
+      "value": "Meteen in orde"
+    },
+    {
+      "label": "Overschrijving of cheque",
+      "value": "Tot 5 werkdagen"
+    },
+    {
+      "label": "Geen examen gepland",
+      "value": "Na 2 jaar non-actief"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe schrijf je je in?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Bekijk de online infosessie (filmpjes).",
+            "Meld je aan op het kandidatenplatform met eID en kaartlezer of met digitale sleutels. Gebruik altijd je eigen identiteit, ook als je minderjarig bent. Werk bij voorkeur in Chrome of Edge.",
+            "Kies je graad en studierichting.",
+            "Betaal het inschrijvingsgeld.",
+            "Plan je examens.",
+            "Bereid je voor met de vakfiches en het digitale proefexamen. [1]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Je schrijft je in per graad, niet per studiejaar, en je kunt meteen in de 3e graad starten. Per graad kies je één studierichting. Wil je meerdere graden tegelijk doen, dan betaal je per studierichting. Zorg ook voor een scherpe profielfoto van je gezicht: zonder profielfoto kun je niet deelnemen. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Meldde je je aan met de kaart van iemand anders, bijvoorbeeld van een ouder? Dan moet je je opnieuw inschrijven met je eigen identiteit. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe betaal je, ook met een opleidingscheque?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Het inschrijvingsgeld is 41 euro per studierichting, niet per examen, en wordt nooit terugbetaald. Online betalen met Bancontact, Maestro, Visa of Mastercard is meteen in orde. Een overschrijving of opleidingscheque kan tot 5 werkdagen duren. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vraag eerst goedkeuring via een melding in het platform.",
+            "Voeg daarna een screenshot van je cheque als bijlage toe.",
+            "De cheque moet geldig zijn, op jouw naam staan, als opleidingsverstrekker 'AHOVOKS en Examencommissie' vermelden en 41 euro waard zijn.",
+            "De verwerking duurt 2 tot 3 werkdagen. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wanneer moet je je opnieuw inschrijven?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Meestal niet. Je studierichting blijft onbeperkt geldig zodra je voor minstens één examen ingeschreven bent. Uitzonderingen zijn een richting die verdwijnt, een andere richting kiezen in dezelfde graad, of een uitschrijving als sanctie. Plan je twee jaar geen examen, dan wordt je account non-actief, maar het wordt weer actief zodra je opnieuw inlogt. Uitschrijven als je stopt, hoeft niet. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bij een 5de niet-deelname in een kalenderjaar word je 2 maanden geschorst en uitgeschreven uit je studierichting en al je geplande examens. Daarna schrijf je je opnieuw in en betaal je opnieuw. Je beurten en resultaten blijven behouden. [2]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe verander je van richting of graad?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wijzigen kan altijd via het platform. Voor een andere graad betaal je opnieuw. Voor een andere studierichting ook, tenzij je nog geen examens gepland had. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Geplande examens die ook in je nieuwe richting zitten, blijven staan.",
+            "Voor de andere word je uitgeschreven. Lag zo'n examen binnen 7 dagen, dan telt dat als niet-deelname.",
+            "Resultaten en het aantal gebruikte beurten van vakken met dezelfde leerinhoud gaan mee. Je krijgt daardoor niet automatisch 3 nieuwe beurten.",
+            "Je vrijstellingen neem je mee. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe vermijd je verrassingen? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die zich al inschreven of van richting wisselden, geven deze tips: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bekijk via 'veranderen van richting' in het platform eerst welke vakken je meeneemt, voor je echt wisselt.",
+            "Denk goed na voor je wisselt: elke wissel kost meestal opnieuw 41 euro.",
+            "Begin met de filmpjes van de infosessie. Ze geven een goed beeld van hoe alles verloopt.",
+            "Na een schorsing vind je de betaalknop door in het platform op je studierichting te klikken."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Via 'veranderen van richting' in het platform zag ik welke vakken ik kon meenemen. Bekijk dat zeker voor je beslist.",
+      "name": "Lotte",
+      "role": "leerling",
+      "context": "overstap naar een andere richting, 3e graad"
+    },
+    {
+      "quote": "Bij mijn wissel bleef alles wat ik al behaald had bewaard. Toch wissel ik niet zomaar, want het kost telkens opnieuw 41 euro.",
+      "name": "Arno",
+      "role": "leerling",
+      "context": "van wetenschappen naar humane, 3e graad"
+    },
+    {
+      "quote": "We zijn begonnen met de filmpjes op de site van de Examencommissie. Zo wist mijn dochter al hoe het er in het examencentrum aan toegaat.",
+      "name": "Ines",
+      "role": "moeder",
+      "context": "start in de 2e graad"
+    },
+    {
+      "quote": "Na mijn schorsing zocht ik eerst waar ik opnieuw moest betalen. De knop stond gewoon bij mijn studierichting in het platform.",
+      "name": "Kwame",
+      "role": "leerling",
+      "context": "opnieuw inschrijven na schorsing"
+    }
+  ],
+  "related": [
+    "wat-doe-je-bij-problemen-met-inloggen-of-je",
+    "kun-je-van-richting-veranderen-om-een-vak-te",
+    "in-welke-graad-start-je-best-kun-je-de-tweede",
+    "hoe-bewijs-je-eerder-behaalde-getuigschriften-of",
+    "wat-gebeurt-er-als-je-een-examen-of-inzage-mist"
+  ]
+}

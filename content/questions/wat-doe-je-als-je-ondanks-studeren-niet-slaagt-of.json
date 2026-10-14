@@ -1,0 +1,202 @@
+{
+  "slug": "wat-doe-je-als-je-ondanks-studeren-niet-slaagt-of",
+  "question": "Wat doe je als je ondanks studeren niet slaagt of steeds opnieuw buist?",
+  "title": "Steeds opnieuw gebuisd? Zo stuur je bij",
+  "description": "Buis je steeds opnieuw bij de Examencommissie? Zo gebruik je je inzage, de vakfiche en een andere studiemethode, en zo werken beurten en buispunten.",
+  "category": "Welzijn en motivatie",
+  "audience": "Voor leerlingen · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Buis je steeds opnieuw, studeer dan niet gewoon harder, maar anders. Gebruik je inzage om te zien waar je punten verloor, leg je materiaal naast de vakfiche en pas je studiemethode aan. Je hebt per vak 3 beurten per kalenderjaar, en met minstens 45% kunnen buispunten je nog laten slagen.",
+  "facts": [
+    {
+      "label": "Beurten per vak",
+      "value": "3 per kalenderjaar"
+    },
+    {
+      "label": "Buispunten",
+      "value": "Max. 7"
+    },
+    {
+      "label": "Ondergrens buispunten",
+      "value": "45% per vak"
+    },
+    {
+      "label": "Inzage plannen",
+      "value": "Binnen 1 maand"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Waar verloor je precies je punten?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Begin bij je inzage. Die kan alleen als je niet geslaagd bent. Je plant ze binnen de maand nadat je resultaat gepubliceerd is, en ze duurt 90 minuten. Je moet zelf aanwezig zijn en mag één begeleider meenemen, bijvoorbeeld iemand die het vak goed kent. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je mag persoonlijke notities maken en meenemen. Examenvragen en verbetersleutels kopiëren, fotograferen of filmen mag niet. Noteer bijvoorbeeld: [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bij welke onderdelen of vraagtypes verloor je de meeste punten?",
+            "Ging het om kennis, om inzicht of om de opbouw van je antwoord?",
+            "Kwam je tijd tekort?",
+            "Welke leerstof had je niet verwacht?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Past je studiemateriaal bij de vakfiche?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie geeft geen lessen en geen studiemateriaal. Per vak is er wel een vakfiche, met de leerinhouden, de vaardigheden en een lijst met leermiddelen. Nieuwe vakfiches gaan in op 1 januari; gebruik altijd de fiche die geldt in het jaar van je examen. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leg de inhoudstafel van je boek of cursus naast de vakfiche. Ontbreekt er leerstof, of oefen je een vaardigheid niet die wel in de fiche staat, dan weet je waar je moet bijwerken. Met het digitale proefexamen leer je bovendien alle vraagtypes kennen. [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Extra hulp mag. Privélessen zijn toegelaten, al beoordeelt de Examencommissie hun kwaliteit niet. Ook lessen in het volwassenenonderwijs kunnen. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe stuur je je studiemethode bij?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Werkt dezelfde aanpak keer op keer niet, dan helpt harder studeren op dezelfde manier meestal weinig. Probeer iets anders:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Leer actief: leg de leerstof luidop uit in je eigen woorden en probeer het daarna zonder cursus.",
+            "Maak veel oefeningen en zoek bij elke fout uit waarom ze fout was.",
+            "Spreid het herhalen over meerdere dagen in plaats van alles op het laatst te doen.",
+            "Kies per vak een aanpak die past, bijvoorbeeld een tijdlijn voor geschiedenis, veel oefeningen voor wiskunde en lezen en luisteren voor talen.",
+            "Laat iemand anders eens naar je manier van studeren kijken, zoals een leerkracht of iemand die het vak goed kent."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lopen dezelfde moeilijkheden steeds terug, bijvoorbeeld bij lezen of onder tijdsdruk, bespreek dat dan met je huisarts of het CLB. Met een gemotiveerd attest van een bevoegd zorgverlener kun je ondersteunende maatregelen aanvragen, zoals extra tijd of voorleessoftware. [5]"
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel kansen heb je nog, en hoe hou je het vol?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je hebt per vak 3 examenbeurten per kalenderjaar; op 1 januari krijg je er 3 nieuwe. Je volgende beurt plan je pas als je resultaat zichtbaar is en je inzage afgerond is, en altijd in een andere examenreeks. Bij meerdere pogingen telt je hoogste score. [3] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haal je minstens 45%, dan kunnen buispunten je laten slagen. Je hebt één buispunt per vak van je studierichting, met een maximum van 7, en je kunt ze inzetten voor hoogstens 3 vakken. Het platform kent ze automatisch toe. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Steeds opnieuw buizen is ontmoedigend, en dat mag je ook zo voelen. Neem tussen twee pogingen bewust wat rust en praat erover met iemand die je vertrouwt."
+        },
+        {
+          "type": "note",
+          "title": "Hulp nodig?",
+          "text": "Jongeren kunnen gratis en anoniem praten met Awel: bel 102 (elke dag van 16 tot 22 uur, behalve op zon- en feestdagen) of chat via awel.be. Tele-Onthaal is er dag en nacht voor iedereen op 106. Denk je aan zelfdoding, of maak je je zorgen om iemand anders, dan kun je altijd terecht bij de Zelfmoordlijn op 1813. Ook je huisarts of het CLB kan helpen. [6] [7] [8]"
+        }
+      ]
+    },
+    {
+      "title": "Wat werkte voor andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die een vak meermaals moesten afleggen, geven deze tips: [9]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ga zeker naar de inzage en neem iemand mee die het vak goed kent.",
+            "Reken je punten zelf na; soms zit er een fout in de optelling.",
+            "Oefen gericht op de soorten vragen die terugkomen, niet alleen op de leerstof.",
+            "Werk vak per vak, zodat je je volledig op één examen kunt richten."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Vlaamse overheid, *Awel – luisterlijn voor kinderen en jongeren*",
+      "url": "https://www.vlaanderen.be/gezin/kinderen/jeugdhulp/awel"
+    },
+    {
+      "text": "Tele-Onthaal, *Tele-Onthaal 106*",
+      "url": "https://www.tele-onthaal.be"
+    },
+    {
+      "text": "Zelfmoordlijn 1813, *Zelfmoordlijn 1813*",
+      "url": "https://www.zelfmoord1813.be"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Nederlands 1 lukte pas bij mijn derde poging. Het verschil maakte dat ik gericht ging oefenen op de soorten vragen die terugkomen, in plaats van alleen de leerstof te herhalen.",
+      "name": "Selin",
+      "role": "leerling",
+      "context": "Nederlands 1, 3de graad"
+    },
+    {
+      "quote": "Op school haalde ik hoge punten, maar bij de Examencommissie bleef ik telkens net onder de 50%. Andere kandidaten raadden me aan niet nog harder op dezelfde manier te studeren, maar mijn methode met iemand te bekijken en vak per vak te werken.",
+      "name": "Milan",
+      "role": "leerling",
+      "context": "meerdere vakken"
+    },
+    {
+      "quote": "Na twee buizen op mijn eerste drie examens raakte ik mijn motivatie kwijt. De tip die ik kreeg: elk vak vraagt een eigen aanpak, en luidop uitleggen met kernwoorden werkt beter dan herlezen.",
+      "name": "Amber",
+      "role": "leerling",
+      "context": "geschiedenis en economie, 3de graad"
+    },
+    {
+      "quote": "Wij kozen uiteindelijk voor een minder zware richting dan op school. Dat gaf minder stress en meer tijd om te groeien.",
+      "name": "Jo",
+      "role": "ouder",
+      "context": "na de overstap van school"
+    }
+  ],
+  "related": [
+    "hoeveel-examenbeurten-heb-je-hoe-werken",
+    "wat-is-een-inzage-hoe-verloopt-ze-en-kun-je-er",
+    "hoe-studeer-je-zelfstandig-voor-de-2de-graad-en",
+    "kun-je-van-richting-veranderen-om-een-vak-te",
+    "hoe-ga-je-om-met-stress-faalangst-of-verloren"
+  ]
+}

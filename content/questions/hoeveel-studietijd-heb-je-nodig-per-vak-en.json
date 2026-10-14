@@ -1,0 +1,153 @@
+{
+  "slug": "hoeveel-studietijd-heb-je-nodig-per-vak-en",
+  "question": "Hoeveel studietijd heb je nodig per vak en hoeveel examens plan je best per maand?",
+  "title": "Studietijd per vak en examens per maand",
+  "description": "Hoeveel studietijd heb je per vak nodig en hoeveel examens plan je per maand bij de Examencommissie? Regels en ervaringen van kandidaten.",
+  "category": "Starten en keuzes",
+  "audience": "Voor leerlingen en ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie geeft geen richttijden: hoeveel studietijd je nodig hebt, hangt af van het vak, je voorkennis en je tempo. Je plant zelf, vak per vak, in 5 examenreeksen per jaar. Veel kandidaten houden het op één à twee examens per maand, met extra tijd voor wiskunde, wetenschappen en geschiedenis.",
+  "facts": [
+    {
+      "label": "Examenreeksen",
+      "value": "5 per kalenderjaar"
+    },
+    {
+      "label": "Inschrijven",
+      "value": "Tot 3 dagen vooraf"
+    },
+    {
+      "label": "Beurten per vak",
+      "value": "3 per kalenderjaar"
+    },
+    {
+      "label": "Resultaat",
+      "value": "Uiterlijk na 30 dagen"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Geeft de Examencommissie richttijden per vak?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. De officiële bronnen noemen geen aantal uren of weken per vak. Je studeert zelfstandig: de Examencommissie geeft geen lessen, cursussen of studiebegeleiding. [2] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je beste houvast is de vakfiche. Daarin staan per vak de leerinhouden, de vaardigheden en een lijst met leermiddelen. Zo schat je zelf in hoeveel leerstof een vak telt. Met het digitale proefexamen leer je de vraagtypes kennen. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe plan je je examens?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je plant vak per vak in het kandidatenplatform, in je eigen tempo en volgorde. Alleen als de vakfiche een vaste volgorde oplegt, moet je die volgen. [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Er zijn 5 examenreeksen per kalenderjaar, elk van ongeveer 8 à 10 weken.",
+            "Je schrijft je in tot 3 dagen voor het examen (voor assessments en toegepaste informatica: 10 dagen).",
+            "Per vak schrijf je je maar één keer in per examenreeks.",
+            "Uitschrijven kan tot 7 dagen vooraf. Later geldt als niet-deelname.",
+            "Tussen 15 juli en 15 augustus en tijdens de eindejaarsfeestdagen zijn er geen examens. [3]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel examens kun je per maand afleggen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De officiële bronnen noemen geen maximum per maand. Wel zijn er grenzen per vak: je hebt 3 examenbeurten per vak per kalenderjaar, en je plant een volgende beurt pas als je resultaat zichtbaar is. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je resultaat verschijnt uiterlijk 30 dagen na het examen, soms sneller. Een spoedprocedure bestaat niet. [4]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Een herkansing van hetzelfde vak plan je altijd in een andere reeks, nooit in dezelfde. Houd daar rekening mee als je een strakke planning maakt. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Hoeveel tijd rekenen andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders delen deze ervaringen. Ze verschillen sterk van persoon tot persoon: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Eén examen per maand is een vaak genoemd ritme. Anderen doen er twee of meer, of laten een paar maanden tussen.",
+            "Voor geschiedenis en aardrijkskunde in de 3de graad rekenen velen één tot twee maanden. Wie voltijds blokt, haalt het soms in een paar weken.",
+            "Wiskunde en natuurwetenschappen vragen meestal het meeste tijd, zeker zonder voorkennis.",
+            "Wissel moeilijke en makkelijkere vakken af. Bewaar de moeilijkste niet tot het einde, want een herkansing kost tijd.",
+            "Plan je examens vroeg in: populaire data raken snel volzet."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Vlaamse overheid, *Resultaten en inzage – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/resultaten-en-inzage"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Mijn zoon plant meestal één examen per maand, af en toe twee. Zijn oudere broer legde alle examens van de 3de graad af op ongeveer negen maanden.",
+      "name": "Griet",
+      "role": "moeder",
+      "context": "3de graad, examenritme"
+    },
+    {
+      "quote": "Ik had soms drie maanden geen examen en dan weer vier in één maand. Mijn grootste fout was de moeilijke vakken tot het laatst te bewaren.",
+      "name": "Yasmina",
+      "role": "leerling",
+      "context": "bedrijfswetenschappen, 3de graad"
+    },
+    {
+      "quote": "Onze dochter studeerde zo'n 70 à 80 uur voor aardrijkskunde, haar eerste examen. Ze slaagde en denkt dat het een volgende keer sneller kan.",
+      "name": "Koen",
+      "role": "vader",
+      "context": "aardrijkskunde, 3de graad"
+    },
+    {
+      "quote": "Mijn dochter studeert ongeveer drie uur per dag, vier dagen per week, afhankelijk van haar energie. Ze legde zes examens af in een jaar, en dat tempo past bij haar.",
+      "name": "Mai",
+      "role": "moeder",
+      "context": "welzijnswetenschappen, 3de graad"
+    }
+  ],
+  "related": [
+    "hoeveel-studietijd-voorzie-je-best-per-vak-en-hoe",
+    "hoe-en-wanneer-plan-je-je-examens-2de-graad-in-en",
+    "hoe-studeer-je-zelfstandig-voor-de-2de-graad-en",
+    "hoe-lang-heb-je-tijd-om-alle-examens-af-te-leggen",
+    "hoelang-moet-je-wachten-op-je-punten-en-op-je"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "hoe-verloopt-het-praktisch-na-inschrijving",
+  "question": "Hoe verloopt het praktisch na inschrijving: inloggegevens, wat meenemen naar het examen, technische problemen bij een online opdracht?",
+  "title": "Na je inschrijving: inloggen en examen",
+  "description": "Zo log je in op het kandidatenplatform, dit neem je mee naar je examen en zo pak je een technisch probleem aan, in het examencentrum of thuis.",
+  "category": "Inschrijven, regels en diploma",
+  "audience": "Voor leerlingen en ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Je logt in op het kandidatenplatform met je eigen eID en kaartlezer of met digitale sleutels zoals itsme. Naar het examen breng je een geldig identiteitsbewijs mee; een foto ervan volstaat niet. Loopt er technisch iets mis, meld het meteen: in het examencentrum aan de toezichter, thuis via een melding in het platform of via 1700.",
+  "facts": [
+    {
+      "label": "itsme",
+      "value": "Vanaf 13 jaar"
+    },
+    {
+      "label": "Inschrijven examen",
+      "value": "Tot 3 dagen vooraf"
+    },
+    {
+      "label": "Te laat",
+      "value": "Max. 15 minuten"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe log je in op het kandidatenplatform?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je meldt je aan met je eID en een kaartlezer, of met digitale sleutels zoals itsme. Gebruik altijd je eigen identiteit, ook als je minderjarig bent. Wie zich met de kaart van iemand anders aanmeldt, moet opnieuw inschrijven. Werk bij voorkeur in Chrome of Edge; Safari werkt niet goed. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tussen 12 en 18 jaar kun je digitale sleutels activeren met je eID. Itsme kan vanaf 13 jaar. Een Belgische kids-ID werkt ook, een niet-Belgische niet. Maak meerdere digitale sleutels aan als back-up: je bent zelf verantwoordelijk om te kunnen inloggen. [1]"
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Zonder profielfoto kun je niet deelnemen aan een examen. Laad dus meteen een scherpe foto van je gezicht op, van pasfotokwaliteit, waarop alleen jij staat. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat neem je mee naar het examen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Het belangrijkste is een geldig identiteitsbewijs, zoals je eID, kids-ID, paspoort, Belgisch rijbewijs of elektronische vreemdelingenkaart. Een foto van je kaart of itsme volstaat niet. Zonder geldig bewijs mag je niet deelnemen. [3] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je examenuur staat in het kandidatenplatform. Het examen start op een vast uur en je mag maximaal 15 minuten te laat komen, zonder extra tijd. Jas, tas en gsm gaan in een locker: je neemt niets persoonlijks mee in het examenlokaal. Woordenboeken, spellingcontrole en een rekenmachine staan op de examencomputer. [2] [4]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Een gsm, smartwatch of ander toestel bij je hebben geldt als fraude. Een toestel dat aanstaat, wordt beschouwd als in gebruik. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Wat doe je bij een technisch probleem?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Loopt er in het examencentrum iets mis, wacht dan tot de Examencommissie een oplossing meedeelt. Wie het lokaal eerder verlaat, verliest de beurt. Verloren tijd wordt verlengd. Meld elk incident aan de toezichter: die vult een incidentenformulier in dat je mee ondertekent. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De spreekopdracht van een taalexamen maak je thuis, en daarvoor mag je je eigen pc of laptop gebruiken. Wat er gebeurt als het opnemen of indienen thuis misloopt, beschrijven de officiële bronnen niet. Maak dan meteen een melding in het kandidatenplatform (rechtsboven, via meldingen) of bel 1700. [4] [3] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heb je een examen via videogesprek, zoals een mondeling vanuit het buitenland? Dan kun je vooraf testen met een medewerker, op dinsdag tussen 10 en 11 uur. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Wat kun je thuis al oefenen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Met het digitaal proefexamen leer je alle vraagtypes kennen. De online rekenapps, zoals de grafische rekenmachine, kun je thuis vrij oefenen. Voor oefeningen met een schrijftablet en digitale pen zijn er een proefexamen en een filmpje. Wat je moet kennen, staat per vak in de vakfiche. [4]"
+        }
+      ]
+    },
+    {
+      "title": "Welke praktische tips geven andere kandidaten? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die al examens aflegden, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test je webcam en micro voor je aan een opdracht thuis begint, en bekijk eerst het uitlegfilmpje.",
+            "Maak bij een foutmelding meteen een schermafbeelding en voeg die toe aan je melding.",
+            "Kun je niet inloggen, kijk dan of er onderhoud aan het platform aangekondigd is.",
+            "Laat ook een geluksbrenger of pen gewoon in je locker.",
+            "Neem een trein met ruime marge, zodat een vertraging je examen niet kost. [6]"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens plannen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-plannen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Na de betaling wachtte ik op aparte inloggegevens voor mijn dochter, maar die komen er niet. Ze kon meteen inloggen met itsme.",
+      "name": "Noor",
+      "role": "moeder",
+      "context": "2de graad, net ingeschreven"
+    },
+    {
+      "quote": "We vroegen ons af wat onze zoon allemaal moest meenemen naar zijn eerste examen. Het antwoord van andere ouders was kort: alleen zijn identiteitskaart, en die mag je zeker niet vergeten.",
+      "name": "Mehmet",
+      "role": "vader",
+      "context": "eerste examen, 2de graad"
+    },
+    {
+      "quote": "Mijn zoon test vooraf altijd zijn webcam en micro en bekijkt eerst het uitlegfilmpje. Zodra de opdracht open is, loopt de tijd, dus dan wil je geen verrassingen.",
+      "name": "Ilse",
+      "role": "moeder",
+      "context": "online spreekopdracht thuis"
+    },
+    {
+      "quote": "Op een dag kon ik niet inloggen op het kandidatenplatform. Achteraf bleek dat er onderhoudswerken waren, en die waren op voorhand aangekondigd.",
+      "name": "Jonas",
+      "role": "leerling",
+      "context": "inloggen op het platform"
+    }
+  ],
+  "related": [
+    "wat-doe-je-bij-problemen-met-inloggen-of-je",
+    "hoe-verloopt-een-examendag-in-het-examencentrum",
+    "hoe-werkt-de-online-spreekopdracht-thuis-voor",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop",
+    "hoe-contacteer-je-de-examencommissie-of-dien-je"
+  ]
+}

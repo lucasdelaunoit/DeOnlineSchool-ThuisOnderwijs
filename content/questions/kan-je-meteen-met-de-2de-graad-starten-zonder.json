@@ -1,0 +1,138 @@
+{
+  "slug": "kan-je-meteen-met-de-2de-graad-starten-zonder",
+  "question": "Kan je meteen met de 2de graad starten (zonder getuigschrift 1ste graad of na één jaar secundair)?",
+  "title": "Meteen starten in de 2de graad",
+  "description": "Kun je via de Examencommissie meteen aan de 2de graad beginnen, zonder getuigschrift 1ste graad? Wat mag en waar je op let bij huisonderwijs.",
+  "category": "Starten en keuzes",
+  "audience": "Voor ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja. Bij de Examencommissie schrijf je per graad in en vooropleiding speelt geen rol, dus je kunt meteen aan de 2de graad beginnen. Volg je huisonderwijs en ben je leerplichtig, dan moet je wel tijdig je getuigschrift van de 1ste graad halen: uiterlijk in het schooljaar waarin je vóór 1 januari 16 wordt.",
+  "facts": [
+    {
+      "label": "Inschrijven bij de EC",
+      "value": "Uiterlijk in het schooljaar waarin je vóór 1 januari 15 wordt"
+    },
+    {
+      "label": "Getuigschrift 1ste graad",
+      "value": "Uiterlijk in het schooljaar waarin je vóór 1 januari 16 wordt"
+    },
+    {
+      "label": "Inschrijvingsgeld",
+      "value": "41 euro per studierichting"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Mag je meteen aan de 2de graad beginnen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Iedereen kan deelnemen aan de Examencommissie, ongeacht leeftijd of vooropleiding. Je schrijft in per graad, niet per studiejaar, en je kiest zelf in welke graad je start. Je kunt zelfs meteen naar de 3de graad. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Voor je inschrijving bij de Examencommissie heb je dus geen getuigschrift van de 1ste graad nodig. Ook na één jaar secundair kun je kiezen voor de 2de graad. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Heb je het getuigschrift van de 1ste graad dan nog nodig?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voor de Examencommissie zelf niet. Maar voor leerplichtige jongeren in huisonderwijs gelden twee termijnen: [3]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Het getuigschrift van de 1ste graad haal je ten laatste in het schooljaar waarin je vóór 1 januari 16 wordt.",
+            "Bij de Examencommissie schrijf je je ten laatste in in het schooljaar waarin je vóór 1 januari 15 wordt. [3] [4]"
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Haal je het getuigschrift van de 1ste graad niet op tijd, dan moet je naar een erkende school. Een vrijstelling van die verplichting, bijvoorbeeld bij een ernstige leerstoornis, vraag je aan via het CLB. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haalde je het getuigschrift van de 1ste graad al op school, dan is aan die voorwaarde voldaan. Twijfel je over je situatie, neem dan contact op met het team huisonderwijs of het CLB. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Kun je de 1ste en 2de graad tegelijk doen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ja. Je kunt in meerdere graden tegelijk ingeschreven zijn, met telkens één studierichting per graad. Je betaalt dan per studierichting. Zo kun je de laatste vakken van de 1ste graad afwerken terwijl je al aan de 2de graad begint. [1] [2]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere ouders en kandidaten aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en jongeren die een graad oversloegen of vroeg begonnen, geven deze tips: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hou de termijn voor het getuigschrift van de 1ste graad goed in het oog als je in huisonderwijs zit.",
+            "Leg eerst een paar examens van de nieuwe graad af om te proeven hoe het gaat.",
+            "Werk vakken die op elkaar voortbouwen, zoals wiskunde en talen, eerst bij."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Inschrijven – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/inschrijven"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Onze dochter had haar getuigschrift van de 1ste graad al op school behaald. Daarom kon ze na de overstap meteen met examens van de 2de graad beginnen.",
+      "name": "Leen",
+      "role": "moeder",
+      "context": "dochter bijna 15, huisonderwijs"
+    },
+    {
+      "quote": "Onze dochter legde eerst drie examens van de 2de graad af om te proeven. Daarna koos ze voor de 3de graad.",
+      "name": "Marieke",
+      "role": "moeder",
+      "context": "dochter 15, na het 3de jaar"
+    },
+    {
+      "quote": "Onze zoon slaagde op school niet voor de 1ste graad en we schreven hem meteen in voor een hogere graad. Dat bleek te zwaar, dus nu werkt hij eerst de 1ste graad af.",
+      "name": "Rachid",
+      "role": "vader",
+      "context": "zoon 14"
+    }
+  ],
+  "related": [
+    "in-welke-graad-start-je-best-kun-je-de-tweede",
+    "wat-moet-je-regelen-voor-huisonderwijs-en",
+    "is-de-2de-graad-via-de-examencommissie-haalbaar",
+    "hoe-begin-ik-aan-de-examencommissie-1ste-graad-en",
+    "a-of-b-stroom-welke-kiest-mijn-kind-ook-na-een-b"
+  ]
+}

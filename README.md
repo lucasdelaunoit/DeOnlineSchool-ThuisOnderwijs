@@ -30,6 +30,7 @@ npm run questions -- list
 npm run questions -- export [dir]           # database → <dir>/<slug>.json (default content/questions)
 npm run questions -- import <file|dir>...   # adds, or replaces the question with the same slug
 npm run questions -- delete <slug>
+npm run landingspaginas -- <export.html> [dir] [--checked-on YYYY-MM-DD]   # review export → <dir>/<slug>.json
 ```
 
 To edit: export, change the file, import it. An import checks every file first (required

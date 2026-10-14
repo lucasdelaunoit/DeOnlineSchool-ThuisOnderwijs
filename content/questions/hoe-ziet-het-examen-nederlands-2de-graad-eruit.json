@@ -1,0 +1,141 @@
+{
+  "slug": "hoe-ziet-het-examen-nederlands-2de-graad-eruit",
+  "question": "Hoe ziet het examen Nederlands 2de graad eruit (digitaal examen, te lezen boeken)?",
+  "title": "Examen Nederlands 2de graad uitgelegd",
+  "description": "Hoe ziet het examen Nederlands 2de graad eruit? Opbouw van het taalexamen, spreekopdracht, hulpmiddelen en wat kandidaten zeggen over de leesboeken.",
+  "category": "Examens per vak",
+  "audience": "Voor leerlingen en ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Nederlands is een taalexamen over lezen, luisteren, spreken en schrijven, verdeeld over één of twee examens. Eén spreekopdracht maak je thuis, de rest in het examencentrum in Brussel, en je krijgt pas een resultaat als je alle onderdelen hebt afgelegd. Welke boeken je moet lezen, staat in de vakfiche.",
+  "facts": [
+    {
+      "label": "Vaardigheden",
+      "value": "Lezen, luisteren, spreken, schrijven"
+    },
+    {
+      "label": "Spreekopdracht",
+      "value": "Eén keer thuis"
+    },
+    {
+      "label": "Resultaat",
+      "value": "Na alle onderdelen"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe is het examen Nederlands opgebouwd?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De taalexamens zijn gemoderniseerd. Je wordt getest op lezen, luisteren, spreken en schrijven, verdeeld over één of twee examens. Eén spreekopdracht maak je thuis, de rest leg je af in het examencentrum. [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Je krijgt pas een resultaat als je aan alle onderdelen van een volledig taalexamen hebt deelgenomen. [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Het digitale deel en het mondelinge deel kunnen na elkaar vallen, met wachttijd ertussen. Voor het mondeling bereid je je voor in een apart lokaal, waar een scherm de resterende voorbereidingstijd toont. Daarna haalt de examinator je op. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Welke hulpmiddelen heb je en wat moet je kennen?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Op de examencomputer staan voor iedereen woordenboeken en een spellingcheck. In het examencentrum kun je Van Dale Online gebruiken. [4] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wat je moet kennen en kunnen, staat in de vakfiche van het jaar van je examen. Daar lees je ook welke boeken je moet lezen, hoe je ze kiest en in welk onderdeel ze aan bod komen. Met het digitale proefexamen oefen je de vraagtypes; inhoudelijke vragen staan er niet in. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe ervaren kandidaten het examen Nederlands? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die het examen al aflegden, vertellen in de Facebookgroepen het volgende. Het gaat om persoonlijke ervaringen, niet om officiële regels. [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Het deel lezen en luisteren, dat kandidaten 'Nederlands 1' noemen, bestaat volgens hen uit meerkeuzevragen over lees- en luisterfragmenten. Ook begrippen uit de vakfiche komen daarin terug.",
+            "In het deel schrijven en spreken, 'Nederlands 2', schrijf je zelf teksten, zoals een e-mail, en spreek je mondeling.",
+            "Over de leesboeken zijn kandidaten duidelijk: lees ze echt en begin op tijd. Er wordt naar details en verbanden gevraagd, en die haal je niet uit een samenvatting.",
+            "Ken de woorden en begrippen uit de vakfiche goed. Lukt een woord in een fragment niet, dan helpt het woordenboek.",
+            "Ook bij Nederlands melden sommige kandidaten clustervragen, waarbij één fout onderdeel de hele vraag kost. [5]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Welk materiaal raden kandidaten aan voor Nederlands? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dit materiaal wordt in de Facebookgroepen over de Examencommissie het vaakst aangeraden voor Nederlands. Wij beoordelen zelf de kwaliteit niet: vergelijk altijd met de vakfiche van jouw examenjaar. [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kom maar op! (samenvattingen): veel ouders gebruiken de goedkope samenvattingen volgens de vakfiche, ook voor de 2de graad. Kritiek die je soms leest: er staan soms fouten in, sommigen vinden ze te beperkt om er alleen mee te werken, en het was niet voor iedereen duidelijk welke delen bij welk examen horen.",
+            "Knoowy (samenvattingen van kandidaten): betaalbare samenvattingen als aanvulling. Kritiek die je soms leest: wisselende kwaliteit en soms te beperkt.",
+            "Informatiepunt Examencommissie (cursussen): sommige kandidaten gebruiken de uitgebreide cursussen met oefeningen en links voor Nederlands. Kritiek die je soms leest: sommige cursussen zijn erg lang.",
+            "ChatGPT en andere AI-tools (app): handig om een tekst te laten nakijken of uitleg te krijgen. Let op: AI maakt fouten, is geen betrouwbare bron voor regels en vervangt het lezen van de boeken niet. De vakfiche blijft leidend. [5]"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik zag het meest op tegen Nederlands. In de groep hoorde ik dat het eerste deel enkel meerkeuzevragen over lees- en luisterfragmenten bevat, en dat het veel scheelt als je de woorden uit de vakfiche goed kent.",
+      "name": "Selin",
+      "role": "leerling",
+      "context": "Nederlands, 2e graad economische wetenschappen"
+    },
+    {
+      "quote": "Ik twijfelde of een samenvatting van het leesboek zou volstaan. Anderen raadden me aan het hele boek te lezen, liefst meer dan eens, omdat er naar details en verbanden gevraagd wordt. Ik ga het boek dus lenen.",
+      "name": "Kobe",
+      "role": "leerling",
+      "context": "Nederlands, 2e graad organisatie en logistiek"
+    },
+    {
+      "quote": "Met de samenvatting die we kochten, was niet meteen duidelijk wat bij het eerste en wat bij het tweede deel hoorde. Een andere ouder legde uit dat de leesboeken pas voor het tweede deel gelden.",
+      "name": "Yasmina",
+      "role": "moeder",
+      "context": "Nederlands, 2e graad"
+    }
+  ],
+  "related": [
+    "hoe-zijn-de-taalexamens-nederlands-frans-en",
+    "welk-materiaal-of-welke-samenvattingen-gebruik-je",
+    "hoe-ziet-het-examen-engels-1-schriftelijk-2de",
+    "hoe-verloopt-de-online-spreekopdracht-engels-2de",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens"
+  ]
+}

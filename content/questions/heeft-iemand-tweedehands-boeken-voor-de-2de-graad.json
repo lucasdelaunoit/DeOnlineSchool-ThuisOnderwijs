@@ -1,0 +1,141 @@
+{
+  "slug": "heeft-iemand-tweedehands-boeken-voor-de-2de-graad",
+  "question": "Heeft iemand tweedehands boeken voor de 2de graad te koop?",
+  "title": "Tweedehands boeken voor de 2de graad",
+  "description": "Tweedehands boeken voor de 2de graad Examencommissie: waar je ze vindt en hoe je met de vakfiche controleert of ze passen bij je richting.",
+  "category": "Hulp en contact",
+  "audience": "Voor leerlingen en ouders · 2de graad",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Ja, kandidaten die klaar zijn met de 2de graad bieden geregeld boeken aan in Facebookgroepen over de Examencommissie en op tweedehandsplatformen. Je kunt ook ontlenen of in de bibliotheek kijken. Leg de inhoudstafel altijd naast de vakfiche van het jaar van je examen, want boeken verschillen per richting, finaliteit en editie.",
+  "facts": [
+    {
+      "label": "Nieuwe vakfiches",
+      "value": "Gaan in op 1 januari"
+    },
+    {
+      "label": "Richtingen 2de graad",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Welke boeken heb je nodig voor de 2de graad?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie geeft geen studiemateriaal. Per vak is er een vakfiche met de leerinhouden, de vaardigheden en een lijst met leermiddelen. Die lijst is een goed vertrekpunt om te zien welke boeken passen. [1] [2]"
+        },
+        {
+          "type": "paragraph",
+          "text": "De 2de graad telt acht richtingen in drie finaliteiten: doorstroom, dubbele finaliteit en arbeidsmarkt. Een boek voor een vak in de ene richting is dus niet altijd bruikbaar voor hetzelfde vak in een andere richting. Kijk telkens naar de vakfiche van jouw richting. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Waar vind je tweedehands boeken?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Je mag zelf je materiaal zoeken: nieuw of tweedehands kopen, ontlenen of in de bibliotheek. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Facebookgroepen over de Examencommissie, waar kandidaten na hun examens boeken verkopen of weggeven.",
+            "Tweedehandsplatformen en zoekertjessites, waar je zoekt op titel of ISBN.",
+            "Kennissen of familie die net de 3de of 4de klas van het secundair achter de rug hebben.",
+            "De bibliotheek, voor naslagwerken en extra uitleg."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe controleer je of een tweedehands boek past?",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vergelijk de inhoudstafel met de leerinhouden in de vakfiche.",
+            "Kijk naar de editie of het jaartal. Een oudere versie kan afwijken.",
+            "Controleer de finaliteit en het aantal lesuren op de cover, zeker bij wiskunde en wetenschappen.",
+            "Vraag of een leerwerkboek al ingevuld is en of de online code nog werkt.",
+            "Vraag of de verbetersleutel erbij zit, als je die nodig hebt."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Gebruik de juiste vakfiche.",
+          "text": "Gebruik altijd de vakfiche die geldt in het jaar waarin je het examen aflegt. Nieuwe vakfiches gaan in op 1 januari en staan minstens een half jaar vooraf online. Koop je in het najaar boeken voor een examen in het volgende jaar, kijk dan al naar de nieuwe fiche. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Wat raden andere kandidaten aan? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten en ouders die boeken kochten of verkochten voor de 2de graad, geven deze tips: [4]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Veel gezinnen kopen enkel de leerwerkboeken uit de vakfiche en geen handleiding voor leerkrachten.",
+            "Een online code bij een tweedehands boek is vaak al gebruikt. Vraag bij de uitgeverij of je een nieuwe code kunt krijgen.",
+            "Verkopers bieden boeken soms enkel als pakket aan. Vraag of losse boeken ook kunnen.",
+            "Verkoop je zelf, vermeld dan titel, editie, richting, finaliteit en of er al in geschreven is."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Aanbod studierichtingen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/studierichtingen"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Ik kocht altijd enkel de invulboeken uit de vakfiche, geen handboek of handleiding. Voor onze zoon was dat ruim voldoende om de 2de graad af te leggen.",
+      "name": "Luc",
+      "role": "ouder",
+      "context": "2de graad, zoon nu in de 3de graad"
+    },
+    {
+      "quote": "Ik vroeg in een Facebookgroep of iemand boeken voor de 2de graad doorstroom te koop of te geef had. Dezelfde dag reageerden er al verkopers.",
+      "name": "Nour",
+      "role": "leerling",
+      "context": "2de graad doorstroom"
+    },
+    {
+      "quote": "Toen ik mijn boeken verkocht, waarschuwde ik dat de online code waarschijnlijk al gebruikt was. Ik raadde kopers aan om de uitgeverij om een nieuwe code te vragen.",
+      "name": "Fatima",
+      "role": "leerling",
+      "context": "boeken 4de jaar"
+    },
+    {
+      "quote": "Voor Engels en Frans kozen we boeken met een code, zodat mijn dochter ook de filmpjes en geluidsfragmenten kon gebruiken. Bij tweedehands boeken let ik daarom extra op of die code nog werkt.",
+      "name": "Sofie",
+      "role": "ouder",
+      "context": "2de graad Organisatie en logistiek"
+    }
+  ],
+  "related": [
+    "welke-boeken-en-online-leerplatformen-gebruik-je",
+    "waar-vind-je-verbetersleutels-en-oplossingen-bij",
+    "waar-koop-of-verkoop-je-tweedehands-studieboeken",
+    "waar-vind-ik-voordelige-of-tweedehands-boeken",
+    "hoe-studeer-je-zelfstandig-voor-de-2de-graad-en"
+  ]
+}

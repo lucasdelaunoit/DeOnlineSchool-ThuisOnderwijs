@@ -1,0 +1,158 @@
+{
+  "slug": "hoe-ziet-het-examen-statistiek-eruit-en-hoe",
+  "question": "Hoe ziet het examen statistiek eruit en hoe gebruik je GeoGebra ervoor?",
+  "title": "Examen statistiek en GeoGebra",
+  "description": "Hoe ziet het examen statistiek bij de Examencommissie eruit? Uitleg over de rekenapps op basis van GeoGebra, grote datasets en tips van kandidaten.",
+  "category": "Examens per vak",
+  "audience": "Voor leerlingen",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "Statistiek leg je digitaal af in het examencentrum in Brussel. Je werkt er met de online rekenapps van de Examencommissie: die zijn gebaseerd op GeoGebra, maar niet alle functies staan aan. Wat je moet kennen, staat in de vakfiche van je examenjaar. Oefen thuis met precies die rekenapps.",
+  "facts": [
+    {
+      "label": "Examenvorm",
+      "value": "Digitaal in Brussel"
+    },
+    {
+      "label": "Rekenapps",
+      "value": "GeoGebra-gebaseerd"
+    },
+    {
+      "label": "Handleiding op examen",
+      "value": "Geen"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hoe verloopt het examen statistiek?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Het examen is digitaal: je werkt op een examencomputer in het examencentrum in Brussel en logt in met een persoonlijke code. De vragen zijn in het Nederlands. Je kunt het examen ten vroegste 15 minuten na de start afsluiten met 'beëindigen'. [3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Op de examencomputer staan voor iedereen een gewone en een wetenschappelijke online rekenmachine. Voor sommige wiskunde- en wetenschapsoefeningen schrijf je met een digitale pen op een schrijftablet; daarvoor bestaan een proefexamen en een filmpje. [2] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hoeveel vragen je krijgt, hoe lang het examen duurt en hoe de punten over de onderdelen verdeeld zijn, lees je in de vakfiche van statistiek. Gebruik de fiche die geldt in het jaar van je examen: nieuwe fiches gaan in op 1 januari. [1]"
+        }
+      ]
+    },
+    {
+      "title": "Hoe gebruik je GeoGebra en de rekenapps?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Op het examen gebruik je online rekenapps: een grafische rekenmachine, een rekenblad en apps voor kansrekenen en statistiek. Ze zijn gebaseerd op GeoGebra, maar niet alle functies zijn beschikbaar. Je kunt er thuis vrij mee oefenen. Tijdens het examen krijg je geen handleiding. [1]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oefen met de rekenapps die de Examencommissie zelf aanbiedt, niet alleen met de volledige versie van GeoGebra. Uitleg op internet gaat vaak uit van functies die op het examen niet beschikbaar zijn.",
+            "Leer de commando's die je nodig hebt voor de leerinhouden in de vakfiche, zodat je op het examen niet hoeft te zoeken.",
+            "Maak het digitale proefexamen. Je ziet daar alle vraagtypes en leert hoe je antwoorden ingeeft. Inhoudelijke vragen staan er niet in. [1]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hoe ervaren kandidaten het examen statistiek? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kandidaten die statistiek al aflegden, vooral in humane wetenschappen in de 3de graad, delen deze ervaringen: [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reken op een mix van open vragen, meerkeuzevragen en sleepvragen. Bij open vragen loont het om je antwoord nauwkeurig te onderbouwen.",
+            "Een groot deel draait volgens kandidaten om werken met een grote dataset in de rekenapp: gegevens sorteren en selecteren, berekeningen maken en een grafiek exporteren en als bestand aan je antwoord toevoegen. Oefen die handelingen vooraf tot ze vlot gaan.",
+            "Wie thuis alleen met de volledige GeoGebra oefende, liep op het examen soms vast. Bij technische problemen met het toevoegen van een afbeelding kreeg niet iedereen inhoudelijke hulp van het toezicht.",
+            "Veel kandidaten vinden statistiek pittig, zeker zonder voorkennis. Een paar dagen studeren is voor de meesten te kort.",
+            "Statistiek in het vak wiskunde van een andere richting is volgens kandidaten geen vervanging voor het aparte vak: kijk in de vakfiche welke leerinhouden bij jouw richting horen."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Examenvragen zijn vertrouwelijk.",
+          "text": "In de groepen worden soms overgeschreven examenvragen ('inzages') gedeeld of aangeboden. Examenvragen en verbetersleutels mogen niet gekopieerd, gefotografeerd, gefilmd of verspreid worden; misbruik wordt gesanctioneerd. Bereid je voor met de vakfiche, je eigen studiemateriaal en het digitale proefexamen. [4] [1]"
+        }
+      ]
+    },
+    {
+      "title": "Welk materiaal raden kandidaten aan voor statistiek? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dit materiaal wordt in de Facebookgroepen over de Examencommissie het vaakst aangeraden voor statistiek. Sommige grote cursusplatformen bieden voor dit vak geen aparte cursus aan. Wij beoordelen zelf de kwaliteit niet: vergelijk altijd met de vakfiche van jouw examenjaar. [5]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Informatiepunt Examencommissie (cursus): de cursus die kandidaten voor statistiek het vaakst noemen, met uitleg en oefeningen per hoofdstuk; meerdere kandidaten zeggen ermee geslaagd te zijn. Kritiek die je soms leest: de GeoGebra-uitleg klopt niet altijd met de examenversie.",
+            "Knoowy (samenvattingen, o.a. van Morgan): korte, betaalbare samenvatting met oefenvragen waarmee sommige kandidaten slaagden. Kritiek die je soms leest: te beperkt voor statistiek en wisselende kwaliteit, omdat het een marktplaats van kandidaten is.",
+            "VBTL en Nando (handboeken, Die Keure): enkele kandidaten studeerden met deze boeken en vonden de uitleg, ook over de rekenapps, duidelijk. Kritiek die je soms leest: zonder begeleiding vrij moeilijk en de boeken zijn duur.",
+            "Delta / Delta Nova (handboek, Plantyn): gebruikt voor statistiek; kandidaten vinden de oefenreeksen een goede maatstaf. Kritiek die je soms leest: oplossingen zijn moeilijk te krijgen.",
+            "YouTube (uitlegvideo's): kandidaten gebruiken filmpjes om begrippen zoals hypothesetoetsen visueler te maken naast hun cursus.",
+            "ChatGPT en andere AI-tools (app): sommigen laten er begrippen mee uitleggen. Let op: AI maakt fouten en legt GeoGebra vaak uit voor de volledige versie in plaats van de examenversie. De vakfiche blijft leidend. [5]"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens afleggen – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examens-afleggen"
+    },
+    {
+      "text": "Vlaamse overheid, *Examenreglement – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/examenreglement"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Het deel met de grote dataset vond ik het lastigst. Ik had thuis met een andere versie van GeoGebra geoefend en moest op het examen zoeken hoe ik de gegevens sorteerde. Oefen dus met de rekenapps van de Examencommissie zelf.",
+      "name": "Femke",
+      "role": "leerling",
+      "context": "statistiek, humane wetenschappen 3e graad"
+    },
+    {
+      "quote": "Mijn zoon kreeg een grafiek niet goed opgeladen in zijn antwoord en kon daar tijdens het examen geen hulp bij krijgen. Voor zijn volgende poging heeft hij het exporteren en toevoegen van afbeeldingen thuis vaak geoefend.",
+      "name": "Karim",
+      "role": "vader",
+      "context": "statistiek, 3e graad"
+    },
+    {
+      "quote": "Ik vond het examen haalbaar. Ongeveer de helft waren open vragen, de rest meerkeuze en sleepvragen. Bij de open vragen heb ik telkens kort uitgelegd hoe ik aan mijn antwoord kwam.",
+      "name": "Lina",
+      "role": "leerling",
+      "context": "statistiek, humane wetenschappen"
+    },
+    {
+      "quote": "Mijn dochter zocht uitleg via AI, maar die ging uit van de gewone GeoGebra. Pas toen ze de uitleg bij de rekenapps van de Examencommissie doornam, lukte het haar.",
+      "name": "Annelies",
+      "role": "moeder",
+      "context": "statistiek, 3e graad"
+    }
+  ],
+  "related": [
+    "hoe-ziet-het-examen-wiskunde-gevorderd-2-en-3",
+    "hoe-moeilijk-is-het-examen-wiskunde-en-hoe-bereid",
+    "hoe-werkt-een-digitaal-examen-op-tablet-of-laptop",
+    "kun-je-de-examens-oefenen-en-lijken-oefenexamens",
+    "welk-boek-of-welke-cursus-gebruik-je-voor"
+  ]
+}

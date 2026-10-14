@@ -1,0 +1,176 @@
+{
+  "slug": "welke-organisaties-begeleiden-je-tijdens-een-ec",
+  "question": "Welke organisaties begeleiden je tijdens een EC-traject (studieplek, planning, bijles)?",
+  "title": "Begeleiding tijdens je EC-traject",
+  "description": "Welke soorten begeleiding bestaan er naast de Examencommissie, van bijles en studiecoach tot volwassenenonderwijs, en waar let je op bij je keuze?",
+  "category": "Hulp en contact",
+  "audience": "Voor ouders",
+  "checkedOn": "2026-10-14",
+  "shortAnswer": "De Examencommissie biedt zelf geen begeleiding, lessen of studiemateriaal. Je kunt wel hulp inschakelen: privélessen mogen en ook lessen in het volwassenenonderwijs zijn mogelijk. Daarnaast bestaan er studiecoaches, studieplekken en bijlesbureaus. De Examencommissie beoordeelt hun kwaliteit niet, dus vergelijk zelf.",
+  "facts": [
+    {
+      "label": "Infosessie",
+      "value": "9 korte filmpjes"
+    },
+    {
+      "label": "Groeipakket 18–25 jaar",
+      "value": "Min. 17 u/week volwassenenonderwijs"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Begeleidt de Examencommissie je zelf?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nee. Via de Examencommissie studeer je zelfstandig, in je eigen tempo. Er zijn geen lessen, cursussen of studiebegeleiding. Een afspraak maken met de Examencommissie kan alleen in uitzonderlijke gevallen. [1] [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Een verplichte online infosessie van 9 korte filmpjes, die je bekijkt voor je inschrijft.",
+            "Een vakfiche per vak, met de leerinhouden, de vaardigheden en een lijst met leermiddelen.",
+            "Een digitaal proefexamen en online rekenapps om thuis mee te oefenen.",
+            "Vragen stel je via een melding in het kandidatenplatform of via het nummer 1700. [1] [2]"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Welke soorten begeleiding bestaan er?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Privélessen mogen en ook lessen in het volwassenenonderwijs kunnen. Daarnaast vind je verschillende soorten hulp, die je ook kunt combineren: [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bijles of privéles per vak, aan huis of online.",
+            "Lessen in het volwassenenonderwijs, in een klas of als afstandsonderwijs.",
+            "Een studiecoach die helpt met je planning, je studiemethode en het opvolgen van je examens.",
+            "Een studieplek waar jongeren die niet naar school gaan samen studeren onder begeleiding.",
+            "Online cursussen of platformen die per vak de vakfiche volgen."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Goed om te weten.",
+          "text": "Ben je tussen 18 en 25 jaar? Alleen deelnemen aan examens van de Examencommissie volstaat dan niet voor het Groeipakket. Je hebt daarnaast bijvoorbeeld minstens 17 uur per week secundair volwassenenonderwijs nodig. Dit geldt voor Vlaanderen. [3]"
+        }
+      ]
+    },
+    {
+      "title": "Waar let je op bij het kiezen van begeleiding?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De Examencommissie beoordeelt de kwaliteit van privélessen niet. Controleer dus zelf of de begeleiding aansluit bij de vakfiche die geldt in het jaar van je examen. [2]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wat zit erin: enkel vakinhoud, of ook planning en examentraining?",
+            "Hoeveel kost het en wat is inbegrepen? Vraag of je per vak of per maand kunt starten en stoppen.",
+            "Is er een kennismaking of proefles?",
+            "Hoe groot is de groep op een studieplek, en hoeveel persoonlijke aandacht krijg je?",
+            "Vraag referenties van andere ouders of kandidaten."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Welke hulp is er voor leerplichtigen en bij ziekte?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ben je leerplichtig en ga je niet naar school, dan volg je huisonderwijs. Een inschrijving bij de Examencommissie volstaat niet om aan de leerplicht te voldoen. Je ouders dienen een verklaring huisonderwijs in en kiezen een CLB. Contacten met het CLB zijn verplicht op 6, 9, 11 en 14 jaar. [4] [1]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heb je door een ziekte of beperking moeilijkheden tijdens het examen? Dan kun je ondersteunende maatregelen aanvragen, zoals extra tijd of voorleessoftware. Je hebt daarvoor altijd een gemotiveerd attest van een bevoegd zorgverlener nodig. [5]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of er andere vormen van onderwijs aan huis bij ziekte mogelijk zijn naast de Examencommissie, zeggen onze bronnen niet. Vraag dat na bij je CLB, of bel 1700."
+        }
+      ]
+    },
+    {
+      "title": "Hoe combineren ouders verschillende soorten hulp? (ervaringstips)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ouders en kandidaten die begeleiding zochten, geven deze tips: [6]"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is een volledig pakket te duur? Kies dan voor losse bijlessen, enkel voor de vakken waar het nodig is.",
+            "Een coach voor planning en een bijlesleerkracht voor één of twee moeilijke vakken is een veelgebruikte combinatie.",
+            "Een studieplek voor één of twee dagen per week geeft structuur, ook als je de rest thuis studeert.",
+            "Vraag in je eigen regio rond. Het aanbod verschilt sterk per provincie, en online begeleiding kan het gat vullen."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Vlaamse overheid, *Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs"
+    },
+    {
+      "text": "Vlaamse overheid, *Examens voorbereiden – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/voorbereiding"
+    },
+    {
+      "text": "Parentia, *Heb je nog recht op het Groeipakket als je deelneemt aan de examencommissie?*",
+      "url": "https://www.parentia.be/nl/gezinsadministratie/heb-je-nog-recht-op-het-groeipakket-of-kinderbijslag-als-je-deelneemt-aan-de-examencommissie"
+    },
+    {
+      "text": "Vlaamse overheid, Departement Onderwijs, *Brochure huisonderwijs 2025*",
+      "url": "https://data-onderwijs.vlaanderen.be/documenten/bestanden/Brochure-huisonderwijs-2025.pdf"
+    },
+    {
+      "text": "Vlaamse overheid, *Ondersteuning – Examencommissie secundair onderwijs*",
+      "url": "https://www.vlaanderen.be/onderwijs-en-vorming/diplomas-getuigschriften-certificaten-kwalificaties/een-diploma-of-studiebewijs-behalen/diploma-secundair-onderwijs/examencommissiesecundaironderwijs/ondersteuning"
+    },
+    {
+      "text": "Facebookgroepen over de Examencommissie, *Ervaringen van kandidaten en ouders, 2025–2026. Samengevat door de redactie.*"
+    }
+  ],
+  "experiences": [
+    {
+      "quote": "Een volledig begeleidingspakket was voor ons onbetaalbaar. Nu komt er wekelijks een coach langs, en voor twee vakken hebben we een aparte bijlesleerkracht.",
+      "name": "Annelies",
+      "role": "moeder",
+      "context": "3e graad"
+    },
+    {
+      "quote": "We vroegen prijsinformatie op bij een begeleidingscentrum, maar dat was niet te betalen. Daarom boeken we nu losse bijlessen één op één, enkel voor de vakken waar onze zoon hulp nodig heeft.",
+      "name": "Tarik",
+      "role": "vader",
+      "context": "3e graad"
+    },
+    {
+      "quote": "We zochten begeleiding bij de keuze om te starten, de studieplanning en bijles in onze provincie. Via een oproep kregen we tips over een samenstudeerinitiatief en een coach in de buurt.",
+      "name": "Greet",
+      "role": "moeder",
+      "context": "zoon van 14, 1e graad afgerond"
+    },
+    {
+      "quote": "Onze zoon heeft ADHD, dus plannen en concentreren is lastiger. We twijfelden tussen bijles en een studiecoach; andere ouders wezen ons erop dat je met een attest ook extra tijd en voorleessoftware kunt aanvragen.",
+      "name": "Mei",
+      "role": "moeder",
+      "context": "3e graad humane wetenschappen"
+    }
+  ],
+  "related": [
+    "waar-vind-je-een-goede-bijlesleerkracht-met",
+    "zijn-er-studiegroepen-of-medestudenten-in-mijn",
+    "wat-moet-je-regelen-voor-huisonderwijs-en",
+    "kun-je-de-examencommissie-combineren-met-school",
+    "welke-faciliteiten-zijn-er-bij-dyslexie-of"
+  ]
+}
