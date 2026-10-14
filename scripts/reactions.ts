@@ -1,6 +1,6 @@
 /**
  * The latest reactions, newest first, each with its moderation link (to delete it, or
- * to place an older one that was saved unapproved), for when the mail got lost:
+ * to place an older one that was saved unapproved):
  *
  *   npm run reactions [-- <count>]     default 20
  *

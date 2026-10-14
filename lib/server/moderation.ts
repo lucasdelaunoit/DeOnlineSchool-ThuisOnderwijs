@@ -1,7 +1,7 @@
 "use server";
 /**
  * The buttons on /moderation/[id]: approve or delete one reaction. Only works with the
- * token from the moderation link in the editors' mail (lib/server/reactions.ts).
+ * token from the moderation link that `npm run reactions` lists (lib/server/reactions.ts).
  */
 import { notFound, redirect } from "next/navigation";
 import { approveReaction, deleteReaction, isValidModerationToken } from "@/lib/server/reactions";

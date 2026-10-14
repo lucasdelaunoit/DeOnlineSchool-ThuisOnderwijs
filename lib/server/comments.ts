@@ -1,14 +1,13 @@
 "use server";
 /**
  * Comments on a question page. The comment is saved (lib/server/reactions.ts) and shows
- * on the page at once; it is mailed to the editors (MAIL_TO) with a link to delete it.
+ * on the page at once. Editors delete one from its moderation link: `npm run reactions`.
  */
 import { refresh } from "next/cache";
 import { headers } from "next/headers";
-import { MAIL_TO, clientIp, isEmpty, rateLimiter, sendMail, textField, timestamp } from "@/lib/server/mail";
+import { clientIp, isEmpty, rateLimiter, textField } from "@/lib/server/mail";
 import { getQuestion } from "@/lib/server/questions";
-import { addReaction, moderationToken } from "@/lib/server/reactions";
-import { SITE_NAME } from "@/lib/site";
+import { addReaction } from "@/lib/server/reactions";
 
 export type CommentState = { ok: boolean; error?: "missing" | "rate" | "save"; values?: Record<string, string> };
 
@@ -34,47 +33,16 @@ export async function postComment(_previous: CommentState | null, form: FormData
   if (!question || !f.firstName || /[\r\n]/.test(f.firstName) || !ROLES.includes(f.role) || !f.message) {
     return { ok: false, error: "missing", values: f };
   }
-  const requestHeaders = await headers();
-  if (isLimited(clientIp(requestHeaders))) return { ok: false, error: "rate", values: f };
+  if (isLimited(clientIp(await headers()))) return { ok: false, error: "rate", values: f };
 
-  let id: number;
   try {
-    id = addReaction({ slug: question.slug, firstName: f.firstName, role: f.role, message: f.message });
+    addReaction({ slug: question.slug, firstName: f.firstName, role: f.role, message: f.message });
   } catch (e) {
     console.error("thuis-onderwijs comment: could not save", e);
     return { ok: false, error: "save", values: f };
   }
 
-  const token = moderationToken(id);
-  if (!token) console.error("thuis-onderwijs comment: MODERATION_SECRET not configured (at least 32 characters)");
-  const link = token ? `${siteUrl(requestHeaders)}/moderation/${id}?token=${token}` : "(geen link: MODERATION_SECRET ontbreekt)";
-
-  // Mail body in Dutch, for the editors. The reaction is saved, so a failed mail is
-  // only logged (by sendMail): `npm run reactions` lists it with its link.
-  await sendMail({
-    source: "comment",
-    fromName: SITE_NAME,
-    to: MAIL_TO,
-    subject: `Reactie van ${f.firstName} – ${question.title ?? question.question}`,
-    text:
-      "NIEUWE REACTIE OP EEN VRAAGPAGINA\n\n" +
-      `Vraag: ${question.question}\n` +
-      `Pagina: /questions/${question.slug}\n\n` +
-      `Voornaam: ${f.firstName}\n` +
-      `Is: ${f.role}\n\n` +
-      `${f.message}\n\n` +
-      `Ontvangen op: ${timestamp()}\n\n` +
-      `De reactie staat al op de pagina. Verwijderen: ${link}\n`,
-  });
   // The page shows the new reaction without a reload.
   refresh();
   return { ok: true };
-}
-
-/** SITE_URL, or else the address this request came in on. */
-function siteUrl(requestHeaders: Headers) {
-  if (process.env.SITE_URL) return process.env.SITE_URL.replace(/\/$/, "");
-  const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
-  const proto = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
-  return `${proto}://${host}`;
 }

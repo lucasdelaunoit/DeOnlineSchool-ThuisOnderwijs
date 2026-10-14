@@ -1,7 +1,7 @@
 /**
  * Reactions on question pages (table reactions in lib/server/db.ts). A new reaction is
- * saved approved, so it shows on the page at once, and mailed to the editors with a
- * moderation link (/moderation/<id>?token=…) to delete it. Only approved reactions show:
+ * saved approved, so it shows on the page at once. `npm run reactions` lists each with
+ * its moderation link (/moderation/<id>?token=…) to delete it. Only approved reactions show:
  * older ones saved unapproved wait for "Plaatsen" on that page.
  *
  * Not a "use server" file on purpose: these functions must not be callable from the

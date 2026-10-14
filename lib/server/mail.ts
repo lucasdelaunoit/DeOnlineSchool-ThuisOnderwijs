@@ -1,10 +1,10 @@
 /**
- * Shared by the forms that send mail: podcast sign-ups (app/api/podcast-signup) and
- * comments on question pages (lib/server/comments.ts). Server only.
+ * Mail for the podcast sign-ups (app/api/podcast-signup), plus form helpers that the
+ * comments on question pages (lib/server/comments.ts) share. Server only.
  */
 import { Resend } from "resend";
 
-/** Receives sign-ups and comments. */
+/** Receives sign-ups. */
 export const MAIL_TO = process.env.MAIL_TO || "paulhenri@pauldepierre.com";
 // Sender: must be on a domain verified in Resend (DKIM), otherwise Resend refuses it
 // or it ends up in spam. de-online-school.be is verified.

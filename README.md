@@ -46,12 +46,11 @@ it into the database only when the database has no questions yet. The build need
 least one question. After that the database is the source; export to update the files.
 
 Comments from the form (`lib/server/comments.ts`, a server action) are saved in the
-database and show under "Reageren" at once (read per request). Each is mailed to `MAIL_TO`
-with a moderation link: `/moderation/<id>?token=…` (HMAC of the id with
-`MODERATION_SECRET`) has the button to delete it. Spam is held off by a honeypot field and
-3 comments per 10 minutes per IP. The file's `experiences` stay curated by hand.
-`npm run reactions` lists the latest reactions, each with its moderation link, in case a
-mail got lost.
+database and show under "Reageren" at once (read per request). No mail is sent:
+`npm run reactions` lists the latest reactions, each with its moderation link.
+`/moderation/<id>?token=…` (HMAC of the id with `MODERATION_SECRET`) has the button to
+delete it. Spam is held off by a honeypot field and 3 comments per 10 minutes per IP. The
+file's `experiences` stay curated by hand.
 
 ## Database (`lib/server/db.ts`)
 

@@ -6,7 +6,7 @@ import { moderateReaction } from "@/lib/server/moderation";
 import { getQuestion } from "@/lib/server/questions";
 import { getReaction, isValidModerationToken } from "@/lib/server/reactions";
 
-// Opened from the link in the mail about a new reaction (lib/server/comments.ts).
+// Opened from a link that `npm run reactions` lists (scripts/reactions.ts).
 // Without the right token for this id it is a 404.
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
 };
 
-// Rendered per request, nothing to prerender: only editors open it, from a mail.
+// Rendered per request, nothing to prerender: only editors open it.
 export const instant = false;
 
 export default function ModerationPage(props: PageProps<"/moderation/[id]">) {
