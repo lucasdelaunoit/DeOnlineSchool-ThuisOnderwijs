@@ -7,7 +7,7 @@ import { CommentForm } from "./comment-form";
 /** The reactions as cards, then the form in its own panel. */
 export function Comments({ slug }: { slug: string }) {
   return (
-    <section aria-labelledby="comment" className="pb-16 md:pb-24">
+    <section aria-labelledby="comment" className="pb-12 md:pb-24">
       <div className="container-wide">
         <div className="section-rule">
           <h2 id="comment" className="section-title">

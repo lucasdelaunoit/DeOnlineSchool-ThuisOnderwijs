@@ -8,7 +8,7 @@ export async function Related({ q }: { q: Question }) {
   const related = await getRelated(q);
   if (!related.length) return null;
   return (
-    <section aria-labelledby="related" className="pb-16 md:pb-24">
+    <section aria-labelledby="related" className="pb-12 md:pb-24">
       <div className="container-wide">
         <div className="section-rule">
           <h2 id="related" className="section-title">

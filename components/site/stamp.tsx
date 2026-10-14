@@ -13,7 +13,7 @@ export function Stamp({ campaign }: { campaign?: string }) {
   const pathname = usePathname();
   const href = onlineSchoolUrl("/", { ...(campaign ? { campaign } : utm(pathname)), content: "stempel" });
   return (
-    <div className="fixed right-3 bottom-[calc(12px+env(safe-area-inset-bottom,0px))] z-50 size-17 md:right-6 md:bottom-6 md:size-23">
+    <div className="fixed right-3 bottom-[calc(12px+env(safe-area-inset-bottom,0px))] z-50 size-14 md:right-6 md:bottom-6 md:size-23">
       <a
         className="block size-full rotate-12 rounded-full drop-shadow-stamp transition-[rotate,scale] duration-200 hover:rotate-0 hover:scale-108 focus-visible:rotate-0 focus-visible:scale-108"
         href={href}

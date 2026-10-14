@@ -3,6 +3,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* No grey flash on tap; links and buttons have their own pressed states. */
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {

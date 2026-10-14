@@ -27,11 +27,11 @@ export function Intro({ q }: { q: Question }) {
           </ol>
         </nav>
         <h1 className="rise mt-5 text-h1 [--i:1]">{q.question}</h1>
-        <p className="rise mt-5 flex flex-wrap items-center gap-x-2.5 text-small text-forest-fg [--i:2]">
+        <p className="rise mt-5 flex flex-col gap-0.5 text-small text-forest-fg [--i:2] sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2.5">
           {q.audience && (
             <>
               <span>{q.audience}</span>
-              <span aria-hidden="true" className="size-1 rounded-full bg-green-light" />
+              <span aria-hidden="true" className="hidden size-1 rounded-full bg-green-light sm:block" />
             </>
           )}
           <span>

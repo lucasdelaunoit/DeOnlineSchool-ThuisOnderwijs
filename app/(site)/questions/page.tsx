@@ -37,15 +37,15 @@ export default async function QuestionsIndex() {
           </div>
         </section>
 
-        <div className="container-wide grid gap-10 pt-10 pb-16 md:pt-14 md:pb-24 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-14">
+        <div className="container-wide grid grid-cols-[minmax(0,1fr)] gap-8 pt-8 pb-16 md:gap-10 md:pt-14 md:pb-24 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-14">
           <nav aria-labelledby="topics-nav" className="rise [--i:3] lg:sticky lg:top-8 lg:self-start">
             <h2 id="topics-nav" className="eyebrow lg:px-3">
               Onderwerpen
             </h2>
             {/* A row of chips that scrolls sideways on small screens, a list beside the questions on large ones. */}
-            <ul className="-mx-5 mt-3 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none] md:-mx-6 md:px-6 lg:mx-0 lg:flex-col lg:gap-0.5 lg:overflow-visible lg:px-0">
+            <ul className="-mx-5 mt-3 flex snap-x scroll-px-5 gap-2 overflow-x-auto overscroll-x-contain px-5 pb-1 [scrollbar-width:none] md:-mx-6 md:px-6 lg:mx-0 lg:flex-col lg:gap-0.5 lg:overflow-visible lg:px-0">
               {topics.map((topic) => (
-                <li key={topic.name} className="shrink-0">
+                <li key={topic.name} className="shrink-0 snap-start">
                   <a
                     href={`#${categoryId(topic.name)}`}
                     className="flex items-center gap-2 rounded-full border border-line bg-white px-3.5 py-2 text-small whitespace-nowrap text-ink-soft no-underline transition-colors duration-150 hover:border-green/30 hover:text-green-dark lg:justify-between lg:rounded-field lg:border-transparent lg:bg-transparent lg:px-3 lg:whitespace-normal lg:hover:border-transparent lg:hover:bg-white"

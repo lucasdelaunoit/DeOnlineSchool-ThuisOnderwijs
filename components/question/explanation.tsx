@@ -1,23 +1,26 @@
 import type { Block, Question } from "@/lib/questions";
 import { RichText } from "./rich-text";
 
-/** Key facts in a flat framed strip, then the numbered sections. */
+/** Key facts as small cards, then the numbered sections. */
 export function Explanation({ q }: { q: Question }) {
   return (
-    <section aria-labelledby="explanation" className="pt-16 pb-16 md:pt-24 md:pb-24">
+    <section aria-labelledby="explanation" className="pt-12 pb-12 md:pt-24 md:pb-24">
       <div className="container-wide">
         <h2 id="explanation" className="section-title">
           Uitgebreide uitleg
         </h2>
 
         {q.facts?.length ? (
-          // gap-px over a line-coloured background draws the dividers; flex-grow fills
-          // every row, so a short last row leaves no empty cell. Framed, no shadow.
-          <dl className="reveal mt-6 flex flex-wrap gap-px overflow-hidden rounded-card border border-rule bg-rule">
-            {q.facts.map((fact) => (
-              <div key={fact.label} className="flex-auto bg-paper px-4.5 py-3.5">
+          // flex-grow fills every row, so a short last row leaves no empty space.
+          <dl className="mt-6 flex flex-wrap gap-2.5">
+            {q.facts.map((fact, i) => (
+              <div
+                key={fact.label}
+                style={{ "--i": i } as React.CSSProperties}
+                className="reveal flex-[1_1_150px] rounded-card border border-line bg-white px-4 py-3.5 shadow-card md:flex-[1_1_190px]"
+              >
                 <dt className="text-meta text-muted">{fact.label}</dt>
-                <dd className="mt-0.5 font-medium whitespace-nowrap text-ink">{fact.value}</dd>
+                <dd className="mt-1 font-display text-[17px] leading-snug font-semibold text-ink">{fact.value}</dd>
               </div>
             ))}
           </dl>

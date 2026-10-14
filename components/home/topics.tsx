@@ -25,7 +25,7 @@ export function Topics({ questions }: { questions: Question[] }) {
             <li key={topic.name} style={{ "--i": i + 4 } as React.CSSProperties} className="rise">
               <Link
                 href={`/questions#${categoryId(topic.name)}`}
-                className="group flex h-full min-h-44 flex-col rounded-panel border border-line bg-white p-6 text-ink no-underline shadow-card transition-[translate,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-green/30 hover:text-ink hover:shadow-tile"
+                className="group flex h-full flex-col rounded-panel border border-line bg-white p-5 sm:min-h-44 sm:p-6 text-ink no-underline shadow-card transition-[translate,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-green/30 hover:text-ink hover:shadow-tile"
               >
                 <div>
                   <h3 className="text-h3 text-ink transition-colors duration-150 group-hover:text-green-dark">
@@ -33,7 +33,7 @@ export function Topics({ questions }: { questions: Question[] }) {
                   </h3>
                   {topic.intro && <p className="mt-1.5 text-small text-muted">{topic.intro}</p>}
                 </div>
-                <span className="mt-auto flex items-center justify-between pt-6 text-meta text-muted">
+                <span className="mt-auto flex items-center justify-between pt-4 text-meta text-muted sm:pt-6">
                   {count(topic.questions.length)}
                   <span className="flex size-9 items-center justify-center rounded-full bg-mint text-green transition-colors duration-300 ease-out group-hover:bg-green group-hover:text-white">
                     <ArrowIcon className="size-4" />
