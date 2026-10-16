@@ -82,7 +82,7 @@ export function HeroSearch({ prompts }: { prompts: string[] }) {
           Zoek je vraag
         </label>
         <div className="group/field relative">
-          <SearchIcon className="pointer-events-none absolute top-1/2 left-5 size-5 -translate-y-1/2 text-muted transition-colors group-focus-within/field:text-green md:left-5.5" />
+          <SearchIcon className="pointer-events-none absolute top-1/2 left-5 size-5 -translate-y-1/2 text-muted transition-colors group-focus-within/field:text-green" />
           <input
             ref={input}
             id={`${id}-q`}
@@ -106,9 +106,9 @@ export function HeroSearch({ prompts }: { prompts: string[] }) {
             }}
             onBlur={() => setFocused(false)}
             onKeyDown={onKeyDown}
-            className="input min-h-15 rounded-full border-white pr-14 pl-13 text-body shadow-hero transition-[box-shadow,border-color] duration-300 ease-out placeholder:text-muted hover:border-white focus-visible:border-white focus-visible:shadow-[var(--shadow-hero),0_0_0_5px_color-mix(in_srgb,var(--color-green-light)_45%,transparent)] focus-visible:outline-none md:min-h-17 md:pr-36 md:pl-14 md:text-[17px]"
+            className="input min-h-15 rounded-full border-white pr-14 pl-13 text-body shadow-hero transition-[box-shadow,border-color] duration-300 ease-out placeholder:text-muted hover:border-white focus-visible:border-white focus-visible:shadow-[var(--shadow-hero),0_0_0_5px_color-mix(in_srgb,var(--color-green-light)_45%,transparent)] focus-visible:outline-none md:min-h-14 md:pr-32 md:pl-13"
           />
-          <button type="submit" className="btn btn-primary absolute top-1/2 right-2 min-h-11 -translate-y-1/2 px-3.5 md:min-h-12.5 md:px-6">
+          <button type="submit" className="btn btn-primary absolute top-1/2 right-1.5 min-h-11 -translate-y-1/2 px-3.5 md:min-h-11 md:px-5">
             <span className="sr-only md:not-sr-only">Zoeken</span>
             <ArrowIcon className="size-5 md:hidden" />
           </button>

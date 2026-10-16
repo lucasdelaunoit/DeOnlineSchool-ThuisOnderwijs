@@ -24,15 +24,15 @@ export default async function HomePage() {
       <main>
         {/* data-tone="forest" also turns the header forest (on-forest: in styles/site/theme.css). */}
         <section data-tone="forest" className="relative z-20 bg-forest text-white [--focus-ring:var(--color-white)]">
-          <div className="container-wide flex flex-col items-center pt-16 pb-20 text-center md:pt-28 md:pb-32">
+          <div className="container-wide flex flex-col items-center pt-12 pb-16 text-center md:pt-20 md:pb-24">
             <h1 className="rise max-w-[20ch] text-display">
               Je vragen over thuisonderwijs, <span className="text-green-light">helder beantwoord.</span>
             </h1>
-            <p className="rise mt-6 max-w-[46ch] text-lead text-forest-fg [--i:1]">
+            <p className="rise mt-4 max-w-[46ch] text-body text-forest-fg [--i:1]">
               Over leerplicht, de Examencommissie en je diploma in Vlaanderen. Kort uitgelegd, met de officiële bronnen
               erbij.
             </p>
-            <div className="rise mt-10 w-full max-w-[680px] text-left [--i:2] md:mt-12">
+            <div className="rise mt-8 w-full max-w-[560px] text-left [--i:2] md:mt-9">
               <HeroSearch prompts={prompts} />
             </div>
           </div>

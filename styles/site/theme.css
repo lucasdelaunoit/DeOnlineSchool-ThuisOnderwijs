@@ -82,7 +82,7 @@
   --text-h1: clamp(30px, 5vw, 44px);
   --text-h1--line-height: 1.12;
   --text-h1--letter-spacing: -0.025em;
-  --text-display: clamp(36px, 6.4vw, 64px); /* home page title */
+  --text-display: clamp(32px, 4.8vw, 48px); /* home page title */
   --text-display--line-height: 1.05;
   --text-display--letter-spacing: -0.03em;
 
